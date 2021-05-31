@@ -12,6 +12,11 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.5",
-    "vite": "^2.3.4"
+    "chalk": "^4.1.1",
+    "vite": "^2.3.4",
+    "yorkie": "^2.0.0"
+  },
+  "gitHooks": {
+    "commit-msg": "node ./scripts/verifyCommit.js"
   }
 }
