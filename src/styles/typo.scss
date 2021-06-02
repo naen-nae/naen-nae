@@ -1,0 +1,26 @@
+@import 'material-colors/dist/colors';
+
+.typo {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: $md-black;
+
+  &-text {
+    font-size: 12px;
+    letter-spacing: 0.02em;
+  }
+
+  &-headline {
+    font-size: 32px;
+    letter-spacing: 0.045em;
+  }
+
+  &-title {
+    font-size: 24px;
+    letter-spacing: 0.035em;
+  }
+
+  &-subtitle {
+    font-size: 14px;
+    letter-spacing: 0.025em;
+  }
+}
