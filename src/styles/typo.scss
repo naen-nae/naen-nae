@@ -1,25 +1,35 @@
 @import 'material-colors/dist/colors';
 
-.typo {
+@mixin typo-base {
   font-family: 'Nanum Gothic', sans-serif;
   color: $md-black;
+}
 
+.typo {
   &-text {
+    @include typo-base;
+
     font-size: 12px;
     letter-spacing: 0.02em;
   }
 
   &-headline {
+    @include typo-base;
+
     font-size: 32px;
     letter-spacing: 0.045em;
   }
 
   &-title {
+    @include typo-base;
+
     font-size: 24px;
     letter-spacing: 0.035em;
   }
 
   &-subtitle {
+    @include typo-base;
+
     font-size: 14px;
     letter-spacing: 0.025em;
   }
