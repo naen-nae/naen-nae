@@ -8,7 +8,7 @@ export default {
 
 const Template = args => ({
   components: { AppTitle },
-  setup: () => args,
+  setup: () => ({ args }),
   template: `<app-title />`,
 });
 
