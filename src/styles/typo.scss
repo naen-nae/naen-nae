@@ -1,8 +1,6 @@
-@import 'material-colors/dist/colors';
-
 @mixin typo-base {
   font-family: 'Nanum Gothic', sans-serif;
-  color: $md-black;
+  color: var(--text-color);
 }
 
 .typo {
