@@ -31,4 +31,18 @@
     font-size: 14px;
     letter-spacing: 0.025em;
   }
+
+  &-link {
+    @include typo-base;
+
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    color: var(--link-color);
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
