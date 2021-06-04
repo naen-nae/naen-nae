@@ -5,11 +5,21 @@
 </template>
 
 <style lang="scss" scoped>
-main {
-  height: 100%;
+.app {
+  min-height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
   background-color: var(--background-color);
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+  }
 }
 </style>
