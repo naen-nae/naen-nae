@@ -5,7 +5,7 @@
       class="font-size-modifier__slide-bar"
       :min="constants.MIN_FONT_SIZE"
       :max="constants.MAX_FONT_SIZE"
-      :value="constants.DEFAILT_FONT_SIZE.toString()"
+      :value="value"
       v-model:value="value"
     />
   </div>
@@ -20,7 +20,7 @@ import { useStore } from 'vuex';
 const store = useStore();
 
 // default value
-const value = ref(constants.DEFAILT_FONT_SIZE);
+const value = ref(store.state.fontSize);
 
 // update state
 watch(value, () => store.commit('setFontSize', value.value));
