@@ -11,7 +11,7 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const { placeholder, mask } = defineProps({
+const { mask } = defineProps({
   placeholder: {
     type: String,
     default: '무엇이든 입력해보세요',
