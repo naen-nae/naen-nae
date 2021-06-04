@@ -1,0 +1,27 @@
+@import 'material-colors/dist/colors';
+
+.theme-light * {
+  --background-color: #{$md-white};
+  --text-color: #{$md-black};
+  --subtitle-color: #{$md-grey-500};
+  --border-color: #{$md-grey-300};
+  --link-color: #{$md-blue-600};
+  --top-button-background-color: #{$md-white};
+  --slider-color: #{$md-blue-600};
+  --slider-background-color: #{$md-blue-100};
+  --code-color: #{$md-grey-600};
+  --code-background-color: #{$md-grey-300};
+}
+
+.theme-dark * {
+  --background-color: #{$md-grey-900};
+  --text-color: #{$md-grey-50};
+  --subtitle-color: #{$md-grey-500};
+  --border-color: #{$md-grey-600};
+  --link-color: #{$md-blue-300};
+  --top-button-background-color: #{$md-grey-700};
+  --slider-color: #{$md-blue-300};
+  --slider-background-color: #{$md-blue-900};
+  --code-color: #{$md-grey-300};
+  --code-background-color: #{$md-grey-600};
+}
