@@ -12,18 +12,22 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, toRefs, watch } from 'vue';
 import SlideBar from './SlideBar.vue';
 import constants from '../constants';
 import { useStore } from 'vuex';
 
 const store = useStore();
+const { fontSize } = toRefs(store.state);
 
 // default value
 const value = ref(store.state.fontSize);
 
 // update state
 watch(value, () => store.commit('setFontSize', value.value));
+
+// update font size value
+watch(fontSize, () => (value.value = fontSize.value));
 </script>
 
 <style lang="scss" scoped>
