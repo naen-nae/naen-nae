@@ -18,3 +18,8 @@ export const Mask = Template.bind({});
 Mask.args = {
   mask: '[0-9]',
 };
+
+export const MaxLength = Template.bind({});
+MaxLength.args = {
+  maxLength: 5,
+};

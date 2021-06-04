@@ -4,6 +4,7 @@
     :placeholder="placeholder"
     @input="$emit('update:value', $event.target.value)"
     @keypress="keyFilter"
+    :maxlength="maxLength"
   />
 </template>
 
@@ -18,6 +19,10 @@ const { placeholder, mask } = defineProps({
   mask: {
     type: String,
     default: '.*',
+  },
+  maxLength: {
+    type: String,
+    default: '',
   },
 });
 
