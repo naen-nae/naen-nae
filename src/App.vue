@@ -1,8 +1,17 @@
 <template>
-  <main>
-    <p class="typo-text">app</p>
-  </main>
+  <div class="app">
+    <header-panel />
+    <main>
+      <router-view />
+    </main>
+    <footer-panel />
+  </div>
 </template>
+
+<script setup>
+import HeaderPanel from './pages/share/HeaderPanel.vue';
+import FooterPanel from './pages/share/FooterPanel.vue';
+</script>
 
 <style lang="scss" scoped>
 .app {
