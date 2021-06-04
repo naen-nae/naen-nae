@@ -1,5 +1,9 @@
 <template>
-  <input class="input-field__input typo-text" :placeholder="placeholder" />
+  <input
+    class="input-field__input typo-text"
+    :placeholder="placeholder"
+    @input="$emit('update:value', $event.target.value)"
+  />
 </template>
 
 <script setup>
@@ -18,5 +22,6 @@ input {
   width: 100%;
   border: none;
   outline: none;
+  background: transparent;
 }
 </style>
