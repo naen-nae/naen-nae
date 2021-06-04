@@ -36,7 +36,7 @@ watch(inputTextContent, () =>
 const { fontSize } = toRefs(store.state);
 
 const disabledResetButton = computed(
-  () => parseInt(fontSize.value) === constants.DEFAILT_FONT_SIZE,
+  () => fontSize.value === constants.DEFAILT_FONT_SIZE,
 );
 
 const resetFontSize = () =>
