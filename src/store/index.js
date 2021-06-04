@@ -5,7 +5,8 @@ import constants from '../constants';
 export default createStore({
   state: () => ({
     isLight: true,
-    fontSize: 12,
+    fontSize: '12',
+    textContent: '',
   }),
   mutations: {
     toggleTheme(state) {
@@ -22,6 +23,9 @@ export default createStore({
       }
 
       state.fontSize = fontSize;
+    },
+    setTextContent(state, textContent) {
+      state.textContent = textContent;
     },
   },
   plugins: [createPersistedState()],
