@@ -6,14 +6,15 @@
       @input="$emit('update:value', $event.target.value)"
       @keypress="keyFilter"
       :maxlength="maxLength"
+      :value="value"
     />
   </div>
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
+import { defineProps, toRefs } from 'vue';
 
-const { mask } = defineProps({
+const props = defineProps({
   placeholder: {
     type: String,
     default: '무엇이든 입력해보세요',
@@ -26,7 +27,14 @@ const { mask } = defineProps({
     type: String,
     default: '',
   },
+  value: {
+    type: String,
+    default: '',
+  },
 });
+
+const { mask } = props;
+const { value } = toRefs(props);
 
 const keyFilter = evt => {
   const { key: value } = evt;
