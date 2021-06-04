@@ -5,24 +5,24 @@
 </template>
 
 <script setup>
-import { defineProps, ref, watch } from 'vue';
+import { defineProps, onMounted, ref } from 'vue';
 
 const { width, height } = defineProps({
   width: {
     type: String,
-    default: 'auto',
+    default: null,
   },
   height: {
     type: String,
-    default: 'auto',
+    default: null,
   },
 });
 
 const buttonBox = ref(null);
 
-watch(buttonBox, () => {
-  buttonBox.value.style.setProperty('width', width);
-  buttonBox.value.style.setProperty('height', height);
+onMounted(() => {
+  buttonBox.value.style.setProperty('width', width ?? 'auto');
+  buttonBox.value.style.setProperty('height', height ?? 'auto');
 });
 </script>
 
@@ -36,14 +36,13 @@ watch(buttonBox, () => {
   user-select: none;
   border: 0.5px solid var(--link-color);
   border-radius: 5px;
-  background-color: var(--background-color);
 
   &__text {
     color: var(--link-color);
   }
 
   &:hover {
-    filter: brightness(0.95);
+    filter: brightness(0.75);
   }
 }
 </style>
