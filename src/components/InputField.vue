@@ -1,11 +1,13 @@
 <template>
-  <input
-    class="input-field__input typo-text"
-    :placeholder="placeholder"
-    @input="$emit('update:value', $event.target.value)"
-    @keypress="keyFilter"
-    :maxlength="maxLength"
-  />
+  <div class="input-field">
+    <input
+      class="input-field__input typo-text"
+      :placeholder="placeholder"
+      @input="$emit('update:value', $event.target.value)"
+      @keypress="keyFilter"
+      :maxlength="maxLength"
+    />
+  </div>
 </template>
 
 <script setup>
@@ -36,10 +38,15 @@ const keyFilter = evt => {
 </script>
 
 <style lang="scss" scoped>
-input {
-  width: 100%;
-  border: none;
-  outline: none;
-  background: transparent;
+.input-field {
+  display: flex;
+  align-items: center;
+
+  &__input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
 }
 </style>
