@@ -9,7 +9,12 @@ export default {
 const Template = args => ({
   components: { InputField },
   setup: () => ({ args }),
-  template: `<input-field />`,
+  template: `<input-field v-bind="args" />`,
 });
 
 export const Default = Template.bind({});
+
+export const Mask = Template.bind({});
+Mask.args = {
+  mask: '[0-9]',
+};
