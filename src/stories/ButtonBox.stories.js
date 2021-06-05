@@ -13,6 +13,3 @@ const Template = args => ({
 });
 
 export const Default = Template.bind({});
-Default.args = {
-  width: '100px',
-};
