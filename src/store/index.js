@@ -7,6 +7,7 @@ export default createStore({
     isLight: true,
     fontSize: '12',
     textContent: '',
+    snackbarMsgs: [],
   }),
   mutations: {
     toggleTheme(state) {
@@ -26,6 +27,15 @@ export default createStore({
     },
     setTextContent(state, textContent) {
       state.textContent = textContent;
+    },
+    createSnackbar(state, msg) {
+      state.snackbarMsgs.push({ msg, key: Math.random().toString() });
+    },
+    removeSnackbar(state, targetKey) {
+      state.snackbarMsgs.splice(
+        state.snackbarMsgs.findIndex(({ key }) => key === targetKey),
+        1,
+      );
     },
   },
   plugins: [createPersistedState()],
