@@ -6,11 +6,14 @@
     </main>
     <footer-panel />
   </div>
+
+  <snackbar-box />
 </template>
 
 <script setup>
 import HeaderPanel from './pages/share/HeaderPanel.vue';
 import FooterPanel from './pages/share/FooterPanel.vue';
+import SnackbarBox from './components/SnackbarBox/SnackbarBox.vue';
 </script>
 
 <style lang="scss" scoped>
