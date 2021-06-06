@@ -6,7 +6,8 @@
     "build": "vite build",
     "serve": "vite preview",
     "storybook": "start-storybook -p 6006 --ci",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest"
   },
   "dependencies": {
     "lodash": "^4.17.21",
@@ -27,12 +28,16 @@
     "babel-loader": "^8.2.2",
     "chalk": "^4.1.1",
     "css-loader": "^5.2.6",
+    "csso": "^4.2.0",
+    "jest": "^27.0.4",
+    "jsonminify": "^0.4.1",
     "material-colors": "^1.2.6",
     "sass": "^1.34.0",
     "sass-loader": "^10.0.0",
     "style-loader": "^2.0.0",
     "vite": "^2.3.4",
     "vue-loader": "^16.2.0",
+    "yaml": "^1.10.2",
     "yorkie": "^2.0.0"
   },
   "gitHooks": {
