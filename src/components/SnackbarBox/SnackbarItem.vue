@@ -2,7 +2,7 @@
   <div class="snackbar-item">
     <p class="snackbar-item__content typo-subtitle"><slot /></p>
     <span
-      class="snackbar-item__icon material-icons-outlined"
+      class="snackbar-item__icon icon material-icons-outlined"
       @click="$emit('close', $event.target.parentElement.dataset.key)"
     >
       close
@@ -31,8 +31,6 @@
   &__icon {
     font-size: 18px;
     color: var(--snackbar-color);
-    cursor: pointer;
-    user-select: none;
   }
 }
 </style>

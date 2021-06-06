@@ -1,7 +1,7 @@
 <template>
   <div class="reset-button">
     <span
-      class="reset-button__icon material-icons-outlined"
+      class="reset-button__icon icon material-icons-outlined"
       :class="{ disabled }"
       >replay</span
     >
@@ -25,8 +25,6 @@ defineProps({
   align-items: center;
 
   &__icon {
-    cursor: pointer;
-    user-select: none;
     color: var(--text-color);
 
     &.disabled {
