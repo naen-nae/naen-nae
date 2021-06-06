@@ -21,8 +21,6 @@ import SnackbarBox from './components/SnackbarBox/SnackbarBox.vue';
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
   background-color: var(--background-color);
 
   main {
@@ -30,8 +28,6 @@ import SnackbarBox from './components/SnackbarBox/SnackbarBox.vue';
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
     padding: 24px;
   }
 }
