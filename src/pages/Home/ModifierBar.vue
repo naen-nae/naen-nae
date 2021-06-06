@@ -1,6 +1,9 @@
 <template>
   <div class="modifier-bar">
-    <search-box class="modifier-bar__search" />
+    <search-box
+      class="modifier-bar__search"
+      @input="$emit('update:search-value', $event.target.value)"
+    />
     <input-field
       class="modifier-bar__input"
       v-model:value="inputTextContent"
