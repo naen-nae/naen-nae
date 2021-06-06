@@ -12,6 +12,7 @@ import InputField from './InputField.vue';
 <style lang="scss" scoped>
 .search-box {
   display: flex;
+  align-items: center;
 
   &__icon {
     user-select: none;

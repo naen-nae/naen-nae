@@ -1,15 +1,38 @@
 <template>
-  <main>
-    <p class="typo-text">app</p>
-  </main>
+  <div class="app">
+    <header-panel />
+    <main>
+      <router-view />
+    </main>
+    <footer-panel />
+  </div>
+
+  <snackbar-box />
 </template>
 
+<script setup>
+import HeaderPanel from './pages/share/HeaderPanel.vue';
+import FooterPanel from './pages/share/FooterPanel.vue';
+import SnackbarBox from './components/SnackbarBox/SnackbarBox.vue';
+</script>
+
 <style lang="scss" scoped>
-main {
-  height: 100%;
+.app {
+  min-height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
   background-color: var(--background-color);
+
+  main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+  }
 }
 </style>

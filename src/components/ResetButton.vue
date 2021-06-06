@@ -1,5 +1,11 @@
 <template>
-  <span class="material-icons-outlined" :class="{ disabled }">replay</span>
+  <div class="reset-button">
+    <span
+      class="reset-button__icon material-icons-outlined"
+      :class="{ disabled }"
+      >replay</span
+    >
+  </div>
 </template>
 
 <script setup>
@@ -14,13 +20,18 @@ defineProps({
 </script>
 
 <style lang="scss" scoped>
-span {
-  cursor: pointer;
-  user-select: none;
-  color: var(--text-color);
+.reset-button {
+  display: flex;
+  align-items: center;
 
-  &.disabled {
-    opacity: 0.4;
+  &__icon {
+    cursor: pointer;
+    user-select: none;
+    color: var(--text-color);
+
+    &.disabled {
+      opacity: 0.4;
+    }
   }
 }
 </style>
