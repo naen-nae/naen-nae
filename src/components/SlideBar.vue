@@ -12,9 +12,9 @@
 </template>
 
 <script setup>
-import { computed, defineProps } from 'vue';
+import { computed, defineProps, toRefs } from 'vue';
 
-const { min, max, value } = defineProps({
+const props = defineProps({
   min: {
     type: Number,
     default: 1,
@@ -29,13 +29,16 @@ const { min, max, value } = defineProps({
   },
 });
 
+const { min, max } = props;
+const { value } = toRefs(props);
+
 const getBackgroundStyle = value => {
   const mid = ((value - min) / (max - min)) * 100;
   return `linear-gradient(to right, var(--slider-color) 0%, var(--slider-color) ${mid}%, var(--slider-background-color) ${mid}%, var(--slider-background-color) 100%)`;
 };
 
 const setBackground = computed(() => ({
-  background: getBackgroundStyle(parseInt(value)),
+  background: getBackgroundStyle(parseInt(value.value)),
 }));
 
 const updateBackground = ({ target }) =>

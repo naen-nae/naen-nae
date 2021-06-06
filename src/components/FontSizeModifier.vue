@@ -5,25 +5,29 @@
       class="font-size-modifier__slide-bar"
       :min="constants.MIN_FONT_SIZE"
       :max="constants.MAX_FONT_SIZE"
-      :value="constants.DEFAILT_FONT_SIZE.toString()"
+      :value="value"
       v-model:value="value"
     />
   </div>
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, toRefs, watch } from 'vue';
 import SlideBar from './SlideBar.vue';
 import constants from '../constants';
 import { useStore } from 'vuex';
 
 const store = useStore();
+const { fontSize } = toRefs(store.state);
 
 // default value
-const value = ref(constants.DEFAILT_FONT_SIZE);
+const value = ref(store.state.fontSize);
 
 // update state
 watch(value, () => store.commit('setFontSize', value.value));
+
+// update font size value
+watch(fontSize, () => (value.value = fontSize.value));
 </script>
 
 <style lang="scss" scoped>

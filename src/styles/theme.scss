@@ -11,6 +11,8 @@
   --slider-background-color: #{$md-blue-100};
   --code-color: #{$md-grey-600};
   --code-background-color: #{$md-grey-300};
+  --snackbar-color: #{$md-white};
+  --snackbar-background-color: #{$md-grey-800};
 }
 
 .theme-dark * {
@@ -24,4 +26,6 @@
   --slider-background-color: #{$md-blue-900};
   --code-color: #{$md-grey-300};
   --code-background-color: #{$md-grey-600};
+  --snackbar-color: #{$md-white};
+  --snackbar-background-color: #{$md-grey-800};
 }
