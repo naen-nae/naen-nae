@@ -7,7 +7,8 @@
     "serve": "vite preview",
     "storybook": "start-storybook -p 6006 --ci",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test": "jest",
+    "font-gen": "node ./scripts/fontGen/index.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",
