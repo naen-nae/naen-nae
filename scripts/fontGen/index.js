@@ -63,6 +63,8 @@ const faceGen = require('./faceGen');
 
   fs.writeFile('./public/faces.css', allFaces);
 
+  fs.mkdir('./public/css');
+
   _.forEach(facesByFamily, ([name, css]) =>
     fs.writeFile(`./public/css/${name}.css`, css),
   );
