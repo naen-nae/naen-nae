@@ -1,14 +1,22 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
+import store from '../store';
 
 import About from '../pages/About/About.vue';
 import Home from '../pages/Home/Home.vue';
+import Detail from '../pages/Detail/Detail.vue';
 
-export default createRouter({
+const router = createRouter({
   history: createWebHashHistory(),
   routes: [
     {
       path: '/about',
       component: About,
+    },
+    {
+      name: 'detail',
+      path: '/detail/:fontName',
+      props: true,
+      component: Detail,
     },
     {
       path: '/',
@@ -20,3 +28,22 @@ export default createRouter({
     },
   ],
 });
+
+// validate font-name
+router.beforeEach(({ name, params: { fontName } }) => {
+  if (name !== 'detail') {
+    return true;
+  }
+
+  const targetFont = store.state.fonts.find(
+    ({ fontFamily }) => fontFamily === fontName,
+  );
+
+  if (targetFont === undefined) {
+    return router.push('/');
+  }
+
+  return true;
+});
+
+export default router;
