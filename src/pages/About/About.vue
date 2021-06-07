@@ -3,8 +3,8 @@
     <section class="about__title">
       <p class="typo-headline">낸내</p>
       <p class="about__title--contents typo-subtitle">
-        낸내는 상업적으로 이용할 수 있는 무료 한글 폰트를 모아 많은 사람들에게,
-        그리고 광고 없이 소개하기 위해 시작했습니다.
+        낸내는 상업적으로 이용할 수 있는 재배포 가능한 무료 한글 폰트를 모아
+        많은 사람들에게, 그리고 광고 없이 소개하기 위해 시작했습니다.
         <br />
         <br />
         오픈 소스로 관리되며, 광고 및 후원은 받지 않고 운영됩니다.
