@@ -6,7 +6,7 @@ import pick from 'lodash/pick';
 export default createStore({
   state: () => ({
     isLight: true,
-    fontSize: '12',
+    fontSize: constants.DEFAILT_FONT_SIZE,
     textContent: '',
     snackbarMsgs: [],
     fonts: [],
