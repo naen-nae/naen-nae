@@ -1,5 +1,6 @@
 <template>
   <div class="button-box" ref="buttonBox">
+    <span class="icon material-icons-outlined"><slot name="icon" /></span>
     <span class="button-box__text typo-text"><slot /></span>
   </div>
 </template>
@@ -15,6 +16,11 @@
   user-select: none;
   border: 1px solid var(--link-color);
   border-radius: 5px;
+
+  & > .icon {
+    color: var(--link-color);
+    margin-right: 8px;
+  }
 
   &__text {
     color: var(--link-color);

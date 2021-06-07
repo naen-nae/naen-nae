@@ -2,6 +2,7 @@ html,
 body,
 #app {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -26,4 +27,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  margin: 12px 0;
+  background-color: var(--border-color);
+  border: none;
+}
+
+.icon {
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  user-select: none;
 }

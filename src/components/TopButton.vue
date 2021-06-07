@@ -1,6 +1,8 @@
 <template>
   <div class="top-button">
-    <span class="top-button__icon material-icons-outlined">arrow_upward</span>
+    <span class="top-button__icon icon material-icons-outlined"
+      >arrow_upward</span
+    >
   </div>
 </template>
 

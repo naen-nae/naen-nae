@@ -1,6 +1,6 @@
 <template>
   <span
-    class="material-icons-outlined"
+    class="icon material-icons-outlined"
     :class="{ turn: isLight }"
     @click="toggleTheme"
   >
@@ -28,8 +28,6 @@ const toggleTheme = () => {
 
 <style lang="scss" scoped>
 span {
-  cursor: pointer;
-  user-select: none;
   transition: transform 0.3s cubic-bezier(1, 0.5, 0.8, 1);
   color: var(--text-color);
 }
