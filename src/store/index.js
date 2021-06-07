@@ -43,6 +43,11 @@ export default createStore({
       state.fonts.push(...fonts);
     },
   },
+  actions: {
+    resetFontSize(ctx) {
+      ctx.commit('setFontSize', constants.DEFAILT_FONT_SIZE);
+    },
+  },
   plugins: [
     createPersistedState({
       reducer: state => pick(state, ['isLight', 'fontSize', 'textContent']),
