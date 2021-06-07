@@ -3,20 +3,23 @@
     <span
       class="reset-button__icon icon material-icons-outlined"
       :class="{ disabled }"
+      @click="resetFontSize"
       >replay</span
     >
   </div>
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
+import { computed, toRefs } from 'vue';
+import { useStore } from 'vuex';
+import constants from '../constants';
 
-defineProps({
-  disabled: {
-    type: Boolean,
-    default: false,
-  },
-});
+const store = useStore();
+const { fontSize } = toRefs(store.state);
+
+const disabled = computed(() => fontSize.value === constants.DEFAILT_FONT_SIZE);
+
+const resetFontSize = () => store.dispatch('resetFontSize');
 </script>
 
 <style lang="scss" scoped>
