@@ -1,0 +1,22 @@
+name: FontGen
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install deps
+        uses: Borales/actions-yarn@v2.3.0
+        with:
+          cmd: install
+
+      - name: Generate font files
+        uses: Borales/actions-yarn@v2.3.0
+        with:
+          cmd: font-gen

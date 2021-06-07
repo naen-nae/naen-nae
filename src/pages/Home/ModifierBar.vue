@@ -1,17 +1,16 @@
 <template>
   <div class="modifier-bar">
-    <search-box class="modifier-bar__search" />
+    <search-box
+      class="modifier-bar__search"
+      @input="$emit('update:search-value', $event.target.value)"
+    />
     <input-field
       class="modifier-bar__input"
       v-model:value="inputTextContent"
       :value="inputTextContent"
     />
     <font-size-modifier class="modifier-bar__font-size" />
-    <reset-button
-      :disabled="disabledResetButton"
-      class="modifier-bar__reset"
-      @click="resetFontSize"
-    />
+    <reset-button class="modifier-bar__reset" />
   </div>
 </template>
 
@@ -20,9 +19,8 @@ import SearchBox from '../../components/SearchBox.vue';
 import InputField from '../../components/InputField.vue';
 import FontSizeModifier from '../../components/FontSizeModifier.vue';
 import ResetButton from '../../components/ResetButton.vue';
-import { computed, ref, toRefs, watch } from 'vue';
+import { ref, watch } from 'vue';
 import { useStore } from 'vuex';
-import constants from '../../constants';
 
 const store = useStore();
 
@@ -31,16 +29,6 @@ const inputTextContent = ref(store.state.textContent);
 watch(inputTextContent, () =>
   store.commit('setTextContent', inputTextContent.value),
 );
-
-// reset button
-const { fontSize } = toRefs(store.state);
-
-const disabledResetButton = computed(
-  () => fontSize.value === constants.DEFAILT_FONT_SIZE,
-);
-
-const resetFontSize = () =>
-  store.commit('setFontSize', constants.DEFAILT_FONT_SIZE);
 </script>
 
 <style lang="scss" scoped>

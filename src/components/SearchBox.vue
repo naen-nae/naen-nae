@@ -1,6 +1,6 @@
 <template>
   <div class="search-box">
-    <span class="search-box__icon material-icons-outlined">search</span>
+    <span class="search-box__icon icon material-icons-outlined">search</span>
     <input-field placeholder="이름으로 폰트 검색하기" />
   </div>
 </template>
@@ -15,7 +15,7 @@ import InputField from './InputField.vue';
   align-items: center;
 
   &__icon {
-    user-select: none;
+    cursor: default;
     margin-right: 12px;
   }
 }

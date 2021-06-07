@@ -1,13 +1,15 @@
 import { createStore } from 'vuex';
 import createPersistedState from 'vuex-persistedstate';
 import constants from '../constants';
+import pick from 'lodash/pick';
 
 export default createStore({
   state: () => ({
     isLight: true,
-    fontSize: '12',
+    fontSize: constants.DEFAILT_FONT_SIZE,
     textContent: '',
     snackbarMsgs: [],
+    fonts: [],
   }),
   mutations: {
     toggleTheme(state) {
@@ -37,6 +39,18 @@ export default createStore({
         1,
       );
     },
+    addFonts(state, fonts) {
+      state.fonts.push(...fonts);
+    },
   },
-  plugins: [createPersistedState()],
+  actions: {
+    resetFontSize(ctx) {
+      ctx.commit('setFontSize', constants.DEFAILT_FONT_SIZE);
+    },
+  },
+  plugins: [
+    createPersistedState({
+      reducer: state => pick(state, ['isLight', 'fontSize', 'textContent']),
+    }),
+  ],
 });
