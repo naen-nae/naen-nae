@@ -39,7 +39,7 @@ const { license, licenseSummary } = defineProps({
 
 const parsedLicense = license.replace(
   /(https?:.*)(\s|$)/,
-  '<a href="$1" target="_blank">$1</a>',
+  '<a style="color: var(--text-color); text-decoration: underline;" href="$1" target="_blank">$1</a>',
 );
 </script>
 
