@@ -5,3 +5,4 @@ dist-ssr
 *.local
 public/faces.css
 public/fonts.json
+public/css
