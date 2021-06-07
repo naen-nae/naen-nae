@@ -27,32 +27,43 @@ const faceGen = require('./faceGen');
   });
 
   // get font-faces
-  const faceOptions = _.flatMap(fonts, ({ files, fontWeights, fontFamily }) =>
-    _.map(_.zip(files, fontWeights), ([src, fontWeight]) => ({
-      src,
-      fontWeight,
-      fontFamily,
-      format: getFontFormat(src),
-    })),
+  const allFaceOptions = _.flatMap(
+    fonts,
+    ({ files, fontWeights, fontFamily }) =>
+      _.map(_.zip(files, fontWeights), ([src, fontWeight]) => ({
+        src,
+        fontWeight,
+        fontFamily,
+        format: getFontFormat(src),
+      })),
   );
 
-  const faces = _.flow(
+  const faceOptionsGroupByFamily = _.groupBy(
+    allFaceOptions,
+    ({ fontFamily }) => fontFamily,
+  );
+
+  const getFaces = _.flow(
     _.partial(_.map, _, faceGen),
     _.partial(_.join, _, ''),
     csso.minify,
-    _.partial(_.pick, _, 'css'),
-  )(faceOptions).css;
+    ({ css }) => css,
+  );
+
+  const allFaces = getFaces(allFaceOptions);
+  const facesByFamily = _.map(faceOptionsGroupByFamily, (options, name) => [
+    name,
+    getFaces(options),
+  ]);
 
   const stringFonts = jsonMin(JSON.stringify(fonts));
 
   // write to file
-  await fs.writeFile('./public/fonts.json', stringFonts, {
-    encoding: 'utf8',
-    flag: 'w',
-  });
+  fs.writeFile('./public/fonts.json', stringFonts);
 
-  await fs.writeFile('./public/faces.css', faces, {
-    encoding: 'utf8',
-    flag: 'w',
-  });
+  fs.writeFile('./public/faces.css', allFaces);
+
+  _.forEach(facesByFamily, ([name, css]) =>
+    fs.writeFile(`./public/css/${name}.css`, css),
+  );
 })();
