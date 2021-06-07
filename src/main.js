@@ -4,6 +4,7 @@ import './styles/index.scss';
 import store from './store';
 import router from './router';
 import req from './share/req';
+import './share/registerSw';
 
 (async () => {
   // init theme
