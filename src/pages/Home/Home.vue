@@ -31,9 +31,10 @@ const router = useRouter();
 
 const search = ref('');
 const filteredFonts = computed(() =>
-  fonts.value.filter(({ fontFamily }) =>
-    RegExp(search.value.toLowerCase()).test(fontFamily.toLowerCase()),
-  ),
+  fonts.value.filter(({ fontFamily, author }) => {
+    const re = RegExp(search.value.toLowerCase());
+    return re.test(fontFamily.toLowerCase()) || re.test(author.toLowerCase());
+  }),
 );
 </script>
 
