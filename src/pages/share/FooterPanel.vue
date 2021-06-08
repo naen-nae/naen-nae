@@ -28,6 +28,8 @@ import AppTitle from '../../components/AppTitle.vue';
 </script>
 
 <style lang="scss" scoped>
+@import '../../styles/display.scss';
+
 footer {
   display: flex;
   width: 100%;
@@ -55,6 +57,15 @@ footer {
       * {
         margin-bottom: 6px;
       }
+    }
+  }
+
+  @include mobile {
+    display: block;
+
+    .footer__rightside {
+      align-items: flex-start;
+      margin-top: 12px;
     }
   }
 }

@@ -4,10 +4,10 @@
     <main>
       <router-view />
     </main>
+    <top-button class="top-button" />
     <footer-panel />
   </div>
 
-  <top-button class="top-button" />
   <snackbar-box />
 </template>
 
@@ -19,6 +19,8 @@ import TopButton from './components/TopButton.vue';
 </script>
 
 <style lang="scss" scoped>
+@import './styles/display.scss';
+
 .app {
   min-height: 100%;
   display: flex;
@@ -37,6 +39,13 @@ import TopButton from './components/TopButton.vue';
 .top-button {
   position: fixed;
   right: 1em;
-  bottom: 1em;
+  bottom: calc(107px + 1em); // 107px => footer height
+
+  @include mobile {
+    & {
+      right: 1em;
+      bottom: 1em;
+    }
+  }
 }
 </style>
