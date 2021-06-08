@@ -102,7 +102,7 @@ fonts:
       - <폰트 파일 경로 1> # '/public/fonts' 디렉터리를 베이스로 합니다.
       - <폰트 파일 경로 2> # 같은 Font Family인 경우, 여러 폰트를 등록할 수 있습니다.
     fontWeights:
-      - <폰트 굵기 1> # 100~900, lighter, normal, bold, bolder 중에서 설정합니다.
+      - <폰트 굵기 1> # 100~900 중에서 설정합니다.
       - <폰트 굵기 2> # 각 파일에 대한 굵기를 명시합니다.
     fontFamily: <폰트 이름>
     licenseSummary: # 라이선스 요약은 위 '3. Issue 내용 작성하기'를 참고해주세요.

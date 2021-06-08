@@ -5,9 +5,9 @@ fonts:
       - 'NanumGothic/NanumGothic-Bold.ttf'
       - 'NanumGothic/NanumGothic-ExtraBold.ttf'
     fontWeights:
-      - normal
-      - bold
-      - bolder
+      - 400
+      - 700
+      - 800
     fontFamily: Nanum Gothic
     licenseSummary:
       print: true
@@ -30,7 +30,7 @@ fonts:
     files:
       - 'SDSamliphopangche-Outlined/SDSamliphopangcheTTFOutline.ttf'
     fontWeights:
-      - normal
+      - 400
     fontFamily: SDSamliphopangche_Outline
     licenseSummary:
       print: true
@@ -58,10 +58,10 @@ fonts:
       - 'NanumSquareRound/NanumSquareRoundB.ttf'
       - 'NanumSquareRound/NanumSquareRoundEB.ttf'
     fontWeights:
-      - lighter
-      - normal
-      - bold
-      - bolder
+      - 300
+      - 400
+      - 700
+      - 800
     fontFamily: NanumSquareRound
     licenseSummary:
       print: true
@@ -87,10 +87,10 @@ fonts:
       - 'NanumSquare/NanumSquareB.ttf'
       - 'NanumSquare/NanumSquareEB.ttf'
     fontWeights:
-      - lighter
-      - normal
-      - bold
-      - bolder
+      - 300
+      - 400
+      - 700
+      - 800
     fontFamily: NanumSquare
     licenseSummary:
       print: true
@@ -114,8 +114,8 @@ fonts:
       - 'NanumBarunpen/NanumBarunpenR.ttf'
       - 'NanumBarunpen/NanumBarunpenB.ttf'
     fontWeights:
-      - normal
-      - bold
+      - 400
+      - 700
     fontFamily: NanumBarunpen
     licenseSummary:
       print: true
@@ -141,9 +141,9 @@ fonts:
       - 'NanumBarunGothic/NanumBarunGothic.ttf'
       - 'NanumBarunGothic/NanumBarunGothicBold.ttf'
     fontWeights:
-      - 100
+      - 200
       - 300
-      - 500
+      - 400
       - 700
     fontFamily: NanumBarunGothic
     licenseSummary:
@@ -169,9 +169,9 @@ fonts:
       - 'NanumGothicEco/NanumGothicEcoBold.ttf'
       - 'NanumGothicEco/NanumGothicEcoExtraBold.ttf'
     fontWeights:
-      - normal
-      - bold
-      - bolder
+      - 400
+      - 700
+      - 800
     fontFamily: NanumGothicEco
     licenseSummary:
       print: true
@@ -196,9 +196,9 @@ fonts:
       - 'NanumMyeongjoEco/NanumMyeongjoEcoBold.ttf'
       - 'NanumMyeongjoEco/NanumMyeongjoEcoExtraBold.ttf'
     fontWeights:
-      - normal
-      - bold
-      - bolder
+      - 400
+      - 700
+      - 800
     fontFamily: NanumMyeongjoEco
     licenseSummary:
       print: true
@@ -221,7 +221,7 @@ fonts:
     files:
       - 'NanumBrush/NanumBrush.ttf'
     fontWeights:
-      - normal
+      - 400
     fontFamily: NanumBrush
     licenseSummary:
       print: true
@@ -244,7 +244,7 @@ fonts:
     files:
       - 'NanumPen/NanumPen.ttf'
     fontWeights:
-      - normal
+      - 400
     fontFamily: NanumPen
     licenseSummary:
       print: true
@@ -268,8 +268,8 @@ fonts:
       - 'NanumGothicCoding/NanumGothicCoding.ttf'
       - 'NanumGothicCoding/NanumGothicCoding-Bold.ttf'
     fontWeights:
-      - normal
-      - bold
+      - 400
+      - 700
     fontFamily: NanumGothicCoding
     licenseSummary:
       print: true
@@ -294,9 +294,9 @@ fonts:
       - 'NanumMyeongjo/NanumMyeongjoBold.ttf'
       - 'NanumMyeongjo/NanumMyeongjoExtraBold.ttf'
     fontWeights:
-      - normal
-      - bold
-      - bolder
+      - 400
+      - 700
+      - 800
     fontFamily: NanumMyeongjo
     licenseSummary:
       print: true
