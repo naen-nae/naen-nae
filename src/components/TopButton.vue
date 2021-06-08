@@ -1,10 +1,29 @@
 <template>
-  <div class="top-button">
+  <div class="top-button" :class="{ hide: isHide }" @click="toTop">
     <span class="top-button__icon icon material-icons-outlined"
       >arrow_upward</span
     >
   </div>
 </template>
+
+<script setup>
+import { ref } from 'vue';
+
+const isHide = ref(true);
+const toTop = () => window.scrollTo(0, 0);
+
+window.addEventListener(
+  'scroll',
+  () => {
+    if (window.scrollY > 0) {
+      isHide.value = false;
+    } else {
+      isHide.value = true;
+    }
+  },
+  { passive: true },
+);
+</script>
 
 <style lang="scss" scoped>
 .top-button {
@@ -22,6 +41,10 @@
 
   &__icon {
     color: var(--text-color);
+  }
+
+  &.hide {
+    display: none;
   }
 }
 </style>
