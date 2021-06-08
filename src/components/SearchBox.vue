@@ -17,6 +17,7 @@ import InputField from './InputField.vue';
   &__icon {
     cursor: default;
     margin-right: 12px;
+    color: var(--text-color);
   }
 }
 </style>
