@@ -24,11 +24,11 @@ const { fontFamily } = defineProps({
 const codeBoxes = [
   [
     '<link>',
-    `<link href="https://cdn.jsdelivr.net/gh/naen-nae/naen-nae/public/css/${fontFamily}.css" rel="stylesheet">`,
+    `<link href="https://cdn.jsdelivr.net/gh/naen-nae/naen-nae@gh-pages/css/${fontFamily}.css" rel="stylesheet">`,
   ],
   [
     '@import',
-    `@import url('https://cdn.jsdelivr.net/gh/naen-nae/naen-nae/public/css/${fontFamily}.css');`,
+    `@import url('https://cdn.jsdelivr.net/gh/naen-nae/naen-nae@gh-pages/css/${fontFamily}.css');`,
   ],
   ['CSS font-family', `font-family: '${fontFamily}', sans-serif;`],
 ];
