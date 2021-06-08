@@ -7,7 +7,7 @@ export default createStore({
   state: () => ({
     isLight:
       window.matchMedia !== undefined
-        ? window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? !window.matchMedia('(prefers-color-scheme: dark)').matches
         : true,
     fontSize: constants.DEFAILT_FONT_SIZE,
     textContent: '',
