@@ -7,6 +7,7 @@
     <footer-panel />
   </div>
 
+  <top-button class="top-button" />
   <snackbar-box />
 </template>
 
@@ -14,6 +15,7 @@
 import HeaderPanel from './pages/share/HeaderPanel.vue';
 import FooterPanel from './pages/share/FooterPanel.vue';
 import SnackbarBox from './components/SnackbarBox/SnackbarBox.vue';
+import TopButton from './components/TopButton.vue';
 </script>
 
 <style lang="scss" scoped>
@@ -30,5 +32,11 @@ import SnackbarBox from './components/SnackbarBox/SnackbarBox.vue';
     justify-content: center;
     padding: 24px;
   }
+}
+
+.top-button {
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
 }
 </style>
