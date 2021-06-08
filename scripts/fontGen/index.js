@@ -17,7 +17,7 @@ const faceGen = require('./faceGen');
   const fonts = yaml.parse(rawFonts).fonts.map(font => {
     font.files = font.files.map(
       src =>
-        `https://cdn.jsdelivr.net/gh/naen-nae/naen-nae/public/fonts/${src.replace(
+        `https://cdn.jsdelivr.net/gh/naen-nae/naen-nae/fonts/${src.replace(
           /^\//,
           '',
         )}`,
