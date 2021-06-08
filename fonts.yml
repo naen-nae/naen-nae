@@ -50,3 +50,267 @@ fonts:
       This Font Software is licensed under the SIL
       Open Font License, Version 1.1.
       Sandoll 삼립호빵체의 저작권은 (주)SPC삼립과 (주)산돌이 공동 소유하고 있습니다.
+
+  - author: 네이버
+    files:
+      - 'NanumSquareRound/NanumSquareRoundL.ttf'
+      - 'NanumSquareRound/NanumSquareRoundR.ttf'
+      - 'NanumSquareRound/NanumSquareRoundB.ttf'
+      - 'NanumSquareRound/NanumSquareRoundEB.ttf'
+    fontWeights:
+      - lighter
+      - normal
+      - bold
+      - bolder
+    fontFamily: NanumSquareRound
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 
+      글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 
+      다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 네이버
+    files:
+      - 'NanumSquare/NanumSquareL.ttf'
+      - 'NanumSquare/NanumSquareR.ttf'
+      - 'NanumSquare/NanumSquareB.ttf'
+      - 'NanumSquare/NanumSquareEB.ttf'
+    fontWeights:
+      - lighter
+      - normal
+      - bold
+      - bolder
+    fontFamily: NanumSquare
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 
+      글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 
+      다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 네이버
+    files:
+      - 'NanumBarunpen/NanumBarunpenR.ttf'
+      - 'NanumBarunpen/NanumBarunpenB.ttf'
+    fontWeights:
+      - normal
+      - bold
+    fontFamily: NanumBarunpen
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 
+      글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 
+      다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 네이버
+    files:
+      - 'NanumBarunGothic/NanumBarunGothicUltraLight.ttf'
+      - 'NanumBarunGothic/NanumBarunGothicLight.ttf'
+      - 'NanumBarunGothic/NanumBarunGothic.ttf'
+      - 'NanumBarunGothic/NanumBarunGothicBold.ttf'
+    fontWeights:
+      - 100
+      - 300
+      - 500
+      - 700
+    fontFamily: NanumBarunGothic
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 
+      글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 
+      다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 네이버
+    files:
+      - 'NanumGothicEco/NanumGothicEco.ttf'
+      - 'NanumGothicEco/NanumGothicEcoBold.ttf'
+      - 'NanumGothicEco/NanumGothicEcoExtraBold.ttf'
+    fontWeights:
+      - normal
+      - bold
+      - bolder
+    fontFamily: NanumGothicEco
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 
+      글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 
+      다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 네이버
+    files:
+      - 'NanumMyeongjoEco/NanumMyeongjoEco.ttf'
+      - 'NanumMyeongjoEco/NanumMyeongjoEcoBold.ttf'
+      - 'NanumMyeongjoEco/NanumMyeongjoEcoExtraBold.ttf'
+    fontWeights:
+      - normal
+      - bold
+      - bolder
+    fontFamily: NanumMyeongjoEco
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 
+      글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 
+      다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 네이버
+    files:
+      - 'NanumBrush/NanumBrush.ttf'
+    fontWeights:
+      - normal
+    fontFamily: NanumBrush
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 
+      글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 
+      다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 네이버
+    files:
+      - 'NanumPen/NanumPen.ttf'
+    fontWeights:
+      - normal
+    fontFamily: NanumPen
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 
+      글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 
+      다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 네이버
+    files:
+      - 'NanumGothicCoding/NanumGothicCoding.ttf'
+      - 'NanumGothicCoding/NanumGothicCoding-Bold.ttf'
+    fontWeights:
+      - normal
+      - bold
+    fontFamily: NanumGothicCoding
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 
+      글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 
+      다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 네이버
+    files:
+      - 'NanumMyeongjo/NanumMyeongjo.ttf'
+      - 'NanumMyeongjo/NanumMyeongjoBold.ttf'
+      - 'NanumMyeongjo/NanumMyeongjoExtraBold.ttf'
+    fontWeights:
+      - normal
+      - bold
+      - bolder
+    fontFamily: NanumMyeongjo
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 
+      글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 
+      다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
