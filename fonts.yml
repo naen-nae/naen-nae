@@ -314,3 +314,197 @@ fonts:
       다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다. 
 
       라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: Google
+    files:
+      - 'NotoSansCJKkr/NotoSansCJKkr-Thin.otf'
+      - 'NotoSansCJKkr/NotoSansCJKkr-Light.otf'
+      - 'NotoSansCJKkr/NotoSansCJKkr-DemiLight.otf'
+      - 'NotoSansCJKkr/NotoSansCJKkr-Regular.otf'
+      - 'NotoSansCJKkr/NotoSansCJKkr-Medium.otf'
+      - 'NotoSansCJKkr/NotoSansCJKkr-Bold.otf'
+      - 'NotoSansCJKkr/NotoSansCJKkr-Black.otf'
+    fontWeights:
+      - 100
+      - 300
+      - 350
+      - 400
+      - 500
+      - 700
+      - 900
+    fontFamily: NotoSansCJKkr
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      Noto is a trademark of Google Inc.
+      Noto fonts are open source.
+      All Noto fonts are published under the SIL Open Font License, Version 1.1.
+      Language data and some sample texts are from the Unicode CLDR project.
+
+      SIL OFL v1.1: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+  - author: Google
+    files:
+      - 'NotoSerifCJKkr/NotoSerifCJKkr-ExtraLight.otf'
+      - 'NotoSerifCJKkr/NotoSerifCJKkr-Light.otf'
+      - 'NotoSerifCJKkr/NotoSerifCJKkr-Medium.otf'
+      - 'NotoSerifCJKkr/NotoSerifCJKkr-Regular.otf'
+      - 'NotoSerifCJKkr/NotoSerifCJKkr-SemiBold.otf'
+      - 'NotoSerifCJKkr/NotoSerifCJKkr-Bold.otf'
+      - 'NotoSerifCJKkr/NotoSerifCJKkr-Black.otf'
+    fontWeights:
+      - 200
+      - 300
+      - 400
+      - 500
+      - 600
+      - 700
+      - 900
+    fontFamily: NotoSerifCJKkr
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      Noto is a trademark of Google Inc.
+      Noto fonts are open source.
+      All Noto fonts are published under the SIL Open Font License, Version 1.1.
+      Language data and some sample texts are from the Unicode CLDR project.
+
+      SIL OFL v1.1: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+  - author: G마켓
+    files:
+      - 'GmarketSans/GmarketSansLight.otf'
+      - 'GmarketSans/GmarketSansMedium.otf'
+      - 'GmarketSans/GmarketSansBold.otf'
+    fontWeights:
+      - 300
+      - 500
+      - 700
+    fontFamily: GmarketSans
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      G마켓 브랜드 아이덴티티를 담은 서체 'Gmarket Sans'를 소개합니다.
+      Gmarket Sans는 다양한 브랜드, 판매자, 사용자가 함께 성장하며 가치를 나눌 수 있도록 만든 글꼴입니다.
+      누구나 아무 제약 없이 쉽게 사용할 수 있습니다.
+      Gmarket Sans는 누구나 제약 없이 자유롭게 수정하고 재배포 하실 수 있습니다.
+
+  - author: (주)넥슨코리아
+    files:
+      - 'NEXON Lv1 Gothic/NEXON Lv1 Gothic OTF Light.woff'
+      - 'NEXON Lv1 Gothic/NEXON Lv1 Gothic OTF.woff'
+      - 'NEXON Lv1 Gothic/NEXON Lv1 Gothic OTF Bold.woff'
+    fontWeights:
+      - 300
+      - 400
+      - 700
+    fontFamily: NEXON Lv1 Gothic
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      - 제공되는 모든 서체의 지적 재산권을 포함한 모든 권리는 (주)넥슨코리아에 있습니다.
+      - 서체는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 사용 및 배포하실 수 있습니다. (상업적인 용도로 사용 가능)
+      - 단, 임의로 수정, 편집 등을 할 수 없으며 배포되는 형태 그대로 사용해야 합니다.
+      - 글꼴 자체를 유료로 판매되는 것은 금지되며, 서체의 본 저작권 안내를 포함해서 다른 소프트웨어와 번들하거나 임베디드 폰트로 사용하실 수 있습니다.
+      - 서체의 출처 표기를 권장합니다.
+      - 서체를 사용한 인쇄물, 광고물(온라인 포함)은 넥슨의 프로모션을 위해 활용될 수 있습니다.
+
+  - author: (주)넥슨코리아
+    files:
+      - 'WEB_NEXON_Lv2_Gothic/NEXON Lv2 Gothic Light.woff'
+      - 'WEB_NEXON_Lv2_Gothic/NEXON Lv2 Gothic.woff'
+      - 'WEB_NEXON_Lv2_Gothic/NEXON Lv2 Gothic Bold.woff'
+    fontWeights:
+      - 300
+      - 400
+      - 700
+    fontFamily: NEXON Lv2 Gothic
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      - 제공되는 모든 서체의 지적 재산권을 포함한 모든 권리는 (주)넥슨코리아에 있습니다.
+      - 서체는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 사용 및 배포하실 수 있습니다. (상업적인 용도로 사용 가능)
+      - 단, 임의로 수정, 편집 등을 할 수 없으며 배포되는 형태 그대로 사용해야 합니다.
+      - 글꼴 자체를 유료로 판매되는 것은 금지되며, 서체의 본 저작권 안내를 포함해서 다른 소프트웨어와 번들하거나 임베디드 폰트로 사용하실 수 있습니다.
+      - 서체의 출처 표기를 권장합니다.
+      - 서체를 사용한 인쇄물, 광고물(온라인 포함)은 넥슨의 프로모션을 위해 활용될 수 있습니다.
+
+  - author: (주)넥슨코리아
+    files:
+      - 'B_WEB_BAZZI_Font/Bazzi OTF.woff'
+    fontWeights:
+      - 400
+    fontFamily: Bazzi
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      - 제공되는 모든 서체의 지적 재산권을 포함한 모든 권리는 (주)넥슨코리아에 있습니다.
+      - 서체는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 사용 및 배포하실 수 있습니다. (상업적인 용도로 사용 가능)
+      - 단, 임의로 수정, 편집 등을 할 수 없으며 배포되는 형태 그대로 사용해야 합니다.
+      - 글꼴 자체를 유료로 판매되는 것은 금지되며, 서체의 본 저작권 안내를 포함해서 다른 소프트웨어와 번들하거나 임베디드 폰트로 사용하실 수 있습니다.
+      - 서체의 출처 표기를 권장합니다.
+      - 서체를 사용한 인쇄물, 광고물(온라인 포함)은 넥슨의 프로모션을 위해 활용될 수 있습니다.
+
+  - author: (주)여기어때컴퍼니
+    files:
+      - 'Jalnan/JalnanOTF.otf'
+    fontWeights:
+      - 400
+    fontFamily: Jalnan
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: false
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      - '여기어때 잘난체'의 지적재산권은 (주)여기어때컴퍼니가 소유하고 있습니다.
+      - '여기어때 잘난체'는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 사용할 수 있습니다.
+      - '여기어때 잘난체' 글꼴 자체를 유료로 판매하거나 어떠한 형태로든 임의 수정/개작하여 글꼴을 재배포 하는 것은 금지합니다.
+      - '여기어때 잘난체'는 인쇄물, 광고물(온/오프라인), 상품, CI/BI 등 상업적 목적으로 사용할 수 있습니다.
+        1. 글꼴 그대로의 사용을 권장하며, 상품은 여기어때 잘난체 라이선스 혹은 출처 표기를 권장합니다.
+        2. 인쇄물, 광고물(온•오프라인), CI/BI의 경우 글꼴 수정 및 형태 변환이 가능합니다.
+      - '여기어때 잘난체'는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어에 임베딩 또는 번들하여 판매하거나 재배포가 가능합니다. 라이선스 전문을 포함하기 어려울 경우 '여기어때 잘난체'의 출처 표기를 권장합니다.
+        예) 이 페이지에는 ㈜여기어때컴퍼니가 제공한 여기어때 잘난체가 적용되어 있습니다.
+      - '여기어때 잘난체'를 사용한 인쇄물, 광고물(온/오프라인), 상품, CI/BI 등의 이미지는 여기어때의 마케팅을 위해 활용될 수 있습니다. 이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      - 문의 ygot_font@gccompany.co.kr / 02 6745 9065
+
+      라이선스 및 사용 가이드 전문: https://image.goodchoice.kr/images/jalnan_font/jalnan-font-202004ver.pdf
