@@ -19,7 +19,7 @@ const { textContent, fontSize } = toRefs(store.state);
 
 defineProps({
   fontWeight: {
-    type: String,
+    type: Number,
     required: true,
   },
   fontFamily: {
