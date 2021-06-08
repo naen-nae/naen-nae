@@ -5,7 +5,10 @@ import pick from 'lodash/pick';
 
 export default createStore({
   state: () => ({
-    isLight: true,
+    isLight:
+      window.matchMedia !== undefined
+        ? window.matchMedia('(prefers-color-scheme: dark)').matches
+        : true,
     fontSize: constants.DEFAILT_FONT_SIZE,
     textContent: '',
     snackbarMsgs: [],
