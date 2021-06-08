@@ -1,7 +1,7 @@
 const fs = require('fs/promises');
 const yaml = require('yaml');
 const _ = require('lodash');
-const csso = require('csso');
+const minify = require('minify-css-string');
 const jsonMin = require('jsonminify');
 
 const getFontFormat = require('./getFontFormat');
@@ -46,8 +46,7 @@ const faceGen = require('./faceGen');
   const getFaces = _.flow(
     _.partial(_.map, _, faceGen),
     _.partial(_.join, _, ''),
-    csso.minify,
-    ({ css }) => css,
+    minify.default,
   );
 
   const allFaces = getFaces(allFaceOptions);
