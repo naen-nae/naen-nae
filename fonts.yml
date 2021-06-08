@@ -349,40 +349,6 @@ fonts:
 
       SIL OFL v1.1: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 
-  - author: Google
-    files:
-      - 'NotoSerifCJKkr/NotoSerifCJKkr-ExtraLight.otf'
-      - 'NotoSerifCJKkr/NotoSerifCJKkr-Light.otf'
-      - 'NotoSerifCJKkr/NotoSerifCJKkr-Medium.otf'
-      - 'NotoSerifCJKkr/NotoSerifCJKkr-Regular.otf'
-      - 'NotoSerifCJKkr/NotoSerifCJKkr-SemiBold.otf'
-      - 'NotoSerifCJKkr/NotoSerifCJKkr-Bold.otf'
-      - 'NotoSerifCJKkr/NotoSerifCJKkr-Black.otf'
-    fontWeights:
-      - 200
-      - 300
-      - 400
-      - 500
-      - 600
-      - 700
-      - 900
-    fontFamily: NotoSerifCJKkr
-    licenseSummary:
-      print: true
-      website: true
-      video: true
-      paper: true
-      embeding: true
-      bici: true
-      ofl: true
-    license: |
-      Noto is a trademark of Google Inc.
-      Noto fonts are open source.
-      All Noto fonts are published under the SIL Open Font License, Version 1.1.
-      Language data and some sample texts are from the Unicode CLDR project.
-
-      SIL OFL v1.1: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-
   - author: G마켓
     files:
       - 'GmarketSans/GmarketSansLight.otf'
