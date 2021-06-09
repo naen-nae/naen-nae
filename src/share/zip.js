@@ -1,25 +1,38 @@
 import JSZip from 'jszip';
 import { saveAs } from 'file-saver';
-import _ from 'lodash';
+import _zip from 'lodash/zip';
 
 /**
  * create a zip file with fetching
  *
- * @param {[String]} urls file url array
  * @param {Object} options
- * @param {[String]} fileNames file content names
+ * @param {[Blob]} blobs file chunks
+ * @param {[String]} names file names
  * @param {String} zipName zip file name
+ * @param {Function} progressCb progress callback
  */
-export default async (urls, { fileNames, zipName } = {}) => {
-  const resps = await Promise.all(_.map(urls, async url => await fetch(url)));
+export default async ({ blobs, names, zipName, progressCb } = {}) => {
+  if (blobs === undefined || blobs.length === 0) {
+    throw new Error('Cannot find blob datas');
+  }
+
   const zip = new JSZip();
 
-  for (const [resp, name] of _.zip(resps, fileNames ?? urls)) {
-    zip.file(name, await resp.blob());
+  for (const [blob, name] of _zip(
+    blobs,
+    names ??
+      Array(blobs.length) // gen temp file name
+        .fill(0)
+        .map((v, ind) => ind),
+  )) {
+    zip.file(name, blob);
   }
 
   return saveAs(
-    await zip.generateAsync({ type: 'blob' }),
+    await zip.generateAsync(
+      { type: 'blob', streamFiles: true },
+      progressCb ?? (() => {}),
+    ),
     zipName ?? 'file.zip',
   );
 };
