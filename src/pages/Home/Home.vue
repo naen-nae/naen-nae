@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <modifier-bar class="home__modifier" v-model:search-value="search" />
+    <modifier-bar class="home__modifier" />
     <p class="typo-text">{{ filteredFonts.length }} 종류의 폰트가 있어요.</p>
     <section class="home__cards">
       <card-box
@@ -23,18 +23,17 @@ import ModifierBar from './ModifierBar.vue';
 import CardBox from './CardBox/CardBox.vue';
 import { useStore } from 'vuex';
 import { useRouter } from 'vue-router';
-import { computed, ref, toRefs } from 'vue';
+import { computed, toRefs } from 'vue';
 
 const store = useStore();
-const { fonts } = toRefs(store.state);
+const { fonts, searchContent } = toRefs(store.state);
 
 const router = useRouter();
 
-const search = ref('');
 const filteredFonts = computed(() =>
   fonts.value
     .filter(({ fontFamily, author }) => {
-      const re = RegExp(search.value.toLowerCase());
+      const re = RegExp(searchContent.value.toLowerCase());
       return re.test(fontFamily.toLowerCase()) || re.test(author.toLowerCase());
     })
     .sort(),

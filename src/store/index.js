@@ -11,6 +11,7 @@ export default createStore({
         : true,
     fontSize: constants.DEFAILT_FONT_SIZE,
     textContent: '',
+    searchContent: '',
     snackbarMsgs: [],
     fonts: [],
   }),
@@ -33,6 +34,9 @@ export default createStore({
     setTextContent(state, textContent) {
       state.textContent = textContent;
     },
+    setSearchContent(state, searchContent) {
+      state.searchContent = searchContent;
+    },
     createSnackbar(state, msg) {
       state.snackbarMsgs.push({ msg, key: Math.random().toString() });
     },
@@ -53,7 +57,8 @@ export default createStore({
   },
   plugins: [
     createPersistedState({
-      reducer: state => pick(state, ['isLight', 'fontSize', 'textContent']),
+      reducer: state =>
+        pick(state, ['isLight', 'fontSize', 'textContent', 'searchContent']),
     }),
   ],
 });
