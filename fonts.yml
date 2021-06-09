@@ -652,7 +652,7 @@ fonts:
 
   - author: 카페24
     files:
-      - 'Cafe24OhsquareAir/Cafe24OhsquareAir.ttf'
+      - 'Cafe24OhsquareAir/Cafe24Ohsquareair.ttf'
     fontWeights:
       - 400
     fontFamily: Cafe24OhsquareAir
