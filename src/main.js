@@ -13,7 +13,7 @@ import './share/registerSw';
     .classList.add(store.state.isLight ? 'theme-light' : 'theme-dark');
 
   // get fonts
-  store.commit('addFonts', await req('/fonts.json', { parseType: 'json' }));
+  store.commit('addFonts', await (await req('/fonts.json')).json());
 
   createApp(App).use(store).use(router).mount('#app');
 })();

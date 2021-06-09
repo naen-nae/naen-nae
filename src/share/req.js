@@ -4,16 +4,14 @@ import store from '../store';
  * request a resource
  *
  * @param {String} url resource url
- * @param {Object} options
- * @param {String} options.parseType [text|json]
- * @returns {String|Object} respond resource
+ * @returns {Promise<Response>} respond object
  */
-export default async (url, { parseType = 'text' } = {}) => {
+export default async url => {
   try {
     const resp = await fetch(url);
 
     if (resp.ok) {
-      return await resp[parseType]();
+      return resp;
     }
 
     throw new Error();
