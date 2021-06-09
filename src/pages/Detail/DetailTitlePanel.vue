@@ -18,7 +18,15 @@
         </template>
 
         <template v-if="isDownload">
-          <span class="typo-subtitle">파일 압축중...</span>
+          <span class="typo-subtitle">
+            폰트 파일 다운로드 중... ({{ downloadProgress }} /
+            {{ files.length }})
+          </span>
+        </template>
+        <template v-else-if="isZip">
+          <span class="typo-subtitle">
+            파일 압축중... ({{ zipProgress }} %)
+          </span>
         </template>
         <template v-else>
           <span class="typo-subtitle" @click="downloadFont">폰트 다운로드</span>
@@ -29,10 +37,12 @@
 </template>
 
 <script setup>
-import { defineProps, ref } from 'vue';
+import { defineProps, reactive, toRefs } from 'vue';
 import { useRouter } from 'vue-router';
 import ButtonBox from '../../components/ButtonBox.vue';
 import zip from '../../share/zip';
+import req from '../../share/req';
+import map from 'lodash/map';
 
 const router = useRouter();
 
@@ -45,16 +55,37 @@ const {
   },
 });
 
-const isDownload = ref(false);
+const { isDownload, isZip, downloadProgress, zipProgress } = toRefs(
+  reactive({
+    isDownload: false,
+    isZip: false,
+    downloadProgress: 0,
+    zipProgress: 0,
+  }),
+);
+
 const downloadFont = async () => {
   isDownload.value = true;
 
-  await zip(files, {
-    fileNames: files.map(fileName => fileName.match(/.*\/(.*)$/)[1]),
-    zipName: `${fontFamily}.zip`,
-  });
+  const resps = await Promise.all(
+    map(
+      files,
+      async url =>
+        await req(url).then(resp => (downloadProgress.value++, resp)),
+    ),
+  );
 
   isDownload.value = false;
+  isZip.value = true;
+
+  await zip({
+    blobs: map(resps, async resp => resp.blob()),
+    names: files.map(src => src.match(/.*\/(.*)$/)[1]),
+    zipName: `${fontFamily}.zip`,
+    progressCb: ({ percent }) => (zipProgress.value = parseInt(percent)),
+  });
+
+  isZip.value = false;
 };
 </script>
 
