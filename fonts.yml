@@ -995,7 +995,7 @@ fonts:
 
   - author: 대한민국 육군 X 헤움
     files:
-      - 'ROKA/ROKA Medium.ttf'
+      - 'ROKA/ROKA Medium.otf'
       - 'ROKA/ROKA Bold.ttf'
     fontWeights:
       - 400
