@@ -2,7 +2,7 @@ export default {
   /**
    * allow string type value in input element
    */
-  DEFAILT_FONT_SIZE: '22',
+  DEFAILT_FONT_SIZE: '33',
   /**
    * allow number type value in input element
    */
