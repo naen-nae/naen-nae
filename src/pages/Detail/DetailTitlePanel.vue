@@ -6,7 +6,7 @@
       </span>
 
       <div class="detail-title-panel__left-side--info">
-        <p class="typo-title" v-text="fontFamily" />
+        <p class="typo-title" v-text="name" />
         <p class="typo-subtitle" v-text="author" />
       </div>
     </div>
@@ -47,7 +47,7 @@ import map from 'lodash/map';
 const router = useRouter();
 
 const {
-  font: { files, fontFamily, author },
+  font: { files, name, author },
 } = defineProps({
   font: {
     type: Object,
@@ -81,7 +81,7 @@ const downloadFont = async () => {
   await zip({
     blobs: map(resps, async resp => resp.blob()),
     names: files.map(src => src.match(/.*\/(.*)$/)[1]),
-    zipName: `${fontFamily}.zip`,
+    zipName: `${name}.zip`,
     progressCb: ({ percent }) => (zipProgress.value = parseInt(percent)),
   });
 

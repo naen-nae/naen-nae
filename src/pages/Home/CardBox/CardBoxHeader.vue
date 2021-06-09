@@ -1,6 +1,6 @@
 <template>
   <div class="card-box-header">
-    <p class="card-box-header__title typo-title" v-text="fontFamily" />
+    <p class="card-box-header__title typo-title" v-text="name" />
     <div class="card-box-header__subtitle">
       <p
         class="card-box-header__subtitle--author typo-subtitle"
@@ -15,7 +15,7 @@
 import { defineProps } from 'vue';
 
 defineProps({
-  fontFamily: {
+  name: {
     type: String,
     required: true,
   },
