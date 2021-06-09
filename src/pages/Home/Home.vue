@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <modifier-bar v-model:search-value="search" />
+    <modifier-bar class="home__modifier" v-model:search-value="search" />
+    <p class="typo-text">{{ filteredFonts.length }} 종류의 폰트가 있어요.</p>
     <section class="home__cards">
       <card-box
         v-for="(font, ind) in filteredFonts"
@@ -31,10 +32,12 @@ const router = useRouter();
 
 const search = ref('');
 const filteredFonts = computed(() =>
-  fonts.value.filter(({ fontFamily, author }) => {
-    const re = RegExp(search.value.toLowerCase());
-    return re.test(fontFamily.toLowerCase()) || re.test(author.toLowerCase());
-  }),
+  fonts.value
+    .filter(({ fontFamily, author }) => {
+      const re = RegExp(search.value.toLowerCase());
+      return re.test(fontFamily.toLowerCase()) || re.test(author.toLowerCase());
+    })
+    .sort(),
 );
 </script>
 
@@ -45,9 +48,13 @@ const filteredFonts = computed(() =>
   align-self: flex-start;
   width: 100%;
 
+  &__modifier {
+    margin-bottom: 18px;
+  }
+
   &__cards {
     display: grid;
-    margin-top: 38px;
+    margin-top: 12px;
     grid-template-columns: repeat(auto-fill, minmax(30%, auto));
     row-gap: 12px;
     column-gap: 16px;
