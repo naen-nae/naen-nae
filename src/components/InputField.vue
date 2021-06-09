@@ -8,11 +8,19 @@
       :maxlength="maxLength"
       :value="value"
     />
+    <span
+      class="input-field__icon icon material-icons-outlined"
+      :class="{ hide: value === '' }"
+      @click="clearInput"
+      >close</span
+    >
   </div>
 </template>
 
 <script setup>
-import { defineProps, toRefs } from 'vue';
+import { defineProps, toRefs, useContext } from 'vue';
+
+const ctx = useContext();
 
 const props = defineProps({
   placeholder: {
@@ -43,18 +51,31 @@ const keyFilter = evt => {
     evt.preventDefault();
   }
 };
+
+const clearInput = ({ target }) =>
+  ctx.emit('update:value', (target.value = ''));
 </script>
 
 <style lang="scss" scoped>
 .input-field {
   display: flex;
   align-items: center;
+  width: 100%;
 
   &__input {
     width: 100%;
     border: none;
     outline: none;
     background: transparent;
+  }
+
+  &__icon {
+    font-size: 18px;
+    color: var(--text-color);
+
+    &.hide {
+      display: none;
+    }
   }
 }
 </style>
