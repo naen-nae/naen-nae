@@ -2,9 +2,9 @@
   <div class="card-box">
     <div class="card-box__header">
       <card-box-header
-        :fontFamily="font.fontFamily"
         :author="font.author"
         :stylesLen="font.files.length"
+        :name="font.name"
       />
       <hr />
       <div class="card-box__contents">
