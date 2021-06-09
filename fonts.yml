@@ -1062,3 +1062,440 @@ fonts:
 
       서체를 사용한 인쇄물, 광고물(온라인 포함)은 (주)공게임즈의 프로모션을 위해 활용될 수 있습니다.
       사용시 서체의 출처 표기를 권장합니다.
+
+  - author: 방일영문화재단
+    name: 조선100년
+    files:
+      - 'ChosunCentennial/ChosunCentennial_otf.otf'
+    fontWeights:
+      - 400
+    fontFamily: ChosunCentennial
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      '조선100년체'의 지적재산권은 방일영문화재단에 있으며, 조선일보 전용서체 9종의 지적재산권은 (주)조선일보사에 있습니다.
+      '조선100년체'와 조선일보 전용서체 9종은 개인 및 기업 사용자에게 무료로 제공됩니다.
+      사용자들은 이를 다른 이에게 자유롭게 배포할 수 있습니다.
+      다만 어떠한 경우에도 복사 또는 배포에 따른 대가를 요구하거나 수정해서 판매할 수 없으며, 배포된 형태 그대로 사용해야 합니다.
+
+  - author: (주)조선일보
+    name: 조선견고딕
+    files:
+      - 'ChosunBg/ChosunBg.ttf'
+    fontWeights:
+      - 400
+    fontFamily: ChosunBg
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      '조선100년체'의 지적재산권은 방일영문화재단에 있으며, 조선일보 전용서체 9종의 지적재산권은 (주)조선일보사에 있습니다.
+      '조선100년체'와 조선일보 전용서체 9종은 개인 및 기업 사용자에게 무료로 제공됩니다.
+      사용자들은 이를 다른 이에게 자유롭게 배포할 수 있습니다.
+      다만 어떠한 경우에도 복사 또는 배포에 따른 대가를 요구하거나 수정해서 판매할 수 없으며, 배포된 형태 그대로 사용해야 합니다.
+
+  - author: (주)조선일보
+    name: 조선궁서
+    files:
+      - 'ChosunGs/ChosunGs.ttf'
+    fontWeights:
+      - 400
+    fontFamily: ChosunGs
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      '조선100년체'의 지적재산권은 방일영문화재단에 있으며, 조선일보 전용서체 9종의 지적재산권은 (주)조선일보사에 있습니다.
+      '조선100년체'와 조선일보 전용서체 9종은 개인 및 기업 사용자에게 무료로 제공됩니다.
+      사용자들은 이를 다른 이에게 자유롭게 배포할 수 있습니다.
+      다만 어떠한 경우에도 복사 또는 배포에 따른 대가를 요구하거나 수정해서 판매할 수 없으며, 배포된 형태 그대로 사용해야 합니다.
+
+  - author: (주)조선일보
+    name: 조선굴림
+    files:
+      - 'ChosunGu/ChosunGu.ttf'
+    fontWeights:
+      - 400
+    fontFamily: ChosunGu
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      '조선100년체'의 지적재산권은 방일영문화재단에 있으며, 조선일보 전용서체 9종의 지적재산권은 (주)조선일보사에 있습니다.
+      '조선100년체'와 조선일보 전용서체 9종은 개인 및 기업 사용자에게 무료로 제공됩니다.
+      사용자들은 이를 다른 이에게 자유롭게 배포할 수 있습니다.
+      다만 어떠한 경우에도 복사 또는 배포에 따른 대가를 요구하거나 수정해서 판매할 수 없으며, 배포된 형태 그대로 사용해야 합니다.
+
+  - author: (주)조선일보
+    name: 조선굵은고딕
+    files:
+      - 'ChosunKg/ChosunKg.ttf'
+    fontWeights:
+      - 400
+    fontFamily: ChosunKg
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      '조선100년체'의 지적재산권은 방일영문화재단에 있으며, 조선일보 전용서체 9종의 지적재산권은 (주)조선일보사에 있습니다.
+      '조선100년체'와 조선일보 전용서체 9종은 개인 및 기업 사용자에게 무료로 제공됩니다.
+      사용자들은 이를 다른 이에게 자유롭게 배포할 수 있습니다.
+      다만 어떠한 경우에도 복사 또는 배포에 따른 대가를 요구하거나 수정해서 판매할 수 없으며, 배포된 형태 그대로 사용해야 합니다.
+
+  - author: (주)조선일보
+    name: 조선굵은명조
+    files:
+      - 'ChosunKm/ChosunKm.ttf'
+    fontWeights:
+      - 400
+    fontFamily: ChosunKm
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      '조선100년체'의 지적재산권은 방일영문화재단에 있으며, 조선일보 전용서체 9종의 지적재산권은 (주)조선일보사에 있습니다.
+      '조선100년체'와 조선일보 전용서체 9종은 개인 및 기업 사용자에게 무료로 제공됩니다.
+      사용자들은 이를 다른 이에게 자유롭게 배포할 수 있습니다.
+      다만 어떠한 경우에도 복사 또는 배포에 따른 대가를 요구하거나 수정해서 판매할 수 없으며, 배포된 형태 그대로 사용해야 합니다.
+
+  - author: (주)조선일보
+    name: 조선로고
+    files:
+      - 'ChosunLo/ChosunLo.ttf'
+    fontWeights:
+      - 400
+    fontFamily: ChosunLo
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      '조선100년체'의 지적재산권은 방일영문화재단에 있으며, 조선일보 전용서체 9종의 지적재산권은 (주)조선일보사에 있습니다.
+      '조선100년체'와 조선일보 전용서체 9종은 개인 및 기업 사용자에게 무료로 제공됩니다.
+      사용자들은 이를 다른 이에게 자유롭게 배포할 수 있습니다.
+      다만 어떠한 경우에도 복사 또는 배포에 따른 대가를 요구하거나 수정해서 판매할 수 없으며, 배포된 형태 그대로 사용해야 합니다.
+
+  - author: (주)조선일보
+    name: 조선일보명조
+    files:
+      - 'ChosunNm/ChosunNm.ttf'
+    fontWeights:
+      - 400
+    fontFamily: ChosunNm
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      '조선100년체'의 지적재산권은 방일영문화재단에 있으며, 조선일보 전용서체 9종의 지적재산권은 (주)조선일보사에 있습니다.
+      '조선100년체'와 조선일보 전용서체 9종은 개인 및 기업 사용자에게 무료로 제공됩니다.
+      사용자들은 이를 다른 이에게 자유롭게 배포할 수 있습니다.
+      다만 어떠한 경우에도 복사 또는 배포에 따른 대가를 요구하거나 수정해서 판매할 수 없으며, 배포된 형태 그대로 사용해야 합니다.
+
+  - author: (주)조선일보
+    name: 조선신명조
+    files:
+      - 'ChosunSm/ChosunSm.ttf'
+    fontWeights:
+      - 400
+    fontFamily: ChosunSm
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      '조선100년체'의 지적재산권은 방일영문화재단에 있으며, 조선일보 전용서체 9종의 지적재산권은 (주)조선일보사에 있습니다.
+      '조선100년체'와 조선일보 전용서체 9종은 개인 및 기업 사용자에게 무료로 제공됩니다.
+      사용자들은 이를 다른 이에게 자유롭게 배포할 수 있습니다.
+      다만 어떠한 경우에도 복사 또는 배포에 따른 대가를 요구하거나 수정해서 판매할 수 없으며, 배포된 형태 그대로 사용해야 합니다.
+
+  - author: (주)조선일보
+    name: 조선가는고딕
+    files:
+      - 'ChosunSg/ChosunSg.ttf'
+    fontWeights:
+      - 400
+    fontFamily: ChosunSg
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      '조선100년체'의 지적재산권은 방일영문화재단에 있으며, 조선일보 전용서체 9종의 지적재산권은 (주)조선일보사에 있습니다.
+      '조선100년체'와 조선일보 전용서체 9종은 개인 및 기업 사용자에게 무료로 제공됩니다.
+      사용자들은 이를 다른 이에게 자유롭게 배포할 수 있습니다.
+      다만 어떠한 경우에도 복사 또는 배포에 따른 대가를 요구하거나 수정해서 판매할 수 없으며, 배포된 형태 그대로 사용해야 합니다.
+
+  - author: (주)케이티
+    name: 너만을 비춤
+    files:
+      - 'Y_spotlight_FONT/Y 너만을 비춤체.otf'
+    fontWeights:
+      - 400
+    fontFamily: Y_spotlight
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: false
+      ofl: false
+    license: |
+      - Y 너만을 비춤체의 지식재산권은 |주|케이티에 있다.
+      - Y 너만을 비춤체는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며, 폰트 사용자에 의한 재배포 또한 가능하다.
+        단, 폰트 파일의 수정 및 유료 판매는 금지한다.
+      - Y 너만을 비춤체는 인쇄, 웹, 영상, 임베딩, 패키지 등에 상업적 목적으로 사용이 가능하다.
+        단, BI/CI 용도로는 사용을 금지한다.
+
+      너만을 비춤체 매뉴얼: https://tinyurl.com/4dxjwdx6
+
+  - author: 리디주식회사
+    name: 리디바탕
+    files:
+      - 'RIDIBatang/RIDIBatang.otf'
+    fontWeights:
+      - 400
+    fontFamily: RIDIBatang
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      리디바탕 글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+      단, 글꼴 자체를 유료로 판매하는 것은 금지하며, 리디바탕 글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다.
+      라이선스 전문을 포함하기 어려울 경우, 리디바탕 글꼴의 출처 표기를 권장합니다. 예) 이 페이지는 리디주식회사에서 제공한 리디바탕 글꼴이 사용되어 있습니다.
+
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+      리디바탕의 저작권은 리디주식회사가 소유하고 있습니다.
+
+  - author: 네이버
+    name: 마루 부리
+    files:
+      - 'MaruBuri-Regular/MaruBuri-Regular.otf'
+    fontWeights:
+      - 400
+    fontFamily: MaruBuri
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      네이버 나눔글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며, 글꼴 자체를 유료로 판매하는 것을 제외한 상업적인 사용이 가능합니다.
+      네이버 나눔글꼴은 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능하고 자유롭게 수정, 재배포하실 수 있습니다.
+      네이버 나눔글꼴을 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 나눔글꼴 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      정확한 사용 조건은 아래 네이버 나눔글꼴 라이선스 전문을 참고하시기 바랍니다.
+
+      라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 국립박물관문화재단
+    name: 박물관문화재단클래식
+    files:
+      - '국립박물관문화재단클래식/국립박물관문화재단클래식L.otf'
+      - '국립박물관문화재단클래식/국립박물관문화재단클래식M.otf'
+      - '국립박물관문화재단클래식/국립박물관문화재단클래식B.otf'
+    fontWeights:
+      - 300
+      - 500
+      - 700
+    fontFamily: 국립박물관문화재단클래식
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      국립박물관문화재단 클래식체의 지적 재산권은 국립박물관문화재단에 있습니다.
+      국립박물관문화재단 클래식체는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 사용자들도 다른 이에게 자유롭게 배포하실 수 있습니다.
+
+      단, 국립박물관문화재단의 허락 없이는 국립박물관문화재단 클래식체를 사용자가 수정할 수 없으며, 배포되는 모양 그대로 사용해야 됩니다.
+      또한 글꼴 자체를 유료로 판매하는 것은 금지하며 국립박물관문화재단 클래식체를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 국립박물관문화재단 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+
+  - author: 데브시스터즈(주)
+    name: 쿠키런
+    files:
+      - 'CookieRunFont_OTF/CookieRun Regular.otf'
+      - 'CookieRunFont_OTF/CookieRun Bold.otf'
+      - 'CookieRunFont_OTF/CookieRun Black.otf'
+    fontWeights:
+      - 400
+      - 700
+      - 900
+    fontFamily: CookieRun
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      - 쿠키런 글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 사용할 수 있습니다.
+      - 쿠키런 글꼴은 온/오프라인, 상품, 광고 등 상업적 목적으로 사용할 수 있습니다.
+        단, '쿠키런 글꼴' 자체를 유료로 판매하거나, 어떠한 형태로든 임의 수정 및 개작하여 글꼴을 재배포 하는 것은 금지합니다.
+      - 쿠키런 글꼴은 배포되는 형태 그대로 사용해야 합니다.
+      - 쿠키런 IP를 상징하는 쿠키런 딩벳 10자(유니코드 U+E000 ~ U+E009)의 경우 상업적 목적으로 사용할 수 없으며,
+        비상업적인 용도에 한해 사용이 가능합니다. 그리고, 어떠한 형태로든 임의 수정 및 개작은 금지합니다.
+      - 쿠키런 글꼴은 본 저작권 안내와 라이선스 전문을 포함하는 것을 조건으로
+        다른 소프트웨어에 임베딩 및 번들하거나 재배포가 가능합니다.
+        라이선스 전문을 포함하기 어려울 경우 '쿠키런 글꼴'의 출처 표기를 권장합니다.
+        예) 이 페이지에는 데브시스터즈에서 제작한 '쿠키런 글꼴'이 적용되어 있습니다.
+      - <b>단, 2020년 11월 01일 이후로 변경된 정책에 의해 아래의 경우 상업적/비상업적 사용을 모두 금지하고 있습니다.</b>
+        &lt;금지하는 상업적/비상업적 사용처&gt;
+        : 게임산업군 (PC/모바일)
+        * 해당 산업군은 소프트웨어에 임베딩 및 번들하거나 재배포를 금지합니다.
+        또한 글꼴을 활용한 2차 창작물 사용을 금지합니다.
+      - 쿠키런 글꼴을 사용한 온/오프라인, 상품, 광고 등 모든 종류의 창작물은 쿠키런 및
+        데브시스터즈 프로모션을 위해 활용될 수 있습니다. 이를 원치 않는 사용자는
+        언제든지 당사에 요청하실 수 있습니다.
+
+      Update 2020.11
+
+      라이선스 전문: https://tinyurl.com/pknpa62w
+
+  - author: Hyun S. Choi
+    name: HS봄바람체 3.0
+    files:
+      - 'HSBombaram3.0_otf/HSBombaram3.0_Thin.otf'
+      - 'HSBombaram3.0_otf/HSBombaram3.0_Regular.otf'
+    fontWeights:
+      - 100
+      - 400
+    fontFamily: HSBombaram3.0
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      - 개인용, 상업용 전면 무료 사용 가능
+      개인 및 기업 사용자를 포함한 모든 사용자에게
+      무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+      단, 글꼴 자체를 유료로 판매하는 것은 금지합니다.
+
+      사용범위:
+        문서제작(비영리 교재 시험지, 무료배포 공익 홍보문서, 광고 등 마케팅용 배포문서, 단체 내부 문서, 사내 배포용 프리젠테이션, 영리 목적의 교재)
+        서식(증서, 원서, 신고서, 무료배포공문서식, 마케팅용 배포 문서, 단체 내부 문서및 서식)
+        배포용(브로슈어, 포스터, 자료작성, 보고서, 리포터, 뉴스레터, 벽면장식, 서적)
+        잡지/신문(일반잡지, 전문지, 중앙지(일간,스포츠,시사지), 대학지, 학술지, 학회지, 사보, 지방지, 무가지, 대학신문)
+        판매용 인쇄/출판물(제품포장패키지, 포장지, 티켓(영화, 연극, 공연, 스포츠), CD/DVD 커버, 자켓, 문구, 엽서, 카드)
+        인쇄출판(브로슈어, 소식지, 카달로그, 팜플렛, 리플렛, 현수막, 쿠폰, 명함, 전단지, 매장 내 POP물, 봉투, 메뉴판, 사용설명서, 연하장, 초대장, 카드, 엽서, 자료집, 사보, 간행물, 단행본)
+        도서류(참고서, 학습지, 교과서, 백과사전, 잡지, 만화책, 신문기사)
+        웹사이트(이메일, 웹툰, 웹페이지 이미지 제작, 이미지배너, 배너광고)
+        영상물(영상 광고(CF, 극장, 가상광고, 온라인 등), 영화 자막(예고편, 본편, 오프닝 엔딩 등), 공중파 및 케이블 자막, 일반 동영상)
+        모바일 APP(각종 스마트폰 어플리케이션 적용 (UI디자인, 임베딩)
+        2차 제작물(직접 판매 목적의 이미지 제작(PT템플릿, 콘텐츠 상품, 이모티콘 등), 폰트 형태를 직접적으로 이용한 상품 제작(의류, 머그컵, 물병, 수건, 에코백, 네임스티커 등)
+        e-Learning(교육용 온라인 동영상 강좌, 플래시 강좌 등)
+        e-Book(도서, 문서, 잡지 등을 e-Book 형식으로 제작 및 변환하여 온라인상에 배포 및 게시)
+        CI, BI(사명, 로고, 마크, 슬로건, 캐치프레이즈 등, 브랜드명, 상품명, 각종 패키지 디자인 등)
+        옥내외광고물(일단 단독간판, 옥내외 간판, 옥상간판, 선전탑, 전기 이용 간판, 공공시설물 이용 광고물, 교통시설 이용 광고물, 교통수단 이용 광고물)
+        임베딩(각종 디바이스, 서버, 프로그램, 게임 등에 폰트파일 탑재)
+
+      상기 기재된 범위 내에서 사용할 경우 청구되는 라이센스 비용은 없으며 사용 범위에 대한 문의가 있을 경우 메일(hp0@naver.com) 부탁드립니다.
+      무단으로 폰트를 유료로 판매하는 행위는 저작권법, 계약법 및 기타 해당법률에 의해 민형사상의 책임이 있습니다.
+
+  - author: 이랜드 리테일
+    name: 이랜드 나이스
+    files:
+      - 'ELAND 나이스/ELAND 나이스OTF M.otf'
+    fontWeights:
+      - 500
+    fontFamily: ELAND_Nice
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      나이스 초이스 서체의 지적 재산권은 이랜드 리테일에 있습니다.
+      개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정, 재배포가 가능합니다.
+
+  - author: 이랜드 리테일
+    name: 이랜드 초이스
+    files:
+      - 'ELAND 초이스/ELAND 초이스OTF L.otf'
+      - 'ELAND 초이스/ELAND 초이스OTF M.otf'
+      - 'ELAND 초이스/ELAND 초이스OTF B.otf'
+    fontWeights:
+      - 300
+      - 500
+      - 700
+    fontFamily: ELAND_Choice
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      나이스 초이스 서체의 지적 재산권은 이랜드 리테일에 있습니다.
+      개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정, 재배포가 가능합니다.
