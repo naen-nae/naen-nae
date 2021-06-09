@@ -474,3 +474,572 @@ fonts:
       - 문의 ygot_font@gccompany.co.kr / 02 6745 9065
 
       라이선스 및 사용 가이드 전문: https://image.goodchoice.kr/images/jalnan_font/jalnan-font-202004ver.pdf
+
+  - author: (주)티웨이항공
+    files:
+      - 'tway_air/tway_air.ttf'
+    fontWeights:
+      - 400
+    fontFamily: tway_air
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: false
+      ofl: false
+    license: |
+      - 티웨이 항공체, 하늘체, 날다체 폰트의 지적 재산권을 포함한 모든 권리는 "(주)티웨이항공"에 있습니다.
+      - 이 폰트는 개인 및 기업사용자를 포함한 모든 사용자에게 무료로 제공합니다.
+      - 이 폰트를 유료로 판매하는 것은 금지하며 폰트는 수정 및 재배포를 할수있으나 폰트자체의 원본파일은 수정불가합니다.
+      - 배포되는 형태 그대로 사용을 권장합니다.
+      - 당사의 이미지를 훼손할 수 있는 불법사이트나 허위과장광고, 기타 공서양속에 반하는 인쇄/광고물에 사용을 금지합니다.
+
+  - author: (주)티웨이항공
+    files:
+      - 'tway_fly/tway_fly.ttf'
+    fontWeights:
+      - 400
+    fontFamily: tway_fly
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: false
+      ofl: false
+    license: |
+      - 티웨이 항공체, 하늘체, 날다체 폰트의 지적 재산권을 포함한 모든 권리는 "(주)티웨이항공"에 있습니다.
+      - 이 폰트는 개인 및 기업사용자를 포함한 모든 사용자에게 무료로 제공합니다.
+      - 이 폰트를 유료로 판매하는 것은 금지하며 폰트는 수정 및 재배포를 할수있으나 폰트자체의 원본파일은 수정불가합니다.
+      - 배포되는 형태 그대로 사용을 권장합니다.
+      - 당사의 이미지를 훼손할 수 있는 불법사이트나 허위과장광고, 기타 공서양속에 반하는 인쇄/광고물에 사용을 금지합니다.
+
+  - author: (주)티웨이항공
+    files:
+      - 'tway_sky/tway_sky.ttf'
+    fontWeights:
+      - 400
+    fontFamily: tway_sky
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: false
+      ofl: false
+    license: |
+      - 티웨이 항공체, 하늘체, 날다체 폰트의 지적 재산권을 포함한 모든 권리는 "(주)티웨이항공"에 있습니다.
+      - 이 폰트는 개인 및 기업사용자를 포함한 모든 사용자에게 무료로 제공합니다.
+      - 이 폰트를 유료로 판매하는 것은 금지하며 폰트는 수정 및 재배포를 할수있으나 폰트자체의 원본파일은 수정불가합니다.
+      - 배포되는 형태 그대로 사용을 권장합니다.
+      - 당사의 이미지를 훼손할 수 있는 불법사이트나 허위과장광고, 기타 공서양속에 반하는 인쇄/광고물에 사용을 금지합니다.
+
+  - author: ZESSTYPE
+    files:
+      - 'Black_Han_Sans/BlackHanSans-Regular.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Black_Han_Sans
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
+      본 라이선스는 하단에 복사되었고 http://scripts.sil.org/OFL 의 FAQ란 에서도 열람가능 합니다.
+
+      ---
+
+      SIL 오픈 폰트 라이선스
+      버전 1.1 (2007년 2월 26일)
+
+      본 폰트 소프트웨어를 사용하도록 허가 받은 개인/기업/단체 누구라도 다음 명시된 조건에 따라
+      폰트 소프트웨어의 수정 혹은 수정되지 않은 복사본을 무료로 사용, 연구, 복사, 통합, 삽입, 수정,
+      재배포할 수 있도록 허가합니다.
+
+      본 폰트 소프트웨어의 원본 혹은 수정본은 상기 저작권 안내와 본 라이선스에 대한 내용을 포함하는
+      경우에는 다른 소프트웨어와 함께 묶이거나 재배포 혹은 판매가 가능합니다. 이는 독립 텍스트 파일과
+      가독성이 있는 헤더 혹은 유저가 용이하게 열람 가능한 이상 텍스트파일 혹은 이진파일 내 기계가 읽을
+      수 있는 메타데이터 형태를 모두 의미 합니다.
+
+      본 폰트 소프트웨어의 어떠한 수정본도 동일한 저작권자가 명시적 허가서를 부여하지 않는 한 저작권이
+      있는 폰트명을 사용해서는 안 됩니다. 본 제한 사항은 유저들에게 제공된 기존 폰트명을 뜻합니다.
+
+      본 폰트 소프트웨어의 저작권자 혹은 저자의 이름은 그들의 명시적 서면 허가가 있거나 또는 그들의 공헌을
+      인정하기 위한 경우를 제외하고는 수정본에 대한 사용을 유도,추천 혹은 광고하기 위한 목적으로 사용할 수
+      없습니다.
+
+      본 폰트 소프트웨어는 전체나 부분, 혹은 수정 여부에 상관없이 본 라이선스 하에 배포가 되어야 하며 기타
+      다른 라이선스 하에서는 배포를 할 수 없습니다. 폰트에 대한 요구조건은 이 라이선스 하에서만 유효하며
+      이 라이선스 하에 있기 위한 폰트에 대한 요구사항은 본 폰트 소프트웨어를 사용해 제작한 어떠한 문서에도
+
+      적용되지 않습니다.
+      라이선스 전문: https://github.com/zesstype/Black-Han-Sans/blob/master/OFL.txt
+
+  - author: 카페24
+    files:
+      - 'Cafe24SsurroundAir/Cafe24SsurroundAir.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24SsurroundAir
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24Ssurround/Cafe24Ssurround.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24Ssurround
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24Ohsquare/Cafe24Ohsquare.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24Ohsquare
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24OhsquareAir/Cafe24OhsquareAir.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24OhsquareAir
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24Dangdanghae/Cafe24Dangdanghae.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24Dangdanghae
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24Danjunghae/Cafe24Danjunghae.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24Danjunghae
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24Dongdong/Cafe24Dongdong.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24Dongdong
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24Oneprettynight/Cafe24Oneprettynight.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24Oneprettynight
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24Shiningstar/Cafe24Shiningstar.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24Shiningstar
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24Simplehae/Cafe24Simplehae.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24Simplehae
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24Ssukssuk/Cafe24Ssukssuk.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24Ssukssuk
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 카페24
+    files:
+      - 'Cafe24Syongsyong/Cafe24Syongsyong.ttf'
+    fontWeights:
+      - 400
+    fontFamily: Cafe24Syongsyong
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      기업 및 개인 사용자는 상업적으로 이용할 수 있습니다.
+      수정, 재배포가 가능하며 수정한 폰트에도 OFL(OpenFont License)을 적용하여야 합니다.
+      웹디자인, 출판, 웹폰트, CI/BI 제작, 영상 제작 및 자막, 소프트웨어의 번들, 특정 프로그램의 임베드 등에 자유롭게 이용할 수 있습니다.
+      단, 폰트 자체를 유료로 판매하는 행위를 금지합니다.
+      카페24 폰트를 사용한 결과물은 카페24의 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사로 연락 주시기 바랍니다.
+
+  - author: 파리6대학디자인학과
+    files:
+      - 'KoreanFrenchTypewriter/KoreanFrenchTypewriter.ttf'
+    fontWeights:
+      - 400
+    fontFamily: KoreanFrenchTypewriter
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      프랑스 혁명 230주년을 기념하여 한국과 프랑스 수교 133주년을 기념하여 디자인학부 유학생들이 제작한 폰트입니다.
+      사용에서 참조된 서체는 약 100년 전 Underwood Corporation에 의해 유럽으로 수출하기 위해 만들어진 타자기를 모델로 만들어졌습니다.
+      특히 프랑스어를 지원하는 타자 글꼴이 부족한 한국인들에게 더 많은 도움을 줄 것으로 기대됩니다.
+
+      2019년 7월 14일 파리 6대학에서 빠트릭 정은 킴.
+
+      ---
+
+      Korean Copyright 상업용 무료 폰트 / 이 폰트는 프랑스와 한국의 우정을 돈독히 하기 위해 고안되었습니다.
+      이 글꼴은 상용 프로젝트에 사용할 수 있습니다. 맞아요, 저작권도 없고요. 비바 프랑스! 대한민국 만세!
+
+      Korean Family 한국·프랑스 정부 표준 타자기체 (12 px 권장)
+      Korean Styles (SubFamily) 보통
+      Korean Fullname 한국·프랑스 정부 표준 타자기체 (12 px 권장)
+      Korean Version 1.00;2021년 2월 17일;FontForge Windows 빌드(32비트)
+      Korean Preferred Family 한국·프랑스 정부 표준 타자기체 (12 px 권장)
+      Korean Preferred Styles Regular
+
+  - author: (주)에스코어
+    files:
+      - 'S-Core_Dream_OTF/SCDream1.otf'
+      - 'S-Core_Dream_OTF/SCDream2.otf'
+      - 'S-Core_Dream_OTF/SCDream3.otf'
+      - 'S-Core_Dream_OTF/SCDream4.otf'
+      - 'S-Core_Dream_OTF/SCDream5.otf'
+      - 'S-Core_Dream_OTF/SCDream6.otf'
+      - 'S-Core_Dream_OTF/SCDream7.otf'
+      - 'S-Core_Dream_OTF/SCDream8.otf'
+      - 'S-Core_Dream_OTF/SCDream9.otf'
+    fontWeights:
+      - 100
+      - 200
+      - 300
+      - 400
+      - 500
+      - 600
+      - 700
+      - 800
+      - 900
+    fontFamily: SCDream
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      1. S-Core 홈페이지를 통해 배포되는 에스코어 글꼴의 지적 재산권은 S-Core에 있습니다.
+      2. 에스코어 글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 재배포 하실 수 있습니다.
+      3. 에스코어 글꼴은 어떠한 이유로도 지적 재산권 이외의 사용자가 폰트 파일을 수정, 판매할 수 없으며 배포되는 파일 형태 그대로 사용해야 합니다.
+      4. 에스코어 글꼴은 본 저작권 안내를 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다. 에스코어 글꼴 저작권 안내를 포함하기 어려울 경우, 에스코어 글꼴의 출처 표기를 권장합니다. 예) 이 페이지에는 S-Core에서 제공한 에스코어 드림이 적용되어 있습니다.
+      5. 에스코어 글꼴을 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 S-Core의 프로모션을 위해 활용될 수 있습니다. 이를 원치 않을 경우, 언제든지 당사에 요청하실 수 있습니다.
+
+  - author: 서울특별시평생교육진흥원
+    files:
+      - 'SLEIGothic/SLEIGothicOTF.otf'
+    fontWeights:
+      - 400
+    fontFamily: SLEIGothic
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      서평원 꺾깎체의 지적 재산권은 서울특별시평생교육진흥원에 있으나, 오픈 라이선스로 자유롭게 수정하고 재배포 할 수 있습니다.
+      서체의 개발은 한글 디자인 및 폰트 기술 전문 회사 '이도타입' 에서 맡았습니다.
+
+      활용 매뉴얼: https://tinyurl.com/2frza2a7
+
+  - author: (주)티머니
+    files:
+      - 'TmoneyRoundWind/TmoneyRoundWindRegular.otf'
+      - 'TmoneyRoundWind/TmoneyRoundWindExtraBold.otf'
+    fontWeights:
+      - 400
+      - 800
+    fontFamily: TmoneyRoundWind
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: false
+      ofl: false
+    license: |
+      1. 저작권
+      전용서체 티머니 둥근바람(Tmoney RoundWind)의 모든 지적 재산권을 포함한 모든 권리는 (주)티머니에 있습니다.
+
+      2. 사용범위
+      개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공합니다.(아래 사용범위 참조)
+
+      3. 제한사항
+      가. 글꼴 자체를 유료로 판매, 임의 수정/개작하여 재배포하는 것은 금지하며, 배포되는 형태 그대로 사용해야 합니다.
+      나. 당사의 이미지를 훼손할 수 있는 불법사이트나 허위과장광고, 기타 공서양속에 반하는 인쇄/광고물에 사용을 금지합니다.
+
+      4. 기타
+      전용서체 티머니 둥근바람을 사용한 인쇄물, 광고물(온/오프라인) 등의 이미지는 (주)티머니 마케팅을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+
+      티머니둥근바람서체 상세 사용규정: https://tinyurl.com/49bxvnx3
+
+  - author: 레시피코리아
+    files:
+      - 'Recipekorea/Recipekorea.otf'
+    fontWeights:
+      - 400
+    fontFamily: Recipekorea
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      게임/유료소프트에 사용시 출처 표기시 사용가능
+      그 이외의 모든 상업적 용도로 사용가능합니다
+      저작권 신고 절대 안하나 걱정마세요
+
+      레코체 파일을 자신의 홈페이지/블로그 등에 올려두고 판매하고싶다
+      * 불가능/폰트자체를 거래하는 행위는 어떤 방식으로도 불가함
+
+  - author: 대한민국 육군 X 헤움
+    files:
+      - 'ROKA/ROKA Medium.ttf'
+      - 'ROKA/ROKA Bold.ttf'
+    fontWeights:
+      - 400
+      - 700
+    fontFamily: ROKA
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      본 서체의 저작권은 대한민국 육군에 있습니다.
+      강한육군체는 문서, 영상, 인쇄물 등에 누구나 자유롭게 사용할 수 있습니다.
+      단, 강한육군체를 유료로 양도하거나 판매할 수 없으며, 배포되는 형태 그대로 원본의 변형없이 사용해야 합니다.
+
+  - author: (주)공게임즈
+    files:
+      - 'esamanru/esamanru Light.ttf'
+      - 'esamanru/esamanru Medium.ttf'
+      - 'esamanru/esamanru Bold.ttf'
+    fontWeights:
+      - 300
+      - 500
+      - 700
+    fontFamily: esamanru
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      2020년 한글날을 맞이하여, 공게임즈와 폰트릭스가 손을 잡고 개발한 공게임즈 전용 폰트 '이사만루체'를 소개합니다.
+      공게임즈 로고와의 연관성과 활용성에 집중해서 개발하였습니다.
+      이사만루체는 홍보나 이벤트 등의 대외 활용 시 일관된 폰트의 사용을 통한 우리만의 아이덴티티를 구축하는데 가장 큰 목적이 있습니다.
+      제목에는 bold를, 본문에는 Light와 Medium사용을 권장합니다.
+
+      이사만루체의 지적 재산권 및 모든 권리는 (주)공게임즈에 있습니다.
+      상업적 용도를 포함하여 누구나 자유롭게 사용할 수 있으나, 임의로 수정하여 유료로 판매하는 것은 금지합니다.
+
+      서체를 사용한 인쇄물, 광고물(온라인 포함)은 (주)공게임즈의 프로모션을 위해 활용될 수 있습니다.
+      사용시 서체의 출처 표기를 권장합니다.

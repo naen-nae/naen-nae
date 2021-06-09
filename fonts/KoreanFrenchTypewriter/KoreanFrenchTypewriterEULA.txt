@@ -1,0 +1,44 @@
+좋은 무료 한글 타자기 폰트 공유 (저작권 걱정없는 상업용 글꼴)
+
+Font Korean French Typewriter (12 px recommended) Machine à écrire coréenne française (Optimisé pour 12 px) 한국·프랑스 정부 표준 타자기체 (12 px 권장) 한불 정부표준 타자기체 (글꼴크기 12 권장)
+
+Cette police a été réalisée par des étudiants internationaux du département de design pour commémorer le 133e anniversaire des relations diplomatiques entre la Corée et la France en commémoration du 230e anniversaire de la Révolution française.
+Les polices utilisées ont été modelées sur des machines à écrire fabriquées pour l'exportation vers l'Europe par Underwood Corporation il y a environ 100 ans.
+En particulier, il devrait aider davantage de Coréens qui manquent de polices de caractères prenant en charge le français.
+14 juillet 2019 à l'Université Paris 6, Patrick Kim
+
+프랑스 혁명 230주년을 기념하여 한국과 프랑스 수교 133주년을 기념하여 디자인학부 유학생들이 제작한 폰트입니다.
+사용에서 참조된 서체는 약 100년 전 Underwood Corporation에 의해 유럽으로 수출하기 위해 만들어진 타자기를 모델로 만들어졌습니다.
+특히 프랑스어를 지원하는 타자 글꼴이 부족한 한국인들에게 더 많은 도움을 줄 것으로 기대됩니다.
+2019년 7월 14일 파리 6대학에서 빠트릭 정은 킴
+
+This font was produced by international students from the Department of Design to commemorate the 133rd anniversary of diplomatic relations between Korea and France in commemoration of the 230th anniversary of the French Revolution.
+The typefaces referenced in use were modeled after typewriters made for export to Europe by Underwood Corporation about 100 years ago.
+In particular, it is expected to help more Koreans who lack typing fonts that support French.
+July 14, 2019 at the University of Paris 6, Jong Un Kim
+
+한불 타자기 폰트 버전 업데이트 정보
+
+English (US)	Copyright	Free Fonts for Commercial Use / This font is designed to strengthen the friendship between France and Korea. You can use these fonts for commercial projects. That's right, zero license fees. Vive la France! Long live Korean independence! 
+English (US)	Family	Korean French Typewriter
+English (US)	Styles (SubFamily)	Regular
+English (US)	UniqueID	FontForge 2.0 : Korean French Typewriter : 17-2-2021
+English (US)	Fullname	Korean French Typewriter (12 px recommended)
+English (US)	Version	Version 1.00;February 17, 2021;FontForge Windows build (32-bit)
+French French	Copyright	Polices gratuites à usage commercial / Cette police est conçue pour renforcer l'amitié entre la France et la Corée. Vous pouvez utiliser ces polices pour des projets commerciaux. C'est vrai, aucun frais de licence. Vive la France! Vive l'indépendance coréenne!
+French French	Family	Machine à écrire coréenne française (Optimisé pour 12 px)
+French French	Styles (SubFamily)	Normal
+French French	Fullname	Machine à écrire coréenne française (Optimisé pour 12 px)
+French French	Version	1.00;17 février 2021;FontForge Windows build (32 bits)
+Korean	Copyright	상업용 무료 폰트 / 이 폰트는 프랑스와 한국의 우정을 돈독히 하기 위해 고안되었습니다. 이 글꼴은 상용 프로젝트에 사용할 수 있습니다. 맞아요, 저작권도 없고요. 비바 프랑스! 대한민국 만세!
+Korean	Family	한국·프랑스 정부 표준 타자기체 (12 px 권장)
+Korean	Styles (SubFamily)	보통
+Korean	Fullname	한국·프랑스 정부 표준 타자기체 (12 px 권장)
+Korean	Version	1.00;2021년 2월 17일;FontForge Windows 빌드(32비트)
+Korean	Preferred Family	한국·프랑스 정부 표준 타자기체 (12 px 권장)
+Korean	Preferred Styles	Regular
+Korena (Johab)	Copyright	상업용 무료 글꼴  / 이 글꼴은 프랑스와 한국 간의 우정을 강화하기 위해 설계되었습니다. 이러한 글꼴은 상업용 프로젝트에 사용할 수 있습니다. 맞습니다. 라이선스 비용이 없습니다. 불란서 만세! 한국 독립 만세!
+Korena (Johab)	Family	한불 정부표준 타자기체 (글꼴크기 12 권장)
+Korena (Johab)	Styles (SubFamily)	보통
+Korena (Johab)	Fullname	한불 정부표준 타자기체 (글꼴크기 12 권장)
+Korena (Johab)	Version	1.00;2021 년 2 월 17 일;폰트포지 윈도우 빌드 (32 비트)
