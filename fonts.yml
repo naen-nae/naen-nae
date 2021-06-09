@@ -993,27 +993,6 @@ fonts:
       레코체 파일을 자신의 홈페이지/블로그 등에 올려두고 판매하고싶다
       * 불가능/폰트자체를 거래하는 행위는 어떤 방식으로도 불가함
 
-  - author: 대한민국 육군 X 헤움
-    files:
-      - 'ROKA/ROKA Medium OTF.otf'
-      - 'ROKA/ROKA Bold OTF.otf'
-    fontWeights:
-      - 400
-      - 700
-    fontFamily: ROKA
-    licenseSummary:
-      print: true
-      website: true
-      video: true
-      paper: true
-      embeding: true
-      bici: true
-      ofl: false
-    license: |
-      본 서체의 저작권은 대한민국 육군에 있습니다.
-      강한육군체는 문서, 영상, 인쇄물 등에 누구나 자유롭게 사용할 수 있습니다.
-      단, 강한육군체를 유료로 양도하거나 판매할 수 없으며, 배포되는 형태 그대로 원본의 변형없이 사용해야 합니다.
-
   - author: (주)공게임즈
     files:
       - 'esamanru/esamanru Light.ttf'
