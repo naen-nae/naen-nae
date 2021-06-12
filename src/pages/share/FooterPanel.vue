@@ -14,11 +14,17 @@
       <a
         class="typo-link"
         target="_blank"
+        href="https://forms.gle/cmbzX8JmazrkDUex7"
+      >
+        폰트 제보하기
+      </a>
+      <a
+        class="typo-link"
+        target="_blank"
         href="https://github.com/naen-nae/naen-nae/"
       >
         GitHub
       </a>
-      <a class="typo-link" href="mailto:to@shj.rip">to@shj.rip</a>
     </div>
   </footer>
 </template>
