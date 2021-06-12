@@ -31,8 +31,6 @@ const router = createRouter({
 
 // validate font-name
 router.beforeEach(({ name, params: { fontName } }) => {
-  window.scrollTo(0, 0);
-
   if (name !== 'detail') {
     return true;
   }
