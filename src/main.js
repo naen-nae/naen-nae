@@ -12,8 +12,11 @@ import './share/registerSw';
     .querySelector('html')
     .classList.add(store.state.isLight ? 'theme-light' : 'theme-dark');
 
-  // get fonts
-  store.commit('addFonts', await (await req('/fonts.json')).json());
+  // set env
+  store.commit('setEnv', await (await req('/env.json')).json());
+
+  // set initial fonts
+  await store.dispatch('addNextFonts');
 
   createApp(App).use(store).use(router).mount('#app');
 })();
