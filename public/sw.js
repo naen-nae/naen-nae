@@ -5,13 +5,18 @@ self.addEventListener('fetch', evt =>
     (async () => {
       const cachedResp = await caches.match(evt.request);
 
+      const { usage, quota } = await navigator.storage.estimate();
+
       if (cachedResp !== undefined) {
         return cachedResp;
       }
 
       const resp = await fetch(evt.request);
 
-      if (evt.request.destination !== 'font') {
+      if (
+        evt.request.destination !== 'font' || // validation req type
+        usage + Number(resp.headers.get('Content-Length')) > quota * 0.9 // quota guard
+      ) {
         return resp;
       }
 
