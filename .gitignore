@@ -3,6 +3,7 @@ node_modules
 dist
 dist-ssr
 *.local
-public/faces.css
-public/fonts.json
 public/css
+public/faces
+public/fonts
+public/env.json
