@@ -2,9 +2,9 @@ fonts:
   - author: 네이버
     name: 나눔고딕
     files:
-      - 'NanumGothic/NanumGothic-Regular.ttf'
-      - 'NanumGothic/NanumGothic-Bold.ttf'
-      - 'NanumGothic/NanumGothic-ExtraBold.ttf'
+      - 'NanumGothic/NanumGothic-Regular.ttf.woff2'
+      - 'NanumGothic/NanumGothic-Bold.ttf.woff2'
+      - 'NanumGothic/NanumGothic-ExtraBold.ttf.woff2'
     fontWeights:
       - 400
       - 700
@@ -30,7 +30,7 @@ fonts:
   - author: (주)SPC삼립 / (주)산돌
     name: 산돌 삼립호빵
     files:
-      - 'SDSamliphopangche-Outlined/SDSamliphopangcheTTFOutline.ttf'
+      - 'SDSamliphopangche-Outlined/SDSamliphopangcheTTFOutline.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: SDSamliphopangche_Outline
@@ -56,10 +56,10 @@ fonts:
   - author: 네이버
     name: 나눔스퀘어라운드
     files:
-      - 'NanumSquareRound/NanumSquareRoundL.ttf'
-      - 'NanumSquareRound/NanumSquareRoundR.ttf'
-      - 'NanumSquareRound/NanumSquareRoundB.ttf'
-      - 'NanumSquareRound/NanumSquareRoundEB.ttf'
+      - 'NanumSquareRound/NanumSquareRoundL.ttf.woff2'
+      - 'NanumSquareRound/NanumSquareRoundR.ttf.woff2'
+      - 'NanumSquareRound/NanumSquareRoundB.ttf.woff2'
+      - 'NanumSquareRound/NanumSquareRoundEB.ttf.woff2'
     fontWeights:
       - 300
       - 400
@@ -86,10 +86,10 @@ fonts:
   - author: 네이버
     name: 나눔스퀘어
     files:
-      - 'NanumSquare/NanumSquareL.ttf'
-      - 'NanumSquare/NanumSquareR.ttf'
-      - 'NanumSquare/NanumSquareB.ttf'
-      - 'NanumSquare/NanumSquareEB.ttf'
+      - 'NanumSquare/NanumSquareL.ttf.woff2'
+      - 'NanumSquare/NanumSquareR.ttf.woff2'
+      - 'NanumSquare/NanumSquareB.ttf.woff2'
+      - 'NanumSquare/NanumSquareEB.ttf.woff2'
     fontWeights:
       - 300
       - 400
@@ -116,8 +116,8 @@ fonts:
   - author: 네이버
     name: 나눔바른펜
     files:
-      - 'NanumBarunpen/NanumBarunpenR.ttf'
-      - 'NanumBarunpen/NanumBarunpenB.ttf'
+      - 'NanumBarunpen/NanumBarunpenR.ttf.woff2'
+      - 'NanumBarunpen/NanumBarunpenB.ttf.woff2'
     fontWeights:
       - 400
       - 700
@@ -142,10 +142,10 @@ fonts:
   - author: 네이버
     name: 나눔바른고딕
     files:
-      - 'NanumBarunGothic/NanumBarunGothicUltraLight.ttf'
-      - 'NanumBarunGothic/NanumBarunGothicLight.ttf'
-      - 'NanumBarunGothic/NanumBarunGothic.ttf'
-      - 'NanumBarunGothic/NanumBarunGothicBold.ttf'
+      - 'NanumBarunGothic/NanumBarunGothicUltraLight.ttf.woff2'
+      - 'NanumBarunGothic/NanumBarunGothicLight.ttf.woff2'
+      - 'NanumBarunGothic/NanumBarunGothic.ttf.woff2'
+      - 'NanumBarunGothic/NanumBarunGothicBold.ttf.woff2'
     fontWeights:
       - 200
       - 300
@@ -172,9 +172,9 @@ fonts:
   - author: 네이버
     name: 나눔고딕에코
     files:
-      - 'NanumGothicEco/NanumGothicEco.ttf'
-      - 'NanumGothicEco/NanumGothicEcoBold.ttf'
-      - 'NanumGothicEco/NanumGothicEcoExtraBold.ttf'
+      - 'NanumGothicEco/NanumGothicEco.ttf.woff2'
+      - 'NanumGothicEco/NanumGothicEcoBold.ttf.woff2'
+      - 'NanumGothicEco/NanumGothicEcoExtraBold.ttf.woff2'
     fontWeights:
       - 400
       - 700
@@ -200,9 +200,9 @@ fonts:
   - author: 네이버
     name: 나눔명조에코
     files:
-      - 'NanumMyeongjoEco/NanumMyeongjoEco.ttf'
-      - 'NanumMyeongjoEco/NanumMyeongjoEcoBold.ttf'
-      - 'NanumMyeongjoEco/NanumMyeongjoEcoExtraBold.ttf'
+      - 'NanumMyeongjoEco/NanumMyeongjoEco.ttf.woff2'
+      - 'NanumMyeongjoEco/NanumMyeongjoEcoBold.ttf.woff2'
+      - 'NanumMyeongjoEco/NanumMyeongjoEcoExtraBold.ttf.woff2'
     fontWeights:
       - 400
       - 700
@@ -228,7 +228,7 @@ fonts:
   - author: 네이버
     name: 나눔손글씨 붓
     files:
-      - 'NanumBrush/NanumBrush.ttf'
+      - 'NanumBrush/NanumBrush.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: NanumBrush
@@ -252,7 +252,7 @@ fonts:
   - author: 네이버
     name: 나눔손글씨 펜
     files:
-      - 'NanumPen/NanumPen.ttf'
+      - 'NanumPen/NanumPen.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: NanumPen
@@ -276,8 +276,8 @@ fonts:
   - author: 네이버
     name: 나눔고딕코딩
     files:
-      - 'NanumGothicCoding/NanumGothicCoding.ttf'
-      - 'NanumGothicCoding/NanumGothicCoding-Bold.ttf'
+      - 'NanumGothicCoding/NanumGothicCoding.ttf.woff2'
+      - 'NanumGothicCoding/NanumGothicCoding-Bold.ttf.woff2'
     fontWeights:
       - 400
       - 700
@@ -302,9 +302,9 @@ fonts:
   - author: 네이버
     name: 나눔명조
     files:
-      - 'NanumMyeongjo/NanumMyeongjo.ttf'
-      - 'NanumMyeongjo/NanumMyeongjoBold.ttf'
-      - 'NanumMyeongjo/NanumMyeongjoExtraBold.ttf'
+      - 'NanumMyeongjo/NanumMyeongjo.ttf.woff2'
+      - 'NanumMyeongjo/NanumMyeongjoBold.ttf.woff2'
+      - 'NanumMyeongjo/NanumMyeongjoExtraBold.ttf.woff2'
     fontWeights:
       - 400
       - 700
@@ -562,7 +562,7 @@ fonts:
   - author: ZESSTYPE
     name: 검은고딕
     files:
-      - 'Black_Han_Sans/BlackHanSans-Regular.ttf'
+      - 'Black_Han_Sans/BlackHanSans-Regular.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Black_Han_Sans
@@ -609,7 +609,7 @@ fonts:
   - author: 카페24
     name: 카페24 써라운드 에어
     files:
-      - 'Cafe24SsurroundAir/Cafe24SsurroundAir.ttf'
+      - 'Cafe24SsurroundAir/Cafe24SsurroundAir.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24SsurroundAir
@@ -632,7 +632,7 @@ fonts:
   - author: 카페24
     name: 카페24 써라운드
     files:
-      - 'Cafe24Ssurround/Cafe24Ssurround.ttf'
+      - 'Cafe24Ssurround/Cafe24Ssurround.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24Ssurround
@@ -655,7 +655,7 @@ fonts:
   - author: 카페24
     name: 카페24 아네모네
     files:
-      - 'Cafe24Ohsquare/Cafe24Ohsquare.ttf'
+      - 'Cafe24Ohsquare/Cafe24Ohsquare.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24Ohsquare
@@ -678,7 +678,7 @@ fonts:
   - author: 카페24
     name: 카페24 아네모네 에어
     files:
-      - 'Cafe24OhsquareAir/Cafe24Ohsquareair.ttf'
+      - 'Cafe24OhsquareAir/Cafe24Ohsquareair.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24OhsquareAir
@@ -701,7 +701,7 @@ fonts:
   - author: 카페24
     name: 카페24 당당해
     files:
-      - 'Cafe24Dangdanghae/Cafe24Dangdanghae.ttf'
+      - 'Cafe24Dangdanghae/Cafe24Dangdanghae.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24Dangdanghae
@@ -724,7 +724,7 @@ fonts:
   - author: 카페24
     name: 카페24 단정해
     files:
-      - 'Cafe24Danjunghae/Cafe24Danjunghae.ttf'
+      - 'Cafe24Danjunghae/Cafe24Danjunghae.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24Danjunghae
@@ -747,7 +747,7 @@ fonts:
   - author: 카페24
     name: 카페24 동동
     files:
-      - 'Cafe24Dongdong/Cafe24Dongdong.ttf'
+      - 'Cafe24Dongdong/Cafe24Dongdong.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24Dongdong
@@ -770,7 +770,7 @@ fonts:
   - author: 카페24
     name: 카페24 고운밤
     files:
-      - 'Cafe24Oneprettynight/Cafe24Oneprettynight.ttf'
+      - 'Cafe24Oneprettynight/Cafe24Oneprettynight.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24Oneprettynight
@@ -793,7 +793,7 @@ fonts:
   - author: 카페24
     name: 카페24 빛나는별
     files:
-      - 'Cafe24Shiningstar/Cafe24Shiningstar.ttf'
+      - 'Cafe24Shiningstar/Cafe24Shiningstar.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24Shiningstar
@@ -816,7 +816,7 @@ fonts:
   - author: 카페24
     name: 카페24 심플해
     files:
-      - 'Cafe24Simplehae/Cafe24Simplehae.ttf'
+      - 'Cafe24Simplehae/Cafe24Simplehae.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24Simplehae
@@ -839,7 +839,7 @@ fonts:
   - author: 카페24
     name: 카페24 쑥쑥
     files:
-      - 'Cafe24Ssukssuk/Cafe24Ssukssuk.ttf'
+      - 'Cafe24Ssukssuk/Cafe24Ssukssuk.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24Ssukssuk
@@ -862,7 +862,7 @@ fonts:
   - author: 카페24
     name: 카페24 숑숑
     files:
-      - 'Cafe24Syongsyong/Cafe24Syongsyong.ttf'
+      - 'Cafe24Syongsyong/Cafe24Syongsyong.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: Cafe24Syongsyong
@@ -885,7 +885,7 @@ fonts:
   - author: 파리6대학디자인학과
     name: 한불 정부표준 타자기체
     files:
-      - 'KoreanFrenchTypewriter/KoreanFrenchTypewriter.ttf'
+      - 'KoreanFrenchTypewriter/KoreanFrenchTypewriter.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: KoreanFrenchTypewriter
@@ -1508,7 +1508,7 @@ fonts:
   - author: 네이버
     name: 가람연꽃
     files:
-      - '가람연꽃/나눔손글씨 가람연꽃.ttf'
+      - '가람연꽃/나눔손글씨 가람연꽃.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 가람연꽃
@@ -1532,7 +1532,7 @@ fonts:
   - author: 네이버
     name: 갈맷글
     files:
-      - '갈맷글/나눔손글씨 갈맷글.ttf'
+      - '갈맷글/나눔손글씨 갈맷글.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 갈맷글
@@ -1556,7 +1556,7 @@ fonts:
   - author: 네이버
     name: 강부장님체
     files:
-      - '강부장님체/나눔손글씨 강부장님체.ttf'
+      - '강부장님체/나눔손글씨 강부장님체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 강부장님체
@@ -1580,7 +1580,7 @@ fonts:
   - author: 네이버
     name: 강인한 위로
     files:
-      - '강인한 위로/나눔손글씨 강인한 위로.ttf'
+      - '강인한 위로/나눔손글씨 강인한 위로.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 강인한 위로
@@ -1604,7 +1604,7 @@ fonts:
   - author: 네이버
     name: 고딕 아니고 고딩
     files:
-      - '고딕 아니고 고딩/나눔손글씨 고딕 아니고 고딩.ttf'
+      - '고딕 아니고 고딩/나눔손글씨 고딕 아니고 고딩.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 고딕 아니고 고딩
@@ -1628,7 +1628,7 @@ fonts:
   - author: 네이버
     name: 고려글꼴
     files:
-      - '고려글꼴/나눔손글씨 고려글꼴.ttf'
+      - '고려글꼴/나눔손글씨 고려글꼴.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 고려글꼴
@@ -1652,7 +1652,7 @@ fonts:
   - author: 네이버
     name: 곰신체
     files:
-      - '곰신체/나눔손글씨 곰신체.ttf'
+      - '곰신체/나눔손글씨 곰신체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 곰신체
@@ -1676,7 +1676,7 @@ fonts:
   - author: 네이버
     name: 규리의 일기
     files:
-      - '규리의 일기/나눔손글씨 규리의 일기.ttf'
+      - '규리의 일기/나눔손글씨 규리의 일기.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 규리의 일기
@@ -1700,7 +1700,7 @@ fonts:
   - author: 네이버
     name: 금은보화
     files:
-      - '금은보화/나눔손글씨 금은보화.ttf'
+      - '금은보화/나눔손글씨 금은보화.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 금은보화
@@ -1724,7 +1724,7 @@ fonts:
   - author: 네이버
     name: 기쁨밝음
     files:
-      - '기쁨밝음/나눔손글씨 기쁨밝음.ttf'
+      - '기쁨밝음/나눔손글씨 기쁨밝음.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 기쁨밝음
@@ -1748,7 +1748,7 @@ fonts:
   - author: 네이버
     name: 김유이체
     files:
-      - '김유이체/나눔손글씨 김유이체.ttf'
+      - '김유이체/나눔손글씨 김유이체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 김유이체
@@ -1772,7 +1772,7 @@ fonts:
   - author: 네이버
     name: 꽃내음
     files:
-      - '꽃내음/나눔손글씨 꽃내음.ttf'
+      - '꽃내음/나눔손글씨 꽃내음.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 꽃내음
@@ -1796,7 +1796,7 @@ fonts:
   - author: 네이버
     name: 끄트머리체
     files:
-      - '끄트머리체/나눔손글씨 끄트머리체.ttf'
+      - '끄트머리체/나눔손글씨 끄트머리체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 끄트머리체
@@ -1820,7 +1820,7 @@ fonts:
   - author: 네이버
     name: 나는 이겨낸다
     files:
-      - '나는 이겨낸다/나눔손글씨 나는 이겨낸다.ttf'
+      - '나는 이겨낸다/나눔손글씨 나는 이겨낸다.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 나는 이겨낸다
@@ -1844,7 +1844,7 @@ fonts:
   - author: 네이버
     name: 나무정원
     files:
-      - '나무정원/나눔손글씨 나무정원.ttf'
+      - '나무정원/나눔손글씨 나무정원.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 나무정원
@@ -1868,7 +1868,7 @@ fonts:
   - author: 네이버
     name: 나의 아내 손글씨
     files:
-      - '나의 아내 손글씨/나눔손글씨 나의 아내 손글씨.ttf'
+      - '나의 아내 손글씨/나눔손글씨 나의 아내 손글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 나의 아내 손글씨
@@ -1892,7 +1892,7 @@ fonts:
   - author: 네이버
     name: 노력하는 동희
     files:
-      - '노력하는 동희/나눔손글씨 노력하는 동희.ttf'
+      - '노력하는 동희/나눔손글씨 노력하는 동희.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 노력하는 동희
@@ -1916,7 +1916,7 @@ fonts:
   - author: 네이버
     name: 느릿느릿체
     files:
-      - '느릿느릿체/나눔손글씨 느릿느릿체.ttf'
+      - '느릿느릿체/나눔손글씨 느릿느릿체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 느릿느릿체
@@ -1940,7 +1940,7 @@ fonts:
   - author: 네이버
     name: 다시 시작해
     files:
-      - '다시 시작해/나눔손글씨 다시 시작해.ttf'
+      - '다시 시작해/나눔손글씨 다시 시작해.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 다시 시작해
@@ -1964,7 +1964,7 @@ fonts:
   - author: 네이버
     name: 다진체
     files:
-      - '다진체/나눔손글씨 다진체.ttf'
+      - '다진체/나눔손글씨 다진체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 다진체
@@ -1988,7 +1988,7 @@ fonts:
   - author: 네이버
     name: 다채사랑
     files:
-      - '다채사랑/나눔손글씨 다채사랑.ttf'
+      - '다채사랑/나눔손글씨 다채사랑.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 다채사랑
@@ -2012,7 +2012,7 @@ fonts:
   - author: 네이버
     name: 다행체
     files:
-      - '다행체/나눔손글씨 다행체.ttf'
+      - '다행체/나눔손글씨 다행체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 다행체
@@ -2036,7 +2036,7 @@ fonts:
   - author: 네이버
     name: 달의궤도
     files:
-      - '달의궤도/나눔손글씨 달의궤도.ttf'
+      - '달의궤도/나눔손글씨 달의궤도.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 달의궤도
@@ -2060,7 +2060,7 @@ fonts:
   - author: 네이버
     name: 대광유리
     files:
-      - '대광유리/나눔손글씨 대광유리.ttf'
+      - '대광유리/나눔손글씨 대광유리.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 대광유리
@@ -2084,7 +2084,7 @@ fonts:
   - author: 네이버
     name: 대한민국 열사체
     files:
-      - '대한민국 열사체/나눔손글씨 대한민국 열사체.ttf'
+      - '대한민국 열사체/나눔손글씨 대한민국 열사체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 대한민국 열사체
@@ -2108,7 +2108,7 @@ fonts:
   - author: 네이버
     name: 동화또박
     files:
-      - '동화또박/나눔손글씨 동화또박.ttf'
+      - '동화또박/나눔손글씨 동화또박.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 동화또박
@@ -2132,7 +2132,7 @@ fonts:
   - author: 네이버
     name: 둥근인연
     files:
-      - '둥근인연/나눔손글씨 둥근인연.ttf'
+      - '둥근인연/나눔손글씨 둥근인연.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 둥근인연
@@ -2156,7 +2156,7 @@ fonts:
   - author: 네이버
     name: 따뜻한 작별
     files:
-      - '따뜻한 작별/나눔손글씨 따뜻한 작별.ttf'
+      - '따뜻한 작별/나눔손글씨 따뜻한 작별.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 따뜻한 작별
@@ -2180,7 +2180,7 @@ fonts:
   - author: 네이버
     name: 따악단단
     files:
-      - '따악단단/나눔손글씨 따악단단.ttf'
+      - '따악단단/나눔손글씨 따악단단.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 따악단단
@@ -2204,7 +2204,7 @@ fonts:
   - author: 네이버
     name: 딸에게 엄마가
     files:
-      - '딸에게 엄마가/나눔손글씨 딸에게 엄마가.ttf'
+      - '딸에게 엄마가/나눔손글씨 딸에게 엄마가.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 딸에게 엄마가
@@ -2228,7 +2228,7 @@ fonts:
   - author: 네이버
     name: 또박또박
     files:
-      - '또박또박/나눔손글씨 또박또박.ttf'
+      - '또박또박/나눔손글씨 또박또박.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 또박또박
@@ -2252,7 +2252,7 @@ fonts:
   - author: 네이버
     name: 마고체
     files:
-      - '마고체/나눔손글씨 마고체.ttf'
+      - '마고체/나눔손글씨 마고체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 마고체
@@ -2276,7 +2276,7 @@ fonts:
   - author: 네이버
     name: 맛있는체
     files:
-      - '맛있는체/나눔손글씨 맛있는체.ttf'
+      - '맛있는체/나눔손글씨 맛있는체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 맛있는체
@@ -2300,7 +2300,7 @@ fonts:
   - author: 네이버
     name: 몽돌
     files:
-      - '몽돌/나눔손글씨 몽돌.ttf'
+      - '몽돌/나눔손글씨 몽돌.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 몽돌
@@ -2324,7 +2324,7 @@ fonts:
   - author: 네이버
     name: 무궁화
     files:
-      - '무궁화/나눔손글씨 무궁화.ttf'
+      - '무궁화/나눔손글씨 무궁화.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 무궁화
@@ -2348,7 +2348,7 @@ fonts:
   - author: 네이버
     name: 무진장체
     files:
-      - '무진장체/나눔손글씨 무진장체.ttf'
+      - '무진장체/나눔손글씨 무진장체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 무진장체
@@ -2372,7 +2372,7 @@ fonts:
   - author: 네이버
     name: 미니 손글씨
     files:
-      - '미니 손글씨/나눔손글씨 미니 손글씨.ttf'
+      - '미니 손글씨/나눔손글씨 미니 손글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 미니 손글씨
@@ -2396,7 +2396,7 @@ fonts:
   - author: 네이버
     name: 미래나무
     files:
-      - '미래나무/나눔손글씨 미래나무.ttf'
+      - '미래나무/나눔손글씨 미래나무.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 미래나무
@@ -2420,7 +2420,7 @@ fonts:
   - author: 네이버
     name: 바른정신
     files:
-      - '바른정신/나눔손글씨 바른정신.ttf'
+      - '바른정신/나눔손글씨 바른정신.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 바른정신
@@ -2444,7 +2444,7 @@ fonts:
   - author: 네이버
     name: 바른히피
     files:
-      - '바른히피/나눔손글씨 바른히피.ttf'
+      - '바른히피/나눔손글씨 바른히피.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 바른히피
@@ -2468,7 +2468,7 @@ fonts:
   - author: 네이버
     name: 반짝반짝 별
     files:
-      - '반짝반짝 별/나눔손글씨 반짝반짝 별.ttf'
+      - '반짝반짝 별/나눔손글씨 반짝반짝 별.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 반짝반짝 별
@@ -2492,7 +2492,7 @@ fonts:
   - author: 네이버
     name: 배은혜체
     files:
-      - '배은혜체/나눔손글씨 배은혜체.ttf'
+      - '배은혜체/나눔손글씨 배은혜체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 배은혜체
@@ -2516,7 +2516,7 @@ fonts:
   - author: 네이버
     name: 백의의 천사
     files:
-      - '백의의 천사/나눔손글씨 백의의 천사.ttf'
+      - '백의의 천사/나눔손글씨 백의의 천사.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 백의의 천사
@@ -2540,7 +2540,7 @@ fonts:
   - author: 네이버
     name: 버드나무
     files:
-      - '버드나무/나눔손글씨 버드나무.ttf'
+      - '버드나무/나눔손글씨 버드나무.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 버드나무
@@ -2564,7 +2564,7 @@ fonts:
   - author: 네이버
     name: 범솜체
     files:
-      - '범솜체/나눔손글씨 범솜체.ttf'
+      - '범솜체/나눔손글씨 범솜체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 범솜체
@@ -2588,7 +2588,7 @@ fonts:
   - author: 네이버
     name: 부장님 눈치체
     files:
-      - '부장님 눈치체/나눔손글씨 부장님 눈치체.ttf'
+      - '부장님 눈치체/나눔손글씨 부장님 눈치체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 부장님 눈치체
@@ -2612,7 +2612,7 @@ fonts:
   - author: 네이버
     name: 북극성
     files:
-      - '북극성/나눔손글씨 북극성.ttf'
+      - '북극성/나눔손글씨 북극성.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 북극성
@@ -2636,7 +2636,7 @@ fonts:
   - author: 네이버
     name: 비상체
     files:
-      - '비상체/나눔손글씨 비상체.ttf'
+      - '비상체/나눔손글씨 비상체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 비상체
@@ -2660,7 +2660,7 @@ fonts:
   - author: 네이버
     name: 빵구니맘 손글씨
     files:
-      - '빵구니맘 손글씨/나눔손글씨 빵구니맘 손글씨.ttf'
+      - '빵구니맘 손글씨/나눔손글씨 빵구니맘 손글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 빵구니맘 손글씨
@@ -2684,7 +2684,7 @@ fonts:
   - author: 네이버
     name: 사랑해 아들
     files:
-      - '사랑해 아들/나눔손글씨 사랑해 아들.ttf'
+      - '사랑해 아들/나눔손글씨 사랑해 아들.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 사랑해 아들
@@ -2708,7 +2708,7 @@ fonts:
   - author: 네이버
     name: 상해찬미체
     files:
-      - '상해찬미체/나눔손글씨 상해찬미체.ttf'
+      - '상해찬미체/나눔손글씨 상해찬미체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 상해찬미체
@@ -2732,7 +2732,7 @@ fonts:
   - author: 네이버
     name: 성실체
     files:
-      - '성실체/나눔손글씨 성실체.ttf'
+      - '성실체/나눔손글씨 성실체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 성실체
@@ -2756,7 +2756,7 @@ fonts:
   - author: 네이버
     name: 세계적인 한글
     files:
-      - '세계적인 한글/나눔손글씨 세계적인 한글.ttf'
+      - '세계적인 한글/나눔손글씨 세계적인 한글.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 세계적인 한글
@@ -2780,7 +2780,7 @@ fonts:
   - author: 네이버
     name: 세아체
     files:
-      - '세아체/나눔손글씨 세아체.ttf'
+      - '세아체/나눔손글씨 세아체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 세아체
@@ -2804,7 +2804,7 @@ fonts:
   - author: 네이버
     name: 세화체
     files:
-      - '세화체/나눔손글씨 세화체.ttf'
+      - '세화체/나눔손글씨 세화체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 세화체
@@ -2828,7 +2828,7 @@ fonts:
   - author: 네이버
     name: 소미체
     files:
-      - '소미체/나눔손글씨 소미체.ttf'
+      - '소미체/나눔손글씨 소미체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 소미체
@@ -2852,7 +2852,7 @@ fonts:
   - author: 네이버
     name: 소방관의 기도
     files:
-      - '소방관의 기도/나눔손글씨 소방관의 기도.ttf'
+      - '소방관의 기도/나눔손글씨 소방관의 기도.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 소방관의 기도
@@ -2876,7 +2876,7 @@ fonts:
   - author: 네이버
     name: 손편지체
     files:
-      - '손편지체/나눔손글씨 손편지체.ttf'
+      - '손편지체/나눔손글씨 손편지체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 손편지체
@@ -2900,7 +2900,7 @@ fonts:
   - author: 네이버
     name: 수줍은 대학생
     files:
-      - '수줍은 대학생/나눔손글씨 수줍은 대학생.ttf'
+      - '수줍은 대학생/나눔손글씨 수줍은 대학생.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 수줍은 대학생
@@ -2924,7 +2924,7 @@ fonts:
   - author: 네이버
     name: 시우 귀여워
     files:
-      - '시우 귀여워/나눔손글씨 시우 귀여워.ttf'
+      - '시우 귀여워/나눔손글씨 시우 귀여워.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 시우 귀여워
@@ -2948,7 +2948,7 @@ fonts:
   - author: 네이버
     name: 신혼부부
     files:
-      - '신혼부부/나눔손글씨 신혼부부.ttf'
+      - '신혼부부/나눔손글씨 신혼부부.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 신혼부부
@@ -2972,7 +2972,7 @@ fonts:
   - author: 네이버
     name: 아기사랑체
     files:
-      - '아기사랑체/나눔손글씨 아기사랑체.ttf'
+      - '아기사랑체/나눔손글씨 아기사랑체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 아기사랑체
@@ -2996,7 +2996,7 @@ fonts:
   - author: 네이버
     name: 아름드리 꽃나무
     files:
-      - '아름드리 꽃나무/나눔손글씨 아름드리 꽃나무.ttf'
+      - '아름드리 꽃나무/나눔손글씨 아름드리 꽃나무.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 아름드리 꽃나무
@@ -3020,7 +3020,7 @@ fonts:
   - author: 네이버
     name: 아빠글씨
     files:
-      - '아빠글씨/나눔손글씨 아빠글씨.ttf'
+      - '아빠글씨/나눔손글씨 아빠글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 아빠글씨
@@ -3044,7 +3044,7 @@ fonts:
   - author: 네이버
     name: 아빠의 연애편지
     files:
-      - '아빠의 연애편지/나눔손글씨 아빠의 연애편지.ttf'
+      - '아빠의 연애편지/나눔손글씨 아빠의 연애편지.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 아빠의 연애편지
@@ -3068,7 +3068,7 @@ fonts:
   - author: 네이버
     name: 아인맘 손글씨
     files:
-      - '아인맘 손글씨/나눔손글씨 아인맘 손글씨.ttf'
+      - '아인맘 손글씨/나눔손글씨 아인맘 손글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 아인맘 손글씨
@@ -3092,7 +3092,7 @@ fonts:
   - author: 네이버
     name: 아줌마 자유
     files:
-      - '아줌마 자유/나눔손글씨 아줌마 자유.ttf'
+      - '아줌마 자유/나눔손글씨 아줌마 자유.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 아줌마 자유
@@ -3116,7 +3116,7 @@ fonts:
   - author: 네이버
     name: 안쌍체
     files:
-      - '안쌍체/나눔손글씨 안쌍체.ttf'
+      - '안쌍체/나눔손글씨 안쌍체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 안쌍체
@@ -3140,7 +3140,7 @@ fonts:
   - author: 네이버
     name: 암스테르담
     files:
-      - '암스테르담/나눔손글씨 암스테르담.ttf'
+      - '암스테르담/나눔손글씨 암스테르담.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 암스테르담
@@ -3164,7 +3164,7 @@ fonts:
   - author: 네이버
     name: 야근하는 김주임
     files:
-      - '야근하는 김주임/나눔손글씨 야근하는 김주임.ttf'
+      - '야근하는 김주임/나눔손글씨 야근하는 김주임.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 야근하는 김주임
@@ -3188,7 +3188,7 @@ fonts:
   - author: 네이버
     name: 야채장수 백금례
     files:
-      - '야채장수 백금례/나눔손글씨 야채장수 백금례.ttf'
+      - '야채장수 백금례/나눔손글씨 야채장수 백금례.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 야채장수 백금례
@@ -3212,7 +3212,7 @@ fonts:
   - author: 네이버
     name: 엄마사랑
     files:
-      - '엄마사랑/나눔손글씨 엄마사랑.ttf'
+      - '엄마사랑/나눔손글씨 엄마사랑.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 엄마사랑
@@ -3236,7 +3236,7 @@ fonts:
   - author: 네이버
     name: 엉겅퀴체
     files:
-      - '엉겅퀴체/나눔손글씨 엉겅퀴체.ttf'
+      - '엉겅퀴체/나눔손글씨 엉겅퀴체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 엉겅퀴체
@@ -3260,7 +3260,7 @@ fonts:
   - author: 네이버
     name: 여름글씨
     files:
-      - '여름글씨/나눔손글씨 여름글씨.ttf'
+      - '여름글씨/나눔손글씨 여름글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 여름글씨
@@ -3284,7 +3284,7 @@ fonts:
   - author: 네이버
     name: 연지체
     files:
-      - '연지체/나눔손글씨 연지체.ttf'
+      - '연지체/나눔손글씨 연지체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 연지체
@@ -3308,7 +3308,7 @@ fonts:
   - author: 네이버
     name: 열아홉의 반짝임
     files:
-      - '열아홉의 반짝임/나눔손글씨 열아홉의 반짝임.ttf'
+      - '열아홉의 반짝임/나눔손글씨 열아홉의 반짝임.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 열아홉의 반짝임
@@ -3332,7 +3332,7 @@ fonts:
   - author: 네이버
     name: 열일체
     files:
-      - '열일체/나눔손글씨 열일체.ttf'
+      - '열일체/나눔손글씨 열일체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 열일체
@@ -3356,7 +3356,7 @@ fonts:
   - author: 네이버
     name: 예당체
     files:
-      - '예당체/나눔손글씨 예당체.ttf'
+      - '예당체/나눔손글씨 예당체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 예당체
@@ -3380,7 +3380,7 @@ fonts:
   - author: 네이버
     name: 예쁜 민경체
     files:
-      - '예쁜 민경체/나눔손글씨 예쁜 민경체.ttf'
+      - '예쁜 민경체/나눔손글씨 예쁜 민경체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 예쁜 민경체
@@ -3404,7 +3404,7 @@ fonts:
   - author: 네이버
     name: 옥비체
     files:
-      - '옥비체/나눔손글씨 옥비체.ttf'
+      - '옥비체/나눔손글씨 옥비체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 옥비체
@@ -3428,7 +3428,7 @@ fonts:
   - author: 네이버
     name: 와일드
     files:
-      - '와일드/나눔손글씨 와일드.ttf'
+      - '와일드/나눔손글씨 와일드.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 와일드
@@ -3452,7 +3452,7 @@ fonts:
   - author: 네이버
     name: 외할머니글씨
     files:
-      - '외할머니글씨/나눔손글씨 외할머니글씨.ttf'
+      - '외할머니글씨/나눔손글씨 외할머니글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 외할머니글씨
@@ -3476,7 +3476,7 @@ fonts:
   - author: 네이버
     name: 왼손잡이도 예뻐
     files:
-      - '왼손잡이도 예뻐/나눔손글씨 왼손잡이도 예뻐.ttf'
+      - '왼손잡이도 예뻐/나눔손글씨 왼손잡이도 예뻐.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 왼손잡이도 예뻐
@@ -3500,7 +3500,7 @@ fonts:
   - author: 네이버
     name: 우리딸 손글씨
     files:
-      - '우리딸 손글씨/나눔손글씨 우리딸 손글씨.ttf'
+      - '우리딸 손글씨/나눔손글씨 우리딸 손글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 우리딸 손글씨
@@ -3524,7 +3524,7 @@ fonts:
   - author: 네이버
     name: 유니 띵땅띵땅
     files:
-      - '유니 띵땅띵땅/나눔손글씨 유니 띵땅띵땅.ttf'
+      - '유니 띵땅띵땅/나눔손글씨 유니 띵땅띵땅.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 유니 띵땅띵땅
@@ -3548,7 +3548,7 @@ fonts:
   - author: 네이버
     name: 의미있는 한글
     files:
-      - '의미있는 한글/나눔손글씨 의미있는 한글.ttf'
+      - '의미있는 한글/나눔손글씨 의미있는 한글.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 의미있는 한글
@@ -3572,7 +3572,7 @@ fonts:
   - author: 네이버
     name: 자부심지우
     files:
-      - '자부심지우/나눔손글씨 자부심지우.ttf'
+      - '자부심지우/나눔손글씨 자부심지우.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 자부심지우
@@ -3596,7 +3596,7 @@ fonts:
   - author: 네이버
     name: 잘하고 있어
     files:
-      - '잘하고 있어/나눔손글씨 잘하고 있어.ttf'
+      - '잘하고 있어/나눔손글씨 잘하고 있어.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 잘하고 있어
@@ -3620,7 +3620,7 @@ fonts:
   - author: 네이버
     name: 장미체
     files:
-      - '장미체/나눔손글씨 장미체.ttf'
+      - '장미체/나눔손글씨 장미체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 장미체
@@ -3644,7 +3644,7 @@ fonts:
   - author: 네이버
     name: 점꼴체
     files:
-      - '점꼴체/나눔손글씨 점꼴체.ttf'
+      - '점꼴체/나눔손글씨 점꼴체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 점꼴체
@@ -3668,7 +3668,7 @@ fonts:
   - author: 네이버
     name: 정은체
     files:
-      - '정은체/나눔손글씨 정은체.ttf'
+      - '정은체/나눔손글씨 정은체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 정은체
@@ -3692,7 +3692,7 @@ fonts:
   - author: 네이버
     name: 중학생
     files:
-      - '중학생/나눔손글씨 중학생.ttf'
+      - '중학생/나눔손글씨 중학생.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 중학생
@@ -3716,7 +3716,7 @@ fonts:
   - author: 네이버
     name: 진주 박경아체
     files:
-      - '진주 박경아체/나눔손글씨 진주 박경아체.ttf'
+      - '진주 박경아체/나눔손글씨 진주 박경아체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 진주 박경아체
@@ -3740,7 +3740,7 @@ fonts:
   - author: 네이버
     name: 철필글씨
     files:
-      - '철필글씨/나눔손글씨 철필글씨.ttf'
+      - '철필글씨/나눔손글씨 철필글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 철필글씨
@@ -3764,7 +3764,7 @@ fonts:
   - author: 네이버
     name: 초딩희망
     files:
-      - '초딩희망/나눔손글씨 초딩희망.ttf'
+      - '초딩희망/나눔손글씨 초딩희망.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 초딩희망
@@ -3788,7 +3788,7 @@ fonts:
   - author: 네이버
     name: 칼국수
     files:
-      - '칼국수/나눔손글씨 칼국수.ttf'
+      - '칼국수/나눔손글씨 칼국수.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 칼국수
@@ -3812,7 +3812,7 @@ fonts:
   - author: 네이버
     name: 코코체
     files:
-      - '코코체/나눔손글씨 코코체.ttf'
+      - '코코체/나눔손글씨 코코체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 코코체
@@ -3836,7 +3836,7 @@ fonts:
   - author: 네이버
     name: 하나되어 손글씨
     files:
-      - '하나되어 손글씨/나눔손글씨 하나되어 손글씨.ttf'
+      - '하나되어 손글씨/나눔손글씨 하나되어 손글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 하나되어 손글씨
@@ -3860,7 +3860,7 @@ fonts:
   - author: 네이버
     name: 하나손글씨
     files:
-      - '하나손글씨/나눔손글씨 하나손글씨.ttf'
+      - '하나손글씨/나눔손글씨 하나손글씨.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 하나손글씨
@@ -3884,7 +3884,7 @@ fonts:
   - author: 네이버
     name: 하람체
     files:
-      - '하람체/나눔손글씨 하람체.ttf'
+      - '하람체/나눔손글씨 하람체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 하람체
@@ -3908,7 +3908,7 @@ fonts:
   - author: 네이버
     name: 한윤체
     files:
-      - '한윤체/나눔손글씨 한윤체.ttf'
+      - '한윤체/나눔손글씨 한윤체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 한윤체
@@ -3932,7 +3932,7 @@ fonts:
   - author: 네이버
     name: 할아버지의나눔
     files:
-      - '할아버지의나눔/나눔손글씨 할아버지의나눔.ttf'
+      - '할아버지의나눔/나눔손글씨 할아버지의나눔.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 할아버지의나눔
@@ -3956,7 +3956,7 @@ fonts:
   - author: 네이버
     name: 행복한 도비
     files:
-      - '행복한 도비/나눔손글씨 행복한 도비.ttf'
+      - '행복한 도비/나눔손글씨 행복한 도비.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 행복한 도비
@@ -3980,7 +3980,7 @@ fonts:
   - author: 네이버
     name: 혁이체
     files:
-      - '혁이체/나눔손글씨 혁이체.ttf'
+      - '혁이체/나눔손글씨 혁이체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 혁이체
@@ -4004,7 +4004,7 @@ fonts:
   - author: 네이버
     name: 혜준체
     files:
-      - '혜준체/나눔손글씨 혜준체.ttf'
+      - '혜준체/나눔손글씨 혜준체.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 혜준체
@@ -4028,7 +4028,7 @@ fonts:
   - author: 네이버
     name: 효남 늘 화이팅
     files:
-      - '효남 늘 화이팅/나눔손글씨 효남 늘 화이팅.ttf'
+      - '효남 늘 화이팅/나눔손글씨 효남 늘 화이팅.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 효남 늘 화이팅
@@ -4052,7 +4052,7 @@ fonts:
   - author: 네이버
     name: 희망누리
     files:
-      - '희망누리/나눔손글씨 희망누리.ttf'
+      - '희망누리/나눔손글씨 희망누리.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 희망누리
@@ -4076,7 +4076,7 @@ fonts:
   - author: 네이버
     name: 흰꼬리수리
     files:
-      - '흰꼬리수리/나눔손글씨 흰꼬리수리.ttf'
+      - '흰꼬리수리/나눔손글씨 흰꼬리수리.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 흰꼬리수리
@@ -4100,7 +4100,7 @@ fonts:
   - author: 네이버
     name: 힘내라는 말보단
     files:
-      - '힘내라는 말보단/나눔손글씨 힘내라는 말보단.ttf'
+      - '힘내라는 말보단/나눔손글씨 힘내라는 말보단.ttf.woff2'
     fontWeights:
       - 400
     fontFamily: 힘내라는 말보단
