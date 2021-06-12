@@ -15,6 +15,7 @@
         "
       />
     </section>
+    <div ref="observer" />
   </div>
 </template>
 
@@ -23,7 +24,7 @@ import ModifierBar from './ModifierBar.vue';
 import CardBox from './CardBox/CardBox.vue';
 import { useStore } from 'vuex';
 import { useRouter } from 'vue-router';
-import { computed, toRefs } from 'vue';
+import { computed, onMounted, ref, toRefs } from 'vue';
 
 const store = useStore();
 const { fonts, searchContent } = toRefs(store.state);
@@ -38,6 +39,16 @@ const filteredFonts = computed(() =>
     })
     .sort(),
 );
+
+const observer = ref();
+
+onMounted(() => {
+  new IntersectionObserver(([{ isIntersecting }]) => {
+    if (isIntersecting) {
+      store.dispatch('addNextFonts');
+    }
+  }).observe(observer.value);
+});
 </script>
 
 <style lang="scss" scoped>
