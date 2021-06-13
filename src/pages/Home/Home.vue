@@ -1,7 +1,10 @@
 <template>
   <div class="home">
     <modifier-bar class="home__modifier" />
-    <p class="typo-text">{{ filteredFonts.length }} 종류의 폰트가 있어요.</p>
+    <p class="typo-text">
+      {{ searchContent === '' ? allFontsLength : filteredFonts.length }} 종류의
+      폰트가 있어요.
+    </p>
     <section class="home__cards">
       <card-box
         v-for="(font, ind) in filteredFonts"
@@ -28,6 +31,7 @@ import { computed, onMounted, ref, toRefs } from 'vue';
 
 const store = useStore();
 const { fonts, searchContent } = toRefs(store.state);
+const { allFontsLength } = store.state.env;
 
 const router = useRouter();
 
@@ -35,7 +39,11 @@ const filteredFonts = computed(() =>
   fonts.value
     .filter(({ fontFamily, author, name }) => {
       const re = RegExp(searchContent.value.toLowerCase());
-      return re.test(fontFamily.toLowerCase()) || re.test(author.toLowerCase()) || re.test(name.toLowerCase());
+      return (
+        re.test(fontFamily.toLowerCase()) ||
+        re.test(author.toLowerCase()) ||
+        re.test(name.toLowerCase())
+      );
     })
     .sort(),
 );
