@@ -99,6 +99,7 @@ const genNewDir = async name => {
   // gen env
   const env = {
     faces: fontsChunk.length,
+    allFontsLength: _.flatten(fontsChunk).length,
   };
 
   // write to files
