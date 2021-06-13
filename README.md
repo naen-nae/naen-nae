@@ -91,21 +91,58 @@ GitHub Issues를 이용해 새로운 폰트를 제안해주세요!
 
 감사합니다. 😊
 
-## 📑 [`fonts.yml`](./fonts.yml)
+## 📑 컨트리뷰트 가이드라인
+
+'낸내' 프로젝트에 기여해주셔서 감사합니다!
+
+### 설치하기
+
+```sh
+# 시작하기 전, 먼저 프로젝트를 자신의 리포지토리에 포크해주세요.
+
+git clone https://github.com/<GitHub User name>/naen-nae
+cd naen-nae
+
+yarn # 디펜던시 설치
+yarn font-gen # 앱 구동에 있어 필요한 파일들 생성 (Pre-gen)
+yarn dev # 앱 구동 (http://localhost:3000/)
+```
+
+### `yarn font-gen`
+
+`yarn font-gen` 명령으로 [폰트 관련 파일 생성 스크립트](./scripts/fontGen/index.js)가 실행되며, 다음의 파일이 생성됩니다.
+
+- `/public/env.json`: 폰트 관련 정보
+- `/public/faces/faces-<index>.css`: 페이지네이션을 위해 분리된 CSS 파일 (`font-face`)
+- `/public/fonts/fonts-<index>.css`: 페이지네이션을 위해 분리된 폰트 정보 JSON 파일
+- `/public/css/<Font name>.css`: 폰트별로 분리된 CSS 파일 (`font-face`)
+
+앱 내에서는 `env.json` 및 `faces-<index>.css` 그리고 `fonts-<index>.css` 파일이 사용됩니다.
+
+`<font name>.css` 파일은 아래와 같이 실제로 폰트를 사용하기 위해 생성되는 파일이에요.
+
+```html
+<link href="https://cdn.jsdelivr.net/gh/naen-nae/naen-nae@gh-pages/css/Nanum Gothic.css" rel="stylesheet">
+```
+
+이 파일들은 `fonts.yml`에 명시된 내용을 바탕으로 생성됩니다.
+
+### [`fonts.yml`](./fonts.yml)
 
 '낸내'는 `fonts.yml` 파일을 기반으로 폰트를 생성 및 관리합니다.
 
 ```yml
 fonts:
   - author: <폰트 제작자/제작사>
+    name: <폰트 이름>
     files:
       - <폰트 파일 경로 1> # '/fonts' 디렉터리를 베이스로 합니다.
       - <폰트 파일 경로 2> # 같은 Font Family인 경우, 여러 폰트를 등록할 수 있습니다.
     fontWeights:
       - <폰트 굵기 1> # 100~900 중에서 설정합니다.
       - <폰트 굵기 2> # 각 파일에 대한 굵기를 명시합니다.
-    fontFamily: <폰트 이름>
-    licenseSummary: # 라이선스 요약은 위 '3. Issue 내용 작성하기'를 참고해주세요.
+    fontFamily: <Font Family 이름>
+    licenseSummary: # 라이선스 요약은 위 '폰트 제안하기 - 3. Issue 내용 작성하기'를 참고해주세요.
       print: true
       website: true
       video: true
@@ -118,11 +155,6 @@ fonts:
 
   - author: # ...
 ```
-
-위와 같이 `fonts.yml` 파일을 정의한 후, [`fontGen.js`](./scripts/fontGen/index.js) 스크립트를 이용해 CSS 및 JSON 파일을 생성합니다.
-
-- CSS 파일: 애플리케이션 내 및 [jsdelivr](https://www.jsdelivr.com/)를 이용한 웹 폰트 CSS 파일 배포.
-- JSON 파일: 애플리케이션 내에서 사용됩니다.
 
 ## 📜 라이선스
 
