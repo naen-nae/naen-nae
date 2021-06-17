@@ -4120,3 +4120,431 @@ fonts:
       정확한 사용 조건은 아래 네이버 나눔글꼴 라이선스 전문을 참고하시기 바랍니다.
 
       라이센스 전문: https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497
+
+  - author: 국립한글박물관
+    name: 한글누리
+    files:
+      - '국립한글박물관-한글누리체/HangeulNuriR.ttf'
+      - '국립한글박물관-한글누리체/HangeulNuriB.ttf'
+    fontWeights:
+      - 400
+      - 700
+    fontFamily: HangeulNuri
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      국립한글박물관 기획운영과입니다.
+      국립한글박물관에서 배포하고 있는 한글누리꼴은 누구나 사용가능합니다.
+      별도의 사용 동의 절차 없이 우리관 누리집(홈페이지)에서 내려 받아 사용할 수 있으며, 사용 시 출처(국립한글박물관)를 밝혀주시면 됩니다.
+
+      작성부서 : 문화체육관광부 국립한글박물관 기획운영과, 02-2124-6244, 6227
+
+  - author: 비씨카드(주)
+    name: BC카드
+    files:
+      - 'BCcard/BCcardL.otf'
+      - 'BCcard/BCcardB.otf'
+    fontWeights:
+      - 300
+      - 700
+    fontFamily: BCcard
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      - BC카드 글꼴과 페이북 글꼴의 지적재산권은 비씨카드㈜가 소유하고 있습니다.
+      - BC카드 글꼴과 페이북 글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 상업적 목적으로 자유롭게 사용할 수 있습니다.
+      - BC카드 글꼴과 페이북 글꼴을 유료로 판매하거나 어떠한 형태로든 임의 수정/개작하여 글꼴을 재배포 하는 것은 엄격히 금지합니다.
+
+  - author: 비씨카드(주)
+    name: 페이북
+    files:
+      - 'paybooc_font/paybooc OTF Light.otf'
+      - 'paybooc_font/paybooc OTF Medium.otf'
+      - 'paybooc_font/paybooc OTF Bold.otf'
+      - 'paybooc_font/paybooc OTF ExtraBold.otf'
+    fontWeights:
+      - 300
+      - 500
+      - 700
+      - 800
+    fontFamily: paybooc
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      - BC카드 글꼴과 페이북 글꼴의 지적재산권은 비씨카드㈜가 소유하고 있습니다.
+      - BC카드 글꼴과 페이북 글꼴은 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 상업적 목적으로 자유롭게 사용할 수 있습니다.
+      - BC카드 글꼴과 페이북 글꼴을 유료로 판매하거나 어떠한 형태로든 임의 수정/개작하여 글꼴을 재배포 하는 것은 엄격히 금지합니다.
+
+  - author: 폰트랩(주)
+    name: LAB디지털
+    files:
+      - 'LAB디지털/LAB디지털.ttf'
+    fontWeights:
+      - 400
+    fontFamily: LAB디지털
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      폰트의 저작권은 폰트랩(주)에 있습니다.
+
+      – 'LAB디지털'폰트는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 사용할 수 있습니다.
+      – 'LAB디지털' 폰트 자체를 유료로 판매하거나 어떠한 형태로든 임의 수정/개작하여 글꼴을 재배포 하는 것은 금지합니다.
+      – 'LAB디지털'은 인쇄물, 광고물(온/오프라인), 상품, CI/BI 등 상업적 목적으로 사용할 수 있습니다.
+        1. 글꼴 그대로의 사용을 권장하며, 모든 사용에 '폰트랩(주) LAB디지털' 출처 표기를 권장합니다.
+        2. 인쇄물, 광고물(온/오프라인), CI/BI의 경우 글꼴 수정 및 형태 변환은 불가능합니다.
+      – 'LAB디지털'은 본 저작권 안내와 라이선스 전문을 포함해서 2차 재배포가 가능합니다. 라이선스 전문을 포함하여 'LAB디지털'의 출처 표기를 권장합니다.
+        예) 이 페이지에는 폰트랩(주)이 제공한 LAB디지털체가 적용되어 있습니다.
+      – 'LAB디지털체'를 사용한 인쇄물, 광고물(온/오프라인), 상품, CI/BI 등의 이미지는 폰트랩의마케팅을 위해 활용될 수 있습니다. 이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+
+      관련문의 : 02-455-4428 / fontlab@fontlab.kr
+
+  - author: (주)우아한형제들
+    name: 배민 도현
+    files:
+      - 'BMDOHYEON/BMDOHYEON_otf.otf'
+    fontWeights:
+      - 400
+    fontFamily: BMDOHYEON
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      배달의민족 폰트의 지적 재산권은 (주)우아한형제들에 있습니다.
+      배달의민족 폰트는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+
+      단, 글꼴 자체를 유료로 판매하는 것은 금지하며, 배달의민족 폰트는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다.
+      배달의민족 폰트 라이선스 전문을 포함하기 어려울 경우, 배달의민족 폰트의 출처 표기를 권장합니다.
+      예) 이 페이지에는 우아한형제들에서 제공한 배달의민족 폰트가 적용되어 있습니다.
+
+      배달의민족 폰트를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 우아한형제들(배달의민족) 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      정확한 사용 조건은 아래 배달의민족 폰트 라이선스 전문을 참고하시기 바랍니다.
+
+      본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
+      본 라이선스는 하단에 복사되었고 http://scripts.sil.org/OFL 의 FAQ란 에서도 열람가능 합니다.
+
+      라이선스 전문 : http://www.woowahan.com/license.html?keepThis=true&TB_iframe=true&height=620&width=659&modal=true
+
+  - author: (주)우아한형제들
+    name: 배민 을지로
+    files:
+      - 'BMEULJIRO/BMEULJIRO.otf'
+    fontWeights:
+      - 400
+    fontFamily: BMEULJIRO
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      배달의민족 폰트의 지적 재산권은 (주)우아한형제들에 있습니다.
+      배달의민족 폰트는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+
+      단, 글꼴 자체를 유료로 판매하는 것은 금지하며, 배달의민족 폰트는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다.
+      배달의민족 폰트 라이선스 전문을 포함하기 어려울 경우, 배달의민족 폰트의 출처 표기를 권장합니다.
+      예) 이 페이지에는 우아한형제들에서 제공한 배달의민족 폰트가 적용되어 있습니다.
+
+      배달의민족 폰트를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 우아한형제들(배달의민족) 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      정확한 사용 조건은 아래 배달의민족 폰트 라이선스 전문을 참고하시기 바랍니다.
+
+      본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
+      본 라이선스는 하단에 복사되었고 http://scripts.sil.org/OFL 의 FAQ란 에서도 열람가능 합니다.
+
+      라이선스 전문 : http://www.woowahan.com/license.html?keepThis=true&TB_iframe=true&height=620&width=659&modal=true
+
+  - author: (주)우아한형제들
+    name: 배민 을지로10년후
+    files:
+      - 'BMEuljiro10yearslater/BMEuljiro10yearslaterOTF.otf'
+    fontWeights:
+      - 400
+    fontFamily: BMEuljiro10yearslater
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      배달의민족 폰트의 지적 재산권은 (주)우아한형제들에 있습니다.
+      배달의민족 폰트는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+
+      단, 글꼴 자체를 유료로 판매하는 것은 금지하며, 배달의민족 폰트는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다.
+      배달의민족 폰트 라이선스 전문을 포함하기 어려울 경우, 배달의민족 폰트의 출처 표기를 권장합니다.
+      예) 이 페이지에는 우아한형제들에서 제공한 배달의민족 폰트가 적용되어 있습니다.
+
+      배달의민족 폰트를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 우아한형제들(배달의민족) 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      정확한 사용 조건은 아래 배달의민족 폰트 라이선스 전문을 참고하시기 바랍니다.
+
+      본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
+      본 라이선스는 하단에 복사되었고 http://scripts.sil.org/OFL 의 FAQ란 에서도 열람가능 합니다.
+
+      라이선스 전문 : http://www.woowahan.com/license.html?keepThis=true&TB_iframe=true&height=620&width=659&modal=true
+
+  - author: (주)우아한형제들
+    name: 배민 한나는열한살
+    files:
+      - 'BMHANNA_11yrs/BMHANNA_11yrs_otf.otf'
+    fontWeights:
+      - 400
+    fontFamily: BMHANNA_11yrs
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      배달의민족 폰트의 지적 재산권은 (주)우아한형제들에 있습니다.
+      배달의민족 폰트는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+
+      단, 글꼴 자체를 유료로 판매하는 것은 금지하며, 배달의민족 폰트는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다.
+      배달의민족 폰트 라이선스 전문을 포함하기 어려울 경우, 배달의민족 폰트의 출처 표기를 권장합니다.
+      예) 이 페이지에는 우아한형제들에서 제공한 배달의민족 폰트가 적용되어 있습니다.
+
+      배달의민족 폰트를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 우아한형제들(배달의민족) 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      정확한 사용 조건은 아래 배달의민족 폰트 라이선스 전문을 참고하시기 바랍니다.
+
+      본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
+      본 라이선스는 하단에 복사되었고 http://scripts.sil.org/OFL 의 FAQ란 에서도 열람가능 합니다.
+
+      라이선스 전문 : http://www.woowahan.com/license.html?keepThis=true&TB_iframe=true&height=620&width=659&modal=true
+
+  - author: (주)우아한형제들
+    name: 배민 한나체 Air
+    files:
+      - 'BMHANNAAir/BMHANNAAir_otf.otf'
+    fontWeights:
+      - 400
+    fontFamily: BMHANNAAir
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      배달의민족 폰트의 지적 재산권은 (주)우아한형제들에 있습니다.
+      배달의민족 폰트는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+
+      단, 글꼴 자체를 유료로 판매하는 것은 금지하며, 배달의민족 폰트는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다.
+      배달의민족 폰트 라이선스 전문을 포함하기 어려울 경우, 배달의민족 폰트의 출처 표기를 권장합니다.
+      예) 이 페이지에는 우아한형제들에서 제공한 배달의민족 폰트가 적용되어 있습니다.
+
+      배달의민족 폰트를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 우아한형제들(배달의민족) 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      정확한 사용 조건은 아래 배달의민족 폰트 라이선스 전문을 참고하시기 바랍니다.
+
+      본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
+      본 라이선스는 하단에 복사되었고 http://scripts.sil.org/OFL 의 FAQ란 에서도 열람가능 합니다.
+
+      라이선스 전문 : http://www.woowahan.com/license.html?keepThis=true&TB_iframe=true&height=620&width=659&modal=true
+
+  - author: (주)우아한형제들
+    name: 배민 한나체 Pro
+    files:
+      - 'BMHANNAPro/BMHANNAProOTF.otf'
+    fontWeights:
+      - 400
+    fontFamily: BMHANNAPro
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      배달의민족 폰트의 지적 재산권은 (주)우아한형제들에 있습니다.
+      배달의민족 폰트는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+
+      단, 글꼴 자체를 유료로 판매하는 것은 금지하며, 배달의민족 폰트는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다.
+      배달의민족 폰트 라이선스 전문을 포함하기 어려울 경우, 배달의민족 폰트의 출처 표기를 권장합니다.
+      예) 이 페이지에는 우아한형제들에서 제공한 배달의민족 폰트가 적용되어 있습니다.
+
+      배달의민족 폰트를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 우아한형제들(배달의민족) 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      정확한 사용 조건은 아래 배달의민족 폰트 라이선스 전문을 참고하시기 바랍니다.
+
+      본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
+      본 라이선스는 하단에 복사되었고 http://scripts.sil.org/OFL 의 FAQ란 에서도 열람가능 합니다.
+
+      라이선스 전문 : http://www.woowahan.com/license.html?keepThis=true&TB_iframe=true&height=620&width=659&modal=true
+
+  - author: (주)우아한형제들
+    name: 배민 주아
+    files:
+      - 'BMJUA/BMJUA_otf.otf'
+    fontWeights:
+      - 400
+    fontFamily: BMJUA
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      배달의민족 폰트의 지적 재산권은 (주)우아한형제들에 있습니다.
+      배달의민족 폰트는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+
+      단, 글꼴 자체를 유료로 판매하는 것은 금지하며, 배달의민족 폰트는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다.
+      배달의민족 폰트 라이선스 전문을 포함하기 어려울 경우, 배달의민족 폰트의 출처 표기를 권장합니다.
+      예) 이 페이지에는 우아한형제들에서 제공한 배달의민족 폰트가 적용되어 있습니다.
+
+      배달의민족 폰트를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 우아한형제들(배달의민족) 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      정확한 사용 조건은 아래 배달의민족 폰트 라이선스 전문을 참고하시기 바랍니다.
+
+      본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
+      본 라이선스는 하단에 복사되었고 http://scripts.sil.org/OFL 의 FAQ란 에서도 열람가능 합니다.
+
+      라이선스 전문 : http://www.woowahan.com/license.html?keepThis=true&TB_iframe=true&height=620&width=659&modal=true
+
+  - author: (주)우아한형제들
+    name: 배민 기랑해랑
+    files:
+      - 'BMKIRANGHAERANG/BMKIRANGHAERANG-OTF.otf'
+    fontWeights:
+      - 400
+    fontFamily: BMKIRANGHAERANG
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      배달의민족 폰트의 지적 재산권은 (주)우아한형제들에 있습니다.
+      배달의민족 폰트는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+
+      단, 글꼴 자체를 유료로 판매하는 것은 금지하며, 배달의민족 폰트는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다.
+      배달의민족 폰트 라이선스 전문을 포함하기 어려울 경우, 배달의민족 폰트의 출처 표기를 권장합니다.
+      예) 이 페이지에는 우아한형제들에서 제공한 배달의민족 폰트가 적용되어 있습니다.
+
+      배달의민족 폰트를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 우아한형제들(배달의민족) 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      정확한 사용 조건은 아래 배달의민족 폰트 라이선스 전문을 참고하시기 바랍니다.
+
+      본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
+      본 라이선스는 하단에 복사되었고 http://scripts.sil.org/OFL 의 FAQ란 에서도 열람가능 합니다.
+
+      라이선스 전문 : http://www.woowahan.com/license.html?keepThis=true&TB_iframe=true&height=620&width=659&modal=true
+
+  - author: (주)우아한형제들
+    name: 배민 연성
+    files:
+      - 'BMYEONSUNG/BMYEONSUNG_otf.otf'
+    fontWeights:
+      - 400
+    fontFamily: BMYEONSUNG
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      배달의민족 폰트의 지적 재산권은 (주)우아한형제들에 있습니다.
+      배달의민족 폰트는 개인 및 기업 사용자를 포함한 모든 사용자에게 무료로 제공되며 자유롭게 수정하고 재배포하실 수 있습니다.
+
+      단, 글꼴 자체를 유료로 판매하는 것은 금지하며, 배달의민족 폰트는 본 저작권 안내와 라이선스 전문을 포함해서 다른 소프트웨어와 번들하거나 재배포 또는 판매가 가능합니다.
+      배달의민족 폰트 라이선스 전문을 포함하기 어려울 경우, 배달의민족 폰트의 출처 표기를 권장합니다.
+      예) 이 페이지에는 우아한형제들에서 제공한 배달의민족 폰트가 적용되어 있습니다.
+
+      배달의민족 폰트를 사용한 인쇄물, 광고물(온라인 포함)의 이미지는 우아한형제들(배달의민족) 프로모션을 위해 활용될 수 있습니다.
+      이를 원치 않는 사용자는 언제든지 당사에 요청하실 수 있습니다.
+      정확한 사용 조건은 아래 배달의민족 폰트 라이선스 전문을 참고하시기 바랍니다.
+
+      본 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 버전 1.1에 따라 라이선스 취득을 하였습니다.
+      본 라이선스는 하단에 복사되었고 http://scripts.sil.org/OFL 의 FAQ란 에서도 열람가능 합니다.
+
+      라이선스 전문 : http://www.woowahan.com/license.html?keepThis=true&TB_iframe=true&height=620&width=659&modal=true
+
+  - author: IBM
+    name: IBM Plex Sans
+    files:
+      - 'IBM-Plex-Sans-KR/IBMPlexSansKR-ExtraLight.woff2'
+      - 'IBM-Plex-Sans-KR/IBMPlexSansKR-Light.woff2'
+      - 'IBM-Plex-Sans-KR/IBMPlexSansKR-Regular.woff2'
+      - 'IBM-Plex-Sans-KR/IBMPlexSansKR-Medium.woff2'
+      - 'IBM-Plex-Sans-KR/IBMPlexSansKR-SemiBold.woff2'
+      - 'IBM-Plex-Sans-KR/IBMPlexSansKR-Bold.woff2'
+    fontWeights:
+      - 200
+      - 300
+      - 400
+      - 500
+      - 600
+      - 700
+    fontFamily: IBMPlexSansKR
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      Copyright (c) 2017 IBM Corp. with Reserved Font Name "Plex"
+
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+      This license is copied below, and is also available with a FAQ at:
+      http://scripts.sil.org/OFL
+
+      -----------------------------------------------------------
+      SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+      -----------------------------------------------------------
+
+      라이선스 전문 보기(영어): https://github.com/IBM/plex/blob/v5.0.0/IBM-Plex-Sans-KR/fonts/complete/woff/hinted/license.txt
+      라이선스 전문 보기(한글): https://www.olis.or.kr/license/Detailselect.do?lId=1086&mapcode=010068
