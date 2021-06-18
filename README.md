@@ -1,5 +1,9 @@
 # 낸내
 
+[![Deploy](https://github.com/naen-nae/naen-nae/actions/workflows/deploy.yml/badge.svg)](https://github.com/naen-nae/naen-nae/actions/workflows/deploy.yml)
+
+[![GitHub Starts](https://img.shields.io/github/stars/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/network/members)
+
 <p align="center">
   <b>라이선스 걱정 없는 한글 폰트 '낸내'</b>
 </p>
