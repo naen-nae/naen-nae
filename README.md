@@ -9,7 +9,7 @@
 </p>
 
 - [낸내 바로가기](https://naen-nae.shj.rip/)
-- [폰트 제안하기](https://github.com/naen-nae/naen-nae/issues)
+- [폰트 제안하기](https://forms.gle/cmbzX8JmazrkDUex7)
 
 ## 🖐 낸내
 
