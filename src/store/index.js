@@ -84,13 +84,7 @@ export default createStore({
   plugins: [
     createPersistedState({
       reducer: state =>
-        pick(state, [
-          'isLight',
-          'fontSize',
-          'textContent',
-          'searchContent',
-          'inftyScroll',
-        ]),
+        pick(state, ['isLight', 'fontSize', 'textContent', 'searchContent']),
     }),
   ],
 });
