@@ -18,6 +18,7 @@ export default createStore({
     fonts: [],
     env: {},
     fontInd: -1,
+    inftyScroll: false,
   }),
   mutations: {
     toggleTheme(state) {
@@ -56,6 +57,9 @@ export default createStore({
     setEnv(state, env) {
       state.env = env;
     },
+    enableInftyScroll(state) {
+      state.inftyScroll = true;
+    },
   },
   actions: {
     resetFontSize(ctx) {
@@ -80,7 +84,13 @@ export default createStore({
   plugins: [
     createPersistedState({
       reducer: state =>
-        pick(state, ['isLight', 'fontSize', 'textContent', 'searchContent']),
+        pick(state, [
+          'isLight',
+          'fontSize',
+          'textContent',
+          'searchContent',
+          'inftyScroll',
+        ]),
     }),
   ],
 });
