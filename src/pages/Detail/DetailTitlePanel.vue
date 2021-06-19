@@ -12,11 +12,7 @@
     </div>
 
     <div class="detail-title-panel__right-side">
-      <button-box>
-        <template #icon>
-          {{ isDownload ? 'download_done' : 'file_download' }}
-        </template>
-
+      <button-box :icon="isDownload ? 'download_done' : 'file_download'">
         <template v-if="isDownload">
           <span class="typo-subtitle">
             폰트 파일 다운로드 중... ({{ downloadProgress }} /

@@ -1,9 +1,23 @@
 <template>
   <div class="button-box" ref="buttonBox">
-    <span class="icon material-icons-outlined"><slot name="icon" /></span>
+    <span
+      class="icon material-icons-outlined"
+      v-if="icon !== '' && icon !== undefined"
+      v-text="icon"
+    />
     <span class="button-box__text typo-text"><slot /></span>
   </div>
 </template>
+
+<script setup>
+import { defineProps } from '@vue/runtime-core';
+
+defineProps({
+  icon: {
+    type: String,
+  },
+});
+</script>
 
 <style lang="scss" scoped>
 .button-box {
