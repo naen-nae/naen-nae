@@ -18,6 +18,13 @@
         "
       />
     </section>
+
+    <div class="home__enable-infty-scroll">
+      <button-box v-if="!inftyScroll" @click="enableInftyScroll">
+        폰트 계속 보기
+      </button-box>
+    </div>
+
     <div ref="observer" />
   </div>
 </template>
@@ -25,12 +32,13 @@
 <script setup>
 import ModifierBar from './ModifierBar.vue';
 import CardBox from './CardBox/CardBox.vue';
+import ButtonBox from '../../components/ButtonBox.vue';
 import { useStore } from 'vuex';
 import { useRouter } from 'vue-router';
 import { computed, onMounted, ref, toRefs } from 'vue';
 
 const store = useStore();
-const { fonts, searchContent } = toRefs(store.state);
+const { fonts, searchContent, inftyScroll } = toRefs(store.state);
 const { allFontsLength } = store.state.env;
 
 const router = useRouter();
@@ -48,11 +56,16 @@ const filteredFonts = computed(() =>
     .sort(),
 );
 
+const enableInftyScroll = () => {
+  store.commit('enableInftyScroll');
+  store.dispatch('addNextFonts');
+};
+
 const observer = ref();
 
 onMounted(() => {
   new IntersectionObserver(([{ isIntersecting }]) => {
-    if (isIntersecting) {
+    if (inftyScroll.value && isIntersecting) {
       store.dispatch('addNextFonts');
     }
   }).observe(observer.value);
@@ -64,6 +77,8 @@ onMounted(() => {
 
 .home {
   align-self: flex-start;
+  display: flex;
+  flex-direction: column;
   width: 100%;
 
   &__modifier {
@@ -80,6 +95,11 @@ onMounted(() => {
     @include mobile {
       grid-template-columns: minmax(100%, auto);
     }
+  }
+
+  &__enable-infty-scroll {
+    text-align: center;
+    margin-top: 18px;
   }
 }
 </style>
