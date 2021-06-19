@@ -53,7 +53,9 @@ const filteredFonts = computed(() =>
         re.test(name.toLowerCase())
       );
     })
-    .sort(),
+    .sort(({ author: authorA }, { author: authorB }) =>
+      authorA.localeCompare(authorB),
+    ),
 );
 
 const enableInftyScroll = () => {
