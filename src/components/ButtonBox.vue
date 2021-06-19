@@ -1,5 +1,5 @@
 <template>
-  <div class="button-box" ref="buttonBox">
+  <div class="button-box">
     <span
       class="icon material-icons-outlined"
       v-if="icon !== '' && icon !== undefined"
