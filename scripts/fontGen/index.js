@@ -7,7 +7,7 @@ const jsonMin = require('jsonminify');
 const getFontFormat = require('./getFontFormat');
 const faceGen = require('./faceGen');
 
-const CHUNK_SIZE = 20;
+const CHUNK_SIZE = 3 * 6;
 
 /**
  * to jsdelivr cdn src
