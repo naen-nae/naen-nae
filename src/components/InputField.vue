@@ -12,8 +12,10 @@
       class="input-field__icon icon material-icons-outlined"
       :class="{ hide: value === '' }"
       @click="clearInput"
-      >close</span
+      v-if="clear"
     >
+      close
+    </span>
   </div>
 </template>
 
@@ -38,6 +40,10 @@ const props = defineProps({
   value: {
     type: String,
     default: '',
+  },
+  clear: {
+    type: Boolean,
+    default: true,
   },
 });
 
