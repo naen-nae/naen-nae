@@ -60,6 +60,12 @@ export default createStore({
     enableInftyScroll(state) {
       state.inftyScroll = true;
     },
+    increaseFontInd(state) {
+      state.fontInd++;
+    },
+    decreaseFontInd(state) {
+      state.fontInd--;
+    },
   },
   actions: {
     resetFontSize(ctx) {
@@ -70,16 +76,28 @@ export default createStore({
         return;
       }
 
-      ctx.state.fontInd++;
+      // set ind
+      ctx.commit('increaseFontInd');
       const ind = ctx.state.fontInd;
 
-      const fonts = await (await req(`/fonts/fonts-${ind}.json`)).json();
+      let fonts = null;
 
-      fonts.forEach(async font => {
-        const { fontFamily } = font;
-        await addStylesheet(fontFamily, `/css/${fontFamily}.css`);
-        ctx.commit('addFont', font);
-      });
+      // req guard
+      try {
+        fonts = await (await req(`/fonts/fonts-${ind}.json`)).json();
+      } catch {
+        ctx.commit('decreaseFontInd');
+        return;
+      }
+
+      await Promise.all(
+        fonts.map(async font => {
+          const { fontFamily } = font;
+          await addStylesheet(fontFamily, `/css/${fontFamily}.css`);
+
+          return ctx.commit('addFont', font);
+        }),
+      );
     },
   },
   plugins: [
