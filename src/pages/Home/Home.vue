@@ -44,18 +44,14 @@ const { allFontsLength } = store.state.env;
 const router = useRouter();
 
 const filteredFonts = computed(() =>
-  fonts.value
-    .filter(({ fontFamily, author, name }) => {
-      const re = RegExp(searchContent.value.toLowerCase());
-      return (
-        re.test(fontFamily.toLowerCase()) ||
-        re.test(author.toLowerCase()) ||
-        re.test(name.toLowerCase())
-      );
-    })
-    .sort(({ author: authorA }, { author: authorB }) =>
-      authorA.localeCompare(authorB),
-    ),
+  fonts.value.filter(({ fontFamily, author, name }) => {
+    const re = RegExp(searchContent.value.toLowerCase());
+    return (
+      re.test(fontFamily.toLowerCase()) ||
+      re.test(author.toLowerCase()) ||
+      re.test(name.toLowerCase())
+    );
+  }),
 );
 
 const enableInftyScroll = () => {
