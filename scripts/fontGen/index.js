@@ -94,7 +94,6 @@ const genNewDir = async name => {
   );
 
   // gen font faces
-  const facesChunk = _.map(faceOptionsChunk, getFaces);
   const facesByFamily = _.map(faceOptionsGroupByFamily, (options, name) => [
     name,
     getFaces(options),
@@ -108,7 +107,6 @@ const genNewDir = async name => {
 
   // write to files
   await genNewDir('fonts');
-  await genNewDir('faces');
   await genNewDir('css');
 
   fs.writeFile('./public/env.json', jsonMin(JSON.stringify(env)));
@@ -118,10 +116,6 @@ const genNewDir = async name => {
       `./public/fonts/fonts-${ind}.json`,
       jsonMin(JSON.stringify(fonts)),
     ),
-  );
-
-  _.forEach(facesChunk, (faces, ind) =>
-    fs.writeFile(`./public/faces/faces-${ind}.css`, faces),
   );
 
   _.forEach(facesByFamily, ([name, css]) =>
