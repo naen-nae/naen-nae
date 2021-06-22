@@ -51,8 +51,8 @@ export default createStore({
         1,
       );
     },
-    addFonts(state, fonts) {
-      state.fonts.push(...fonts);
+    addFont(state, font) {
+      state.fonts.push(font);
     },
     setEnv(state, env) {
       state.env = env;
@@ -73,12 +73,13 @@ export default createStore({
       ctx.state.fontInd++;
       const ind = ctx.state.fontInd;
 
-      addStylesheet(`/faces/faces-${ind}.css`);
+      const fonts = await (await req(`/fonts/fonts-${ind}.json`)).json();
 
-      ctx.commit(
-        'addFonts',
-        await (await req(`/fonts/fonts-${ind}.json`)).json(),
-      );
+      fonts.forEach(async font => {
+        const { fontFamily } = font;
+        await addStylesheet(fontFamily, `/css/${fontFamily}.css`);
+        ctx.commit('addFont', font);
+      });
     },
   },
   plugins: [
