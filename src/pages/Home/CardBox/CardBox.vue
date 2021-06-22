@@ -8,10 +8,11 @@
       />
       <hr />
       <div class="card-box__contents">
-        <p
-          :style="{ fontSize: `${fontSize}px`, fontFamily: font.fontFamily }"
-          v-text="textContent !== '' ? textContent : font.author"
-        />
+          <p
+            v-if="font.enable"
+            :style="{ fontSize: `${fontSize}px`, fontFamily: font.fontFamily }"
+            v-text="textContent !== '' ? textContent : font.author"
+          />
       </div>
     </div>
   </div>

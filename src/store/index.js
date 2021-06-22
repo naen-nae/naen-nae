@@ -55,6 +55,9 @@ export default createStore({
     addFont(state, font) {
       state.fonts.push(font);
     },
+    enableFont(state, ind) {
+      state.fonts[ind].enable = true;
+    },
     setEnv(state, env) {
       state.env = env;
     },
@@ -100,13 +103,19 @@ export default createStore({
         return;
       }
 
+      // store start ind
+      const startInd = ctx.state.fonts.length;
+
+      // display fonts
+      fonts.forEach(font => ctx.commit('addFont', { ...font, enable: false }));
+
       try {
         await Promise.all(
-          fonts.map(async font => {
+          fonts.map(async (font, ind) => {
             const { fontFamily } = font;
             await addStylesheet(fontFamily, `/css/${fontFamily}.css`);
 
-            return ctx.commit('addFont', font);
+            return ctx.commit('enableFont', startInd + ind);
           }),
         );
       } finally {
