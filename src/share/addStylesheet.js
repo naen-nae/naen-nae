@@ -1,12 +1,18 @@
+import WebFont from 'webfontloader';
+
 /**
  * add a new stylesheet
  *
+ * @param {String} familyName name of the font fmaily
  * @param {String} src stylesheet href
  */
-export default src => {
-  const el = document.createElement('link');
-  el.setAttribute('rel', 'stylesheet');
-  el.setAttribute('href', src);
-
-  document.querySelector('head').appendChild(el);
-};
+export default (familyName, src) =>
+  new Promise(resolve =>
+    WebFont.load({
+      fontactive: resolve,
+      custom: {
+        families: [familyName],
+        urls: [src],
+      },
+    }),
+  );
