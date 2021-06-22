@@ -38,8 +38,9 @@ import TopButton from './components/TopButton.vue';
 
 .top-button {
   position: fixed;
-  right: 1em;
-  bottom: calc(107px + 1em); // 107px => footer height
+  right: 40px;
+  bottom: 40px;
+  // bottom: calc(107px + 1em); // 107px => footer height
 
   @include mobile {
     & {

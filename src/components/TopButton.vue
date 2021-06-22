@@ -30,8 +30,8 @@ window.addEventListener(
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 48px;
-  height: 48px;
+  width: 58px;
+  height: 58px;
   padding: 12px;
   border-radius: 50%;
   background-color: var(--top-button-background-color);
