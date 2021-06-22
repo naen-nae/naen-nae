@@ -64,6 +64,10 @@ const genNewDir = async name => {
 
   // parse
   const fontsChunk = _.flow(
+    fonts =>
+      fonts.sort(({ author: authorA }, { author: authorB }) =>
+        authorA.localeCompare(authorB),
+      ),
     _.partial(_.map, _, font =>
       _.set(font, 'files', _.map(font.files, toCdnSrc)),
     ),
