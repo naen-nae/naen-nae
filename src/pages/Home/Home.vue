@@ -9,10 +9,13 @@
     </p>
     <cards-panel class="home__cards" :filtered-fonts="filteredFonts" />
 
-    <div class="home__enable-infty-scroll">
-      <button-box v-if="!inftyScroll" @click="enableInftyScroll">
+    <div class="home__info">
+      <button-box v-if="!inftyScroll && !loadFonts" @click="enableInftyScroll">
         폰트 계속 보기
       </button-box>
+      <p class="home__info--load-fonts-msg typo-text" v-if="loadFonts">
+        폰트를 불러오고 있어요...
+      </p>
     </div>
 
     <div ref="observer" />
@@ -27,7 +30,7 @@ import { useStore } from 'vuex';
 import { computed, onMounted, ref, toRefs } from 'vue';
 
 const store = useStore();
-const { fonts, searchContent, inftyScroll } = toRefs(store.state);
+const { fonts, searchContent, inftyScroll, loadFonts } = toRefs(store.state);
 const { allFontsLength } = store.state.env;
 
 const filteredFonts = computed(() =>
@@ -50,7 +53,7 @@ const observer = ref();
 
 onMounted(() => {
   new IntersectionObserver(([{ isIntersecting }]) => {
-    if (inftyScroll.value && isIntersecting) {
+    if (inftyScroll.value && isIntersecting && !loadFonts.value) {
       store.dispatch('addNextFonts');
     }
   }).observe(observer.value);
@@ -72,9 +75,13 @@ onMounted(() => {
     margin-top: 12px;
   }
 
-  &__enable-infty-scroll {
+  &__info {
     text-align: center;
     margin-top: 18px;
+
+    &--load-fonts-msg {
+      color: var(--subtitle-color);
+    }
   }
 }
 </style>
