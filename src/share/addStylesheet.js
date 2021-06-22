@@ -10,6 +10,7 @@ export default (familyName, src) =>
   new Promise(resolve =>
     WebFont.load({
       fontactive: resolve,
+      fontinactive: resolve,
       custom: {
         families: [familyName],
         urls: [src],
