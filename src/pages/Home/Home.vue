@@ -53,7 +53,7 @@ const observer = ref();
 
 onMounted(() => {
   new IntersectionObserver(([{ isIntersecting }]) => {
-    if (inftyScroll.value && isIntersecting && !loadFonts.value) {
+    if (inftyScroll.value && isIntersecting) {
       store.dispatch('addNextFonts');
     }
   }).observe(observer.value);
