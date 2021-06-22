@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
+    "build": "yarn font-gen & vite build",
+    "serve": "yarn build & vite preview",
     "storybook": "start-storybook -p 6006 --ci",
     "build-storybook": "build-storybook",
     "test": "jest",
