@@ -1,5 +1,5 @@
 <template>
-  <section class="cards-panel">
+  <transition-group name="fade-up" tag="section" class="cards-panel">
     <card-box
       v-for="(font, ind) in filteredFonts"
       :key="`${font.fontFamily}-${ind}`"
@@ -11,7 +11,7 @@
         })
       "
     />
-  </section>
+  </transition-group>
 </template>
 
 <script setup>
@@ -40,6 +40,18 @@ defineProps({
 
   @include mobile {
     grid-template-columns: minmax(100%, auto);
+  }
+}
+
+.fade-up {
+  &-enter-active,
+  &-leave-active {
+    transition: opacity 0.5s ease;
+  }
+
+  &-enter-from,
+  &-leave-to {
+    opacity: 0;
   }
 }
 </style>
