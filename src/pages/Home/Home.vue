@@ -1,9 +1,11 @@
 <template>
   <div class="home">
     <modifier-bar class="home__modifier" />
-    <p class="typo-text">
-      {{ searchContent === '' ? allFontsLength : filteredFonts.length }} 종류의
-      폰트가 있어요.
+    <p class="typo-text" v-if="searchContent === ''">
+      {{ allFontsLength }} 종류의 폰트가 있어요.
+    </p>
+    <p class="typo-text" v-else>
+      {{ filteredFonts.length }} 종류의 폰트를 불러왔어요.
     </p>
     <section class="home__cards">
       <card-box
