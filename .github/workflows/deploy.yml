@@ -21,11 +21,6 @@ jobs:
         with:
           cmd: test
 
-      - name: Generate font files
-        uses: Borales/actions-yarn@v2.3.0
-        with:
-          cmd: font-gen
-
       - name: Build application
         uses: Borales/actions-yarn@v2.3.0
         with:
