@@ -7,19 +7,7 @@
     <p class="typo-text" v-else>
       {{ filteredFonts.length }} 종류의 폰트를 불러왔어요.
     </p>
-    <section class="home__cards">
-      <card-box
-        v-for="(font, ind) in filteredFonts"
-        :key="`${font.fontFamily}-${ind}`"
-        :font="font"
-        @click="
-          router.push({
-            name: 'detail',
-            params: { fontName: font.fontFamily },
-          })
-        "
-      />
-    </section>
+    <cards-panel class="home__cards" :filtered-fonts="filteredFonts" />
 
     <div class="home__enable-infty-scroll">
       <button-box v-if="!inftyScroll" @click="enableInftyScroll">
@@ -33,17 +21,14 @@
 
 <script setup>
 import ModifierBar from './ModifierBar.vue';
-import CardBox from './CardBox/CardBox.vue';
 import ButtonBox from '../../components/ButtonBox.vue';
+import CardsPanel from './CardsPanel.vue';
 import { useStore } from 'vuex';
-import { useRouter } from 'vue-router';
 import { computed, onMounted, ref, toRefs } from 'vue';
 
 const store = useStore();
 const { fonts, searchContent, inftyScroll } = toRefs(store.state);
 const { allFontsLength } = store.state.env;
-
-const router = useRouter();
 
 const filteredFonts = computed(() =>
   fonts.value.filter(({ fontFamily, author, name }) => {
@@ -73,8 +58,6 @@ onMounted(() => {
 </script>
 
 <style lang="scss" scoped>
-@import '../../styles/display.scss';
-
 .home {
   align-self: flex-start;
   display: flex;
@@ -86,15 +69,7 @@ onMounted(() => {
   }
 
   &__cards {
-    display: grid;
     margin-top: 12px;
-    grid-template-columns: repeat(auto-fill, minmax(30%, auto));
-    row-gap: 12px;
-    column-gap: 16px;
-
-    @include mobile {
-      grid-template-columns: minmax(100%, auto);
-    }
   }
 
   &__enable-infty-scroll {
