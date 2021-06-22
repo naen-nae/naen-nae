@@ -16,7 +16,7 @@ import './share/registerSw';
   store.commit('setEnv', await (await req('/env.json')).json());
 
   // set initial fonts
-  await store.dispatch('addNextFonts');
+  store.dispatch('addNextFonts');
 
   createApp(App).use(store).use(router).mount('#app');
 })();
