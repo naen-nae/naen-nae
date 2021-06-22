@@ -26,13 +26,20 @@ window.addEventListener(
 </script>
 
 <style lang="scss" scoped>
+@import '../styles/display.scss';
+
 .top-button {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  right: 40px;
+  bottom: 40px;
   width: 58px;
   height: 58px;
   padding: 12px;
+
   border-radius: 50%;
   background-color: var(--top-button-background-color);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
@@ -45,6 +52,13 @@ window.addEventListener(
 
   &.hide {
     display: none;
+  }
+
+  @include mobile {
+    & {
+      right: 1em;
+      bottom: 1em;
+    }
   }
 }
 </style>

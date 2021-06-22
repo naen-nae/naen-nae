@@ -4,7 +4,9 @@
     <main>
       <router-view />
     </main>
-    <top-button class="top-button" />
+    <div class="app__top-button" ref="topButton">
+      <top-button />
+    </div>
     <footer-panel />
   </div>
 
@@ -16,6 +18,18 @@ import HeaderPanel from './pages/share/HeaderPanel.vue';
 import FooterPanel from './pages/share/FooterPanel.vue';
 import SnackbarBox from './components/SnackbarBox/SnackbarBox.vue';
 import TopButton from './components/TopButton.vue';
+import { ref } from 'vue';
+import { onMounted } from '@vue/runtime-core';
+
+const topButton = ref();
+
+onMounted(() =>
+  new IntersectionObserver(([{ isIntersecting }]) =>
+    topButton.value.classList[isIntersecting ? 'add' : 'remove'](
+      'absolute-bottom',
+    ),
+  ).observe(topButton.value),
+);
 </script>
 
 <style lang="scss" scoped>
@@ -32,20 +46,31 @@ import TopButton from './components/TopButton.vue';
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 24px;
+    padding: 24px 69px;
+
+    @include mobile {
+      & {
+        padding: 12px;
+      }
+    }
   }
-}
 
-.top-button {
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  // bottom: calc(107px + 1em); // 107px => footer height
+  &__top-button {
+    position: fixed;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
 
-  @include mobile {
-    & {
-      right: 1em;
-      bottom: 1em;
+    @include desktop {
+      &.absolute-bottom {
+        position: sticky;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 }
