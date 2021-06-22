@@ -1,0 +1,13 @@
+.fade-up {
+  &-enter-active,
+  &-leave-active {
+    transition: all 0.5s ease;
+    transform: translateY(0);
+  }
+
+  &-enter-from,
+  &-leave-to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}

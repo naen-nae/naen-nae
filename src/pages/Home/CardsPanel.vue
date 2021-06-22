@@ -31,6 +31,7 @@ defineProps({
 
 <style lang="scss" scoped>
 @import '../../styles/display.scss';
+@import '../../styles/transition.scss';
 
 .cards-panel {
   display: grid;
@@ -40,18 +41,6 @@ defineProps({
 
   @include mobile {
     grid-template-columns: minmax(100%, auto);
-  }
-}
-
-.fade-up {
-  &-enter-active,
-  &-leave-active {
-    transition: opacity 0.5s ease;
-  }
-
-  &-enter-from,
-  &-leave-to {
-    opacity: 0;
   }
 }
 </style>
