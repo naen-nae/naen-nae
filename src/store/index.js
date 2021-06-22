@@ -19,6 +19,7 @@ export default createStore({
     env: {},
     fontInd: -1,
     inftyScroll: false,
+    loadFonts: false,
   }),
   mutations: {
     toggleTheme(state) {
@@ -60,6 +61,12 @@ export default createStore({
     enableInftyScroll(state) {
       state.inftyScroll = true;
     },
+    startLoadFonts(state) {
+      state.loadFonts = true;
+    },
+    endLoadFonts(state) {
+      state.loadFonts = false;
+    },
     increaseFontInd(state) {
       state.fontInd++;
     },
@@ -76,6 +83,8 @@ export default createStore({
         return;
       }
 
+      ctx.commit('startLoadFonts');
+
       // set ind
       ctx.commit('increaseFontInd');
       const ind = ctx.state.fontInd;
@@ -86,18 +95,23 @@ export default createStore({
       try {
         fonts = await (await req(`/fonts/fonts-${ind}.json`)).json();
       } catch {
+        ctx.commit('endLoadFonts');
         ctx.commit('decreaseFontInd');
         return;
       }
 
-      await Promise.all(
-        fonts.map(async font => {
-          const { fontFamily } = font;
-          await addStylesheet(fontFamily, `/css/${fontFamily}.css`);
+      try {
+        await Promise.all(
+          fonts.map(async font => {
+            const { fontFamily } = font;
+            await addStylesheet(fontFamily, `/css/${fontFamily}.css`);
 
-          return ctx.commit('addFont', font);
-        }),
-      );
+            return ctx.commit('addFont', font);
+          }),
+        );
+      } finally {
+        ctx.commit('endLoadFonts');
+      }
     },
   },
   plugins: [
