@@ -27,6 +27,13 @@ const router = createRouter({
       component: Home,
     },
   ],
+  scrollBehavior(to, from, saved) {
+    if (saved) {
+      return saved;
+    } else {
+      return { top: 0 };
+    }
+  },
 });
 
 // validate font-name
