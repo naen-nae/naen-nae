@@ -10,7 +10,7 @@
       <div class="card-box__contents">
         <transition name="fade-up">
           <p
-            v-if="font.enable"
+            v-show="font.enable"
             :style="{ fontSize: `${fontSize}px`, fontFamily: font.fontFamily }"
             v-text="textContent !== '' ? textContent : font.author"
           />
