@@ -1,7 +1,7 @@
 <template>
   <section class="detail-title-panel">
     <div class="detail-title-panel__left-side">
-      <span class="icon material-icons-outlined" @click="router.push('/')">
+      <span class="icon material-icons-outlined" @click="router.go(-1)">
         chevron_left
       </span>
 
