@@ -8,9 +8,12 @@
 
 <script setup>
 import { ref } from 'vue';
+import { useStore } from 'vuex';
+
+const store = useStore();
 
 const isHide = ref(true);
-const toTop = () => window.scrollTo(0, 0);
+const toTop = () => store.dispatch('updateScrollY', 0);
 
 window.addEventListener(
   'scroll',

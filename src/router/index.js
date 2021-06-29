@@ -29,9 +29,9 @@ const router = createRouter({
   ],
   scrollBehavior(to, from, saved) {
     if (saved) {
-      return saved;
+      store.dispatch('updateScrollY', saved.top);
     } else {
-      return { top: 0 };
+      store.dispatch('updateScrollY', 0);
     }
   },
 });
