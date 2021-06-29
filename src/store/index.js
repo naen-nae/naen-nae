@@ -20,6 +20,7 @@ export default createStore({
     fontInd: -1,
     inftyScroll: false,
     loadFonts: false,
+    scrollY: 0,
   }),
   mutations: {
     toggleTheme(state) {
@@ -76,6 +77,9 @@ export default createStore({
     decreaseFontInd(state) {
       state.fontInd--;
     },
+    setScrollY(state, scrollY) {
+      state.scrollY = scrollY;
+    },
   },
   actions: {
     resetFontSize(ctx) {
@@ -121,6 +125,10 @@ export default createStore({
       } finally {
         ctx.commit('endLoadFonts');
       }
+    },
+    updateScrollY(ctx, scrollY) {
+      window.scrollTo(0, scrollY);
+      ctx.commit('setScrollY', scrollY);
     },
   },
   plugins: [
