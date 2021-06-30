@@ -7,7 +7,7 @@
     <p class="typo-text" v-else>
       {{ filteredFonts.length }} 종류의 폰트를 불러왔어요.
     </p>
-    <cards-panel class="home__cards" :filtered-fonts="filteredFonts" />
+    <cards-panel class="home__cards" />
 
     <div class="home__info">
       <button-box v-if="!inftyScroll && !loadFonts" @click="enableInftyScroll">
@@ -27,7 +27,7 @@ import ModifierBar from './ModifierBar.vue';
 import ButtonBox from '../../components/ButtonBox.vue';
 import CardsPanel from './CardsPanel.vue';
 import { useStore } from 'vuex';
-import { computed, onMounted, ref, toRefs } from 'vue';
+import { computed, onMounted, provide, ref, toRefs } from 'vue';
 
 const store = useStore();
 const { fonts, searchContent, inftyScroll, loadFonts } = toRefs(store.state);
@@ -43,6 +43,8 @@ const filteredFonts = computed(() =>
     );
   }),
 );
+
+provide('filteredFonts', filteredFonts);
 
 const enableInftyScroll = () => {
   store.commit('enableInftyScroll');
