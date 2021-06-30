@@ -21,6 +21,7 @@ export default createStore({
     inftyScroll: false,
     loadFonts: false,
     scrollY: 0,
+    screenWidth: 0,
   }),
   mutations: {
     toggleTheme(state) {
@@ -79,6 +80,9 @@ export default createStore({
     },
     setScrollY(state, scrollY) {
       state.scrollY = scrollY;
+    },
+    setScreenWidth(state, screenWidth) {
+      state.screenWidth = screenWidth;
     },
   },
   actions: {
