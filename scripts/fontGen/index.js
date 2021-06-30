@@ -7,8 +7,6 @@ const jsonMin = require('jsonminify');
 const getFontFormat = require('./getFontFormat');
 const faceGen = require('./faceGen');
 
-const CHUNK_SIZE = 3 * 6;
-
 /**
  * to jsdelivr cdn src
  *
@@ -63,7 +61,7 @@ const genNewDir = async name => {
   ).toString();
 
   // parse
-  const fontsChunk = _.flow(
+  const fonts = _.flow(
     fonts =>
       fonts.sort(({ author: authorA }, { author: authorB }) =>
         authorA.localeCompare(authorB),
@@ -71,22 +69,17 @@ const genNewDir = async name => {
     _.partial(_.map, _, font =>
       _.set(font, 'files', _.map(font.files, toCdnSrc)),
     ),
-    _.partial(_.chunk, _, CHUNK_SIZE),
   )(yaml.parse(rawFonts).fonts);
 
   // gen font face options
-  const faceOptionsChunk = _.map(fontsChunk, fonts =>
-    _.flatMap(fonts, ({ files, fontWeights, fontFamily }) =>
-      _.map(_.zip(files, fontWeights), ([src, fontWeight]) => ({
-        src,
-        fontWeight,
-        fontFamily,
-        format: getFontFormat(src),
-      })),
-    ),
+  const faceOptions = _.flatMap(fonts, ({ files, fontWeights, fontFamily }) =>
+    _.map(_.zip(files, fontWeights), ([src, fontWeight]) => ({
+      src,
+      fontWeight,
+      fontFamily,
+      format: getFontFormat(src),
+    })),
   );
-
-  const faceOptions = _.flatten(faceOptionsChunk);
 
   const faceOptionsGroupByFamily = _.groupBy(
     faceOptions,
@@ -99,25 +92,10 @@ const genNewDir = async name => {
     getFaces(options),
   ]);
 
-  // gen env
-  const env = {
-    faces: fontsChunk.length,
-    allFontsLength: _.flatten(fontsChunk).length,
-  };
-
   // write to files
-  await genNewDir('fonts');
+  fs.writeFile('./public/fonts.json', jsonMin(JSON.stringify(fonts)));
+
   await genNewDir('css');
-
-  fs.writeFile('./public/env.json', jsonMin(JSON.stringify(env)));
-
-  _.forEach(fontsChunk, (fonts, ind) =>
-    fs.writeFile(
-      `./public/fonts/fonts-${ind}.json`,
-      jsonMin(JSON.stringify(fonts)),
-    ),
-  );
-
   _.forEach(facesByFamily, ([name, css]) =>
     fs.writeFile(`./public/css/${name}.css`, css),
   );
