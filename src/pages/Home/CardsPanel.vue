@@ -15,18 +15,13 @@
 </template>
 
 <script setup>
-import { defineProps } from '@vue/runtime-core';
+import { inject } from '@vue/runtime-core';
 import { useRouter } from 'vue-router';
 import CardBox from './CardBox/CardBox.vue';
 
 const router = useRouter();
 
-defineProps({
-  filteredFonts: {
-    type: Array,
-    required: true,
-  },
-});
+const filteredFonts = inject('filteredFonts');
 </script>
 
 <style lang="scss" scoped>
