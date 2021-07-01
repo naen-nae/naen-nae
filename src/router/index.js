@@ -27,6 +27,13 @@ const router = createRouter({
       component: Home,
     },
   ],
+  scrollBehavior(to, from, saved) {
+    if (saved) {
+      store.dispatch('updateScrollY', saved.top);
+    } else {
+      store.dispatch('updateScrollY', 0);
+    }
+  },
 });
 
 // validate font-name

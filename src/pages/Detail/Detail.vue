@@ -33,6 +33,10 @@ const { fonts } = toRefs(store.state);
 const targetFont = fonts.value.find(
   ({ fontFamily }) => fontFamily === fontName,
 );
+
+if (targetFont.enable === undefined || !targetFont.enable) {
+  store.dispatch('reqFontFace', [targetFont]);
+}
 </script>
 
 <style lang="scss" scoped>

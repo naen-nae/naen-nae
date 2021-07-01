@@ -1,92 +1,40 @@
 const fs = require('fs/promises');
-const yaml = require('yaml');
 const _ = require('lodash');
-const minify = require('minify-css-string');
 const jsonMin = require('jsonminify');
+const subsetFont = require('subset-font');
 
 const getFontFormat = require('./getFontFormat');
-const faceGen = require('./faceGen');
+const toCdnSrc = require('./toCdnSrc');
+const getFaces = require('./getFaces');
+const genNewDir = require('./genNewDir');
+const getFontsObj = require('./getFontsObj');
 
-const CHUNK_SIZE = 3 * 6;
-
-/**
- * to jsdelivr cdn src
- *
- * @param {String} src origin src
- * @returns cdn src
- */
-const toCdnSrc = src =>
-  `https://cdn.jsdelivr.net/gh/naen-nae/naen-nae/fonts/${src.replace(
-    /^\//,
-    '',
-  )}`;
-
-/**
- * generate font faces
- *
- * @param {[Object]} faceOption
- * @param {String} faceOption.src font file src
- * @param {String} faceOption.fontWeight font weight
- * @param {String} faceOption.fontFamily font family
- * @param {String} faceOption.format font format
- * @returns {String} minified face-face css string array
- */
-const getFaces = _.flow(
-  _.partial(_.map, _, faceGen),
-  _.partial(_.join, _, ''),
-  minify.default,
-);
-
-/**
- * generate a new directory
- *
- * @returns {Promise<void>}
- */
-const genNewDir = async name => {
-  try {
-    await fs.access(`./public/${name}`);
-    await fs.rm(`./public/${name}`, {
-      recursive: true,
-      force: true,
-    });
-  } catch {
-    // nothing
-  }
-
-  await fs.mkdir(`./public/${name}`);
-};
-
+// gen fonts
 (async () => {
-  // read fonts data file
-  const rawFonts = await (
-    await fs.readFile('./fonts.yml', { encoding: 'utf-8' })
-  ).toString();
-
   // parse
-  const fontsChunk = _.flow(
+  const fonts = _.flow(
     fonts =>
       fonts.sort(({ author: authorA }, { author: authorB }) =>
         authorA.localeCompare(authorB),
       ),
     _.partial(_.map, _, font =>
-      _.set(font, 'files', _.map(font.files, toCdnSrc)),
+      _.set(
+        font,
+        'files',
+        _.map(font.files, path => toCdnSrc(`fonts/${path}`)),
+      ),
     ),
-    _.partial(_.chunk, _, CHUNK_SIZE),
-  )(yaml.parse(rawFonts).fonts);
+  )(await getFontsObj());
 
   // gen font face options
-  const faceOptionsChunk = _.map(fontsChunk, fonts =>
-    _.flatMap(fonts, ({ files, fontWeights, fontFamily }) =>
-      _.map(_.zip(files, fontWeights), ([src, fontWeight]) => ({
-        src,
-        fontWeight,
-        fontFamily,
-        format: getFontFormat(src),
-      })),
-    ),
+  const faceOptions = _.flatMap(fonts, ({ files, fontWeights, fontFamily }) =>
+    _.map(_.zip(files, fontWeights), ([src, fontWeight]) => ({
+      src,
+      fontWeight,
+      fontFamily,
+      format: getFontFormat(src),
+    })),
   );
-
-  const faceOptions = _.flatten(faceOptionsChunk);
 
   const faceOptionsGroupByFamily = _.groupBy(
     faceOptions,
@@ -99,26 +47,78 @@ const genNewDir = async name => {
     getFaces(options),
   ]);
 
-  // gen env
-  const env = {
-    faces: fontsChunk.length,
-    allFontsLength: _.flatten(fontsChunk).length,
-  };
-
   // write to files
-  await genNewDir('fonts');
+  fs.writeFile('./public/fonts.json', jsonMin(JSON.stringify(fonts)));
+
   await genNewDir('css');
-
-  fs.writeFile('./public/env.json', jsonMin(JSON.stringify(env)));
-
-  _.forEach(fontsChunk, (fonts, ind) =>
-    fs.writeFile(
-      `./public/fonts/fonts-${ind}.json`,
-      jsonMin(JSON.stringify(fonts)),
-    ),
-  );
-
   _.forEach(facesByFamily, ([name, css]) =>
     fs.writeFile(`./public/css/${name}.css`, css),
   );
+})();
+
+// gen subset-fonts
+(async () => {
+  // gen font-faces
+  const fonts = _.map(await getFontsObj(), font =>
+    _.set(
+      font,
+      'files',
+      _.map(font.files, path => toCdnSrc(`subset-fonts/${path}`, 'gh-pages')),
+    ),
+  );
+
+  const faceOptions = _.flatMap(fonts, ({ files, fontWeights, fontFamily }) =>
+    _.map(_.zip(files, fontWeights), ([src, fontWeight]) => ({
+      src: `${src}.woff2`,
+      fontWeight,
+      fontFamily,
+      format: 'woff2',
+    })),
+  );
+
+  const faceOptionsGroupByFamily = _.groupBy(
+    faceOptions,
+    ({ fontFamily }) => fontFamily,
+  );
+
+  const facesByFamily = _.map(faceOptionsGroupByFamily, (options, name) => [
+    name,
+    getFaces(options),
+  ]);
+
+  await genNewDir('subset-css');
+  _.forEach(facesByFamily, ([name, css]) =>
+    fs.writeFile(`./public/subset-css/${name}.css`, css),
+  );
+
+  // gen subset font files
+  await genNewDir('subset-fonts');
+  _.map(await getFontsObj(), async ({ files: filePaths }) => {
+    // gen subset dir
+    await genNewDir(`subset-fonts/${filePaths[0].split('/')[0]}`);
+
+    _.flow(
+      // get font bufs
+      _.partial(_.map, _, async filePath => ({
+        path: filePath,
+        buf: await fs.readFile(`./fonts/${filePath}`),
+      })),
+      // gen subset bufs
+      _.partial(_.map, _, async file => {
+        const { path, buf } = await file;
+
+        return {
+          path,
+          buf: await subsetFont(buf, '다람쥐 헌 쳇바퀴에 타고파', {
+            targetFont: 'woff2',
+          }),
+        };
+      }),
+      // gen subset font file
+      _.partial(_.forEach, _, async subset => {
+        const { path, buf } = await subset;
+        fs.writeFile(`./public/subset-fonts/${path}.woff2`, buf);
+      }),
+    )(filePaths);
+  });
 })();

@@ -41,6 +41,7 @@
     "sass": "^1.34.0",
     "sass-loader": "^10.0.0",
     "style-loader": "^2.0.0",
+    "subset-font": "^1.2.3",
     "ttf2woff2": "^4.0.3",
     "vite": "^2.3.4",
     "vue-loader": "^16.2.0",

@@ -1,5 +1,5 @@
 <template>
-  <div class="card-box">
+  <div class="card-box" :style="{ height }">
     <div class="card-box__header">
       <card-box-header
         :author="font.author"
@@ -10,11 +10,15 @@
       <div class="card-box__contents">
         <transition name="fade-up">
           <p
-            v-if="font.enable"
+            v-show="font.enable"
             :style="{ fontSize: `${fontSize}px`, fontFamily: font.fontFamily }"
-            v-text="textContent !== '' ? textContent : font.author"
-          />
+          >
+            다람쥐 헌 쳇바퀴에 타고파
+          </p>
         </transition>
+        <p v-if="!font.enable" class="typo-subtitle">
+          폰트를 불러오고 있어요...
+        </p>
       </div>
     </div>
   </div>
@@ -22,11 +26,11 @@
 
 <script setup>
 import CardBoxHeader from './CardBoxHeader.vue';
-import { defineProps, toRefs } from 'vue';
+import { computed, defineProps, toRefs } from 'vue';
 import { useStore } from 'vuex';
 
 const store = useStore();
-const { textContent, fontSize } = toRefs(store.state);
+const { fontSize } = toRefs(store.state);
 
 defineProps({
   font: {
@@ -34,6 +38,10 @@ defineProps({
     required: true,
   },
 });
+
+const height = computed(
+  () => `${141 + (fontSize.value > 33 ? fontSize.value - 33 * 1.2 : 0)}px`,
+);
 </script>
 
 <style lang="scss" scoped>
@@ -45,6 +53,7 @@ defineProps({
   border: 1px solid var(--border-color);
   border-radius: 5px;
   cursor: pointer;
+  overflow: hidden;
 
   &:hover {
     filter: brightness(0.85);
@@ -53,6 +62,12 @@ defineProps({
   &__contents {
     word-break: break-all;
     color: var(--text-color);
+
+    p {
+      white-space: nowrap;
+      overflow: visible;
+      line-height: 1.2;
+    }
   }
 }
 </style>
