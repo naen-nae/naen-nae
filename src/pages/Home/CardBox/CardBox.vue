@@ -10,13 +10,13 @@
       <div class="card-box__contents">
         <transition name="fade-up">
           <p
-            v-show="font.enable"
+            v-show="font.subsetEnable"
             :style="{ fontSize: `${fontSize}px`, fontFamily: font.fontFamily }"
           >
             다람쥐 헌 쳇바퀴에 타고파
           </p>
         </transition>
-        <p v-if="!font.enable" class="typo-subtitle">
+        <p v-if="!font.subsetEnable" class="typo-subtitle">
           폰트를 불러오고 있어요...
         </p>
       </div>
