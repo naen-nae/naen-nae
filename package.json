@@ -10,6 +10,7 @@
     "test": "jest",
     "coverage": "jest --coverage",
     "font-gen": "node ./scripts/fontGen/index.js",
+    "subset-font-gen": "node ./scripts/fontGen/genSubsetFonts.js",
     "ttf2woff2": "node ./scripts/ttf2Woff2.js"
   },
   "dependencies": {
