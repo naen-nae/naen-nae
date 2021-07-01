@@ -93,11 +93,12 @@ const getFontsObj = require('./getFontsObj');
 
   // gen subset font files
   await genNewDir('subset-fonts');
-  _.map(await getFontsObj(), async ({ files: filePaths }) => {
+  _.map(await getFontsObj(), async ({ files: filePaths }, ind) => {
     // gen subset dir
-    await genNewDir(`subset-fonts/${filePaths[0].split('/')[0]}`);
+    const dir = filePaths[0].split('/')[0];
+    await genNewDir(`subset-fonts/${dir}`);
 
-    _.flow(
+    await _.flow(
       // get font bufs
       _.partial(_.map, _, async filePath => ({
         path: filePath,
@@ -117,8 +118,10 @@ const getFontsObj = require('./getFontsObj');
       // gen subset font file
       _.partial(_.forEach, _, async subset => {
         const { path, buf } = await subset;
-        fs.writeFile(`./public/subset-fonts/${path}.woff2`, buf);
+        return fs.writeFile(`./public/subset-fonts/${path}.woff2`, buf);
       }),
     )(filePaths);
+
+    console.log(`>> gen '`, dir, `' fonts`);
   });
 })();
