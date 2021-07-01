@@ -6,4 +6,6 @@ dist-ssr
 public/css
 public/faces
 public/fonts.json
+public/subset-css
+public/subset-fonts
 coverage
