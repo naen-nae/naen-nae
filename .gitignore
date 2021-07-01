@@ -5,6 +5,7 @@ dist-ssr
 *.local
 public/css
 public/faces
-public/fonts
-public/env.json
+public/fonts.json
+public/subset-css
+public/subset-fonts
 coverage

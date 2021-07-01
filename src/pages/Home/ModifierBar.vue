@@ -1,11 +1,6 @@
 <template>
   <div class="modifier-bar">
     <search-box class="modifier-bar__search" />
-    <input-field
-      class="modifier-bar__input"
-      v-model:value="inputTextContent"
-      :value="inputTextContent"
-    />
     <font-size-modifier class="modifier-bar__font-size" />
     <reset-button class="modifier-bar__reset" />
   </div>
@@ -13,19 +8,8 @@
 
 <script setup>
 import SearchBox from '../../components/SearchBox.vue';
-import InputField from '../../components/InputField.vue';
 import FontSizeModifier from '../../components/FontSizeModifier.vue';
 import ResetButton from '../../components/ResetButton.vue';
-import { ref, watch } from 'vue';
-import { useStore } from 'vuex';
-
-const store = useStore();
-
-// update text content
-const inputTextContent = ref(store.state.textContent);
-watch(inputTextContent, () =>
-  store.commit('setTextContent', inputTextContent.value),
-);
 </script>
 
 <style lang="scss" scoped>
@@ -55,11 +39,7 @@ watch(inputTextContent, () =>
   }
 
   &__search {
-    flex: 1;
-  }
-
-  &__input {
-    flex: 2;
+    flex: 3;
   }
 
   &__font-size {
@@ -67,7 +47,6 @@ watch(inputTextContent, () =>
   }
 
   @include mobile {
-    &__input,
     &__font-size,
     &__reset {
       display: none;
