@@ -15,12 +15,13 @@ self.addEventListener('fetch', evt =>
 
       if (
         evt.request.destination !== 'font' || // validation req type
+        !/@gh-pages\/subset-fonts/.test(evt.request.url) || // caching only subset fonts
         usage + Number(resp.headers.get('Content-Length')) > quota * 0.9 // quota guard
       ) {
         return resp;
       }
 
-      // caching font files
+      // caching subset font files
       const cache = await caches.open(CACHE_NAME);
       cache.put(evt.request, resp.clone());
 
