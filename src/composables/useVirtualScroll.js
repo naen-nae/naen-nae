@@ -71,11 +71,11 @@ export default function useVirtualScroll({ fonts, vScrollContents }) {
     );
   });
 
-  // req font-face
+  // req subset font-face
   const reqFontFace = throttle(startInd => {
     const endInd = displayEndInd.value;
     store.dispatch(
-      'reqFontFace',
+      'reqSubsetFontFace',
       fonts.value.slice(
         Math.max(startInd - indPad, 0),
         Math.min(endInd + 1 + indPad, fonts.value.length),

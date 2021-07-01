@@ -55,6 +55,9 @@ export default createStore({
     enableFont(state, { name: targetName }) {
       state.fonts.find(({ name }) => name === targetName).enable = true;
     },
+    enableSubsetFont(state, { name: targetName }) {
+      state.fonts.find(({ name }) => name === targetName).subsetEnable = true;
+    },
     setScrollY(state, scrollY) {
       state.scrollY = scrollY;
     },
@@ -72,6 +75,17 @@ export default createStore({
         .forEach(async ({ fontFamily, name }) => {
           await addStylesheet(fontFamily, `/css/${fontFamily}.css`);
           ctx.commit('enableFont', { name });
+        });
+    },
+    reqSubsetFontFace(ctx, fonts) {
+      fonts
+        .filter(
+          font =>
+            font.subsetEnable === undefined || font.subsetEnable === false,
+        )
+        .forEach(async ({ fontFamily, name }) => {
+          await addStylesheet(fontFamily, `/subset-css/${fontFamily}.css`);
+          ctx.commit('enableSubsetFont', { name });
         });
     },
     updateScrollY(ctx, scrollY) {
