@@ -2,6 +2,7 @@ import { createStore } from 'vuex';
 import createPersistedState from 'vuex-persistedstate';
 import constants from '../constants';
 import pick from 'lodash/pick';
+import addStylesheet from '../share/addStylesheet';
 
 export default createStore({
   state: () => ({
@@ -64,6 +65,14 @@ export default createStore({
   actions: {
     resetFontSize(ctx) {
       ctx.commit('setFontSize', constants.DEFAILT_FONT_SIZE);
+    },
+    reqFontFace(ctx, fonts) {
+      fonts
+        .filter(font => font.enable === undefined || font.enable === false)
+        .forEach(async ({ fontFamily, name }) => {
+          await addStylesheet(fontFamily, `/css/${fontFamily}.css`);
+          ctx.commit('enableFont', { name });
+        });
     },
     updateScrollY(ctx, scrollY) {
       window.scrollTo(0, scrollY);
