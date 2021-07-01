@@ -12,8 +12,9 @@
           <p
             v-show="font.enable"
             :style="{ fontSize: `${fontSize}px`, fontFamily: font.fontFamily }"
-            v-text="textContent !== '' ? textContent : font.author"
-          />
+          >
+            다람쥐 헌 쳇바퀴에 타고파
+          </p>
         </transition>
         <p v-if="!font.enable" class="typo-subtitle">
           폰트를 불러오고 있어요...
@@ -29,7 +30,7 @@ import { computed, defineProps, toRefs } from 'vue';
 import { useStore } from 'vuex';
 
 const store = useStore();
-const { textContent, fontSize } = toRefs(store.state);
+const { fontSize } = toRefs(store.state);
 
 defineProps({
   font: {
