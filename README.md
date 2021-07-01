@@ -2,14 +2,15 @@
 
 [![Deploy](https://github.com/naen-nae/naen-nae/actions/workflows/deploy.yml/badge.svg)](https://github.com/naen-nae/naen-nae/actions/workflows/deploy.yml)
 
-[![GitHub Starts](https://img.shields.io/github/stars/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/network/members)
 
 <p align="center">
   <b>라이선스 걱정 없는 한글 폰트 '낸내'</b>
 </p>
 
 - [낸내 바로가기](https://naen-nae.shj.rip/)
-- [폰트 제안하기](https://forms.gle/cmbzX8JmazrkDUex7)
+- [폰트 제안하기 (구글 폼)](https://forms.gle/cmbzX8JmazrkDUex7)
+- [폰트 제안하기 (깃헙 이슈)](https://github.com/naen-nae/naen-nae/issues)
 
 ## 🖐 낸내
 
@@ -49,7 +50,7 @@
 
 누구나 낸내에 폰트를 제안할 수 있습니다.
 
-GitHub Issues를 이용해 새로운 폰트를 제안해주세요!
+[구글 폼](https://forms.gle/cmbzX8JmazrkDUex7) 또는 GitHub Issues를 이용해 새로운 폰트를 제안해주세요!
 
 (특별한 사유가 있지 않는 이상 모든 폰트는 추가됩니다.)
 
@@ -116,12 +117,11 @@ yarn dev # 앱 구동 (http://localhost:3000/)
 
 `yarn font-gen` 명령으로 [폰트 관련 파일 생성 스크립트](./scripts/fontGen/index.js)가 실행되며, 다음의 파일이 생성됩니다.
 
-- `/public/env.json`: 폰트 관련 정보
-- `/public/faces/faces-<index>.css`: 페이지네이션을 위해 분리된 CSS 파일 (`font-face`)
-- `/public/fonts/fonts-<index>.css`: 페이지네이션을 위해 분리된 폰트 정보 JSON 파일
+- `/public/fonts.json`: 폰트와 관련된 정보가 담긴 JSON 파일
 - `/public/css/<Font name>.css`: 폰트별로 분리된 CSS 파일 (`font-face`)
+- `/public/subset-css/<Font name>.css`: 폰트(Subset)별로 분리된 CSS 파일
 
-앱 내에서는 `env.json` 및 `faces-<index>.css` 그리고 `fonts-<index>.css` 파일이 사용됩니다.
+앱 내에서는 `fonts.json` 파일이 사용됩니다.
 
 `<font name>.css` 파일은 아래와 같이 실제로 폰트를 사용하기 위해 생성되는 파일이에요.
 
@@ -130,6 +130,22 @@ yarn dev # 앱 구동 (http://localhost:3000/)
 ```
 
 이 파일들은 `fonts.yml`에 명시된 내용을 바탕으로 생성됩니다.
+
+### `yarn subset-font-gen`
+
+빠른 웹 페이지 로드를 위해, 초기 화면(Home)은 아래의 팬그램 글자만을 보여주도록 하고 있으며,
+
+```
+다람쥐 헌 쳇바퀴에 타고파
+```
+
+`다람쥐 헌 쳇바퀴에 타고파`라는 글자만을 폰트 파일로 생성하여 Home 페이지에서 사용하도록 하고 있습니다.
+
+이를 서브셋(Subset)이라 하며, 기존보다 수십 배 이상 빠른 초기 화면 로드를 가능하게 합니다.
+
+서브셋 폰트 파일은 `yarn subset-font-gen` 명령으로 생성이 가능하며, GitHub Actions 이슈로 인해 현재는 직접 생성 후 Push하도록 하고 있습니다.
+
+명령의 결과로 `/public/subset-fonts/` 디렉터리 아래에 서브셋 폰트 파일과 관련된 디렉터리 및 서브셋 폰트 파일이 생성됩니다.
 
 ### [`fonts.yml`](./fonts.yml)
 
