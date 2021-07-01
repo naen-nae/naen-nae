@@ -2,8 +2,6 @@ import { createStore } from 'vuex';
 import createPersistedState from 'vuex-persistedstate';
 import constants from '../constants';
 import pick from 'lodash/pick';
-import addStylesheet from '../share/addStylesheet';
-import req from '../share/req';
 
 export default createStore({
   state: () => ({
@@ -16,10 +14,6 @@ export default createStore({
     searchContent: '',
     snackbarMsgs: [],
     fonts: [],
-    env: {},
-    fontInd: -1,
-    inftyScroll: false,
-    loadFonts: false,
     scrollY: 0,
     screenWidth: 0,
   }),
@@ -54,29 +48,11 @@ export default createStore({
         1,
       );
     },
-    addFont(state, font) {
-      state.fonts.push(font);
+    addFonts(state, fonts) {
+      state.fonts.push(...fonts);
     },
-    enableFont(state, ind) {
-      state.fonts[ind].enable = true;
-    },
-    setEnv(state, env) {
-      state.env = env;
-    },
-    enableInftyScroll(state) {
-      state.inftyScroll = true;
-    },
-    startLoadFonts(state) {
-      state.loadFonts = true;
-    },
-    endLoadFonts(state) {
-      state.loadFonts = false;
-    },
-    increaseFontInd(state) {
-      state.fontInd++;
-    },
-    decreaseFontInd(state) {
-      state.fontInd--;
+    enableFont(state, { name: targetName }) {
+      state.fonts.find(({ name }) => name === targetName).enable = true;
     },
     setScrollY(state, scrollY) {
       state.scrollY = scrollY;
@@ -88,47 +64,6 @@ export default createStore({
   actions: {
     resetFontSize(ctx) {
       ctx.commit('setFontSize', constants.DEFAILT_FONT_SIZE);
-    },
-    async addNextFonts(ctx) {
-      if (ctx.state.fontInd + 1 >= ctx.state.env.faces) {
-        return;
-      }
-
-      ctx.commit('startLoadFonts');
-
-      // set ind
-      ctx.commit('increaseFontInd');
-      const ind = ctx.state.fontInd;
-
-      let fonts = null;
-
-      // req guard
-      try {
-        fonts = await (await req(`/fonts/fonts-${ind}.json`)).json();
-      } catch {
-        ctx.commit('endLoadFonts');
-        ctx.commit('decreaseFontInd');
-        return;
-      }
-
-      // store start ind
-      const startInd = ctx.state.fonts.length;
-
-      // display fonts
-      fonts.forEach(font => ctx.commit('addFont', { ...font, enable: false }));
-
-      try {
-        await Promise.all(
-          fonts.map(async (font, ind) => {
-            const { fontFamily } = font;
-            await addStylesheet(fontFamily, `/css/${fontFamily}.css`);
-
-            return ctx.commit('enableFont', startInd + ind);
-          }),
-        );
-      } finally {
-        ctx.commit('endLoadFonts');
-      }
     },
     updateScrollY(ctx, scrollY) {
       window.scrollTo(0, scrollY);
