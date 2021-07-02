@@ -56,10 +56,10 @@ fonts:
   - author: 네이버
     name: 나눔스퀘어라운드
     files:
-      - 'NanumSquareRound/NanumSquareRoundL.ttf.woff2'
-      - 'NanumSquareRound/NanumSquareRoundR.ttf.woff2'
-      - 'NanumSquareRound/NanumSquareRoundB.ttf.woff2'
-      - 'NanumSquareRound/NanumSquareRoundEB.ttf.woff2'
+      - 'NanumSquareRound/NanumSquareRoundL.ttf'
+      - 'NanumSquareRound/NanumSquareRoundR.ttf'
+      - 'NanumSquareRound/NanumSquareRoundB.ttf'
+      - 'NanumSquareRound/NanumSquareRoundEB.ttf'
     fontWeights:
       - 300
       - 400
@@ -86,10 +86,10 @@ fonts:
   - author: 네이버
     name: 나눔스퀘어
     files:
-      - 'NanumSquare/NanumSquareL.ttf.woff2'
-      - 'NanumSquare/NanumSquareR.ttf.woff2'
-      - 'NanumSquare/NanumSquareB.ttf.woff2'
-      - 'NanumSquare/NanumSquareEB.ttf.woff2'
+      - 'NanumSquare/NanumSquareL.ttf'
+      - 'NanumSquare/NanumSquareR.ttf'
+      - 'NanumSquare/NanumSquareB.ttf'
+      - 'NanumSquare/NanumSquareEB.ttf'
     fontWeights:
       - 300
       - 400
@@ -228,7 +228,7 @@ fonts:
   - author: 네이버
     name: 나눔손글씨 붓
     files:
-      - 'NanumBrush/NanumBrush.ttf.woff2'
+      - 'NanumBrush/NanumBrush.ttf'
     fontWeights:
       - 400
     fontFamily: NanumBrush
@@ -252,7 +252,7 @@ fonts:
   - author: 네이버
     name: 나눔손글씨 펜
     files:
-      - 'NanumPen/NanumPen.ttf.woff2'
+      - 'NanumPen/NanumPen.ttf'
     fontWeights:
       - 400
     fontFamily: NanumPen
@@ -276,8 +276,8 @@ fonts:
   - author: 네이버
     name: 나눔고딕코딩
     files:
-      - 'NanumGothicCoding/NanumGothicCoding.ttf.woff2'
-      - 'NanumGothicCoding/NanumGothicCoding-Bold.ttf.woff2'
+      - 'NanumGothicCoding/NanumGothicCoding.ttf'
+      - 'NanumGothicCoding/NanumGothicCoding-Bold.ttf'
     fontWeights:
       - 400
       - 700
@@ -302,9 +302,9 @@ fonts:
   - author: 네이버
     name: 나눔명조
     files:
-      - 'NanumMyeongjo/NanumMyeongjo.ttf.woff2'
-      - 'NanumMyeongjo/NanumMyeongjoBold.ttf.woff2'
-      - 'NanumMyeongjo/NanumMyeongjoExtraBold.ttf.woff2'
+      - 'NanumMyeongjo/NanumMyeongjo.ttf'
+      - 'NanumMyeongjo/NanumMyeongjoBold.ttf'
+      - 'NanumMyeongjo/NanumMyeongjoExtraBold.ttf'
     fontWeights:
       - 400
       - 700
@@ -1302,7 +1302,7 @@ fonts:
   - author: 네이버
     name: 마루 부리
     files:
-      - 'MaruBuri-Regular/MaruBuri-Regular.otf'
+      - 'MaruBuri-Regular/MaruBuri-Regular.ttf'
     fontWeights:
       - 400
     fontFamily: MaruBuri
@@ -4148,8 +4148,8 @@ fonts:
   - author: 비씨카드(주)
     name: BC카드
     files:
-      - 'BCcard/BCcardL.otf'
-      - 'BCcard/BCcardB.otf'
+      - 'BCcard/BCcardL.ttf'
+      - 'BCcard/BCcardB.ttf'
     fontWeights:
       - 300
       - 700
