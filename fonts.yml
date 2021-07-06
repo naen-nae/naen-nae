@@ -4548,3 +4548,2633 @@ fonts:
 
       라이선스 전문 보기(영어): https://github.com/IBM/plex/blob/v5.0.0/IBM-Plex-Sans-KR/fonts/complete/woff/hinted/license.txt
       라이선스 전문 보기(한글): https://www.olis.or.kr/license/Detailselect.do?lId=1086&mapcode=010068
+
+  - author: 어비
+    name: 어비 마이센
+    files:
+      - 'UhBeemysen/UhBee mysen.ttf'
+      - 'UhBeemysen/UhBee mysen Bold.ttf'
+    fontWeights:
+      - 400
+      - 700
+    fontFamily: UhBeemysen
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 앤
+    files:
+      - 'UhBeeann/UhBee ann Bold.ttf'
+      - 'UhBeeann/UhBee ann.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeann
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 아룡
+    files:
+      - 'UhBeeARyong/UhBee ARyong Bold.ttf'
+      - 'UhBeeARyong/UhBee ARyong.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeARyong
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 베이비
+    files:
+      - 'UhBeebaby/UhBee baby Bold.ttf'
+      - 'UhBeebaby/UhBee baby.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeebaby
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 바니나니
+    files:
+      - 'UhBeeBanynany/UhBee Banynany Bold.ttf'
+      - 'UhBeeBanynany/UhBee Banynany.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeBanynany
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 버찌
+    files:
+      - 'UhBeeBEOJJI/UhBee BEOJJI Bold.ttf'
+      - 'UhBeeBEOJJI/UhBee BEOJJI.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeBEOJJI
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 봉식이
+    files:
+      - 'UhBeeBongSik/UhBee BongSik BOLD.ttf'
+      - 'UhBeeBongSik/UhBee BongSik.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeBongSik
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 채은
+    files:
+      - 'UhBeechae-eun/UhBee chae-eun Bold.ttf'
+      - 'UhBeechae-eun/UhBee chae-eun.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeechae-eun
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 챠밍
+    files:
+      - 'UhBeecharming/UhBee charming Bold.ttf'
+      - 'UhBeecharming/UhBee charming.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeecharming
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 초성
+    files:
+      - 'UhBeeChoSung/UhBeeChoSung.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeChoSung
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 담이
+    files:
+      - 'UhBeedami/UhBee dami Bold.ttf'
+      - 'UhBeedami/UhBee dami.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeedami
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 똘영
+    files:
+      - 'UhBeeddolyoung/UhBee ddolyoung BOLD.ttf'
+      - 'UhBeeddolyoung/UhBee ddolyoung.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeddolyoung
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 또요
+    files:
+      - 'UhBeeDDOYO/UhBee DDOYO BOLD.ttf'
+      - 'UhBeeDDOYO/UhBee DDOYO.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeDDOYO
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 동경
+    files:
+      - 'UhBeeDongKyung/UhBee DongKyung BOLD.ttf'
+      - 'UhBeeDongKyung/UhBee DongKyung.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeDongKyung
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 둘둘
+    files:
+      - 'UhBeeDoolDool/UhBee DoolDool Bold.ttf'
+      - 'UhBeeDoolDool/UhBee DoolDool.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeDoolDool
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 은디
+    files:
+      - 'UhBeeeunD/UhBee eunD Bold.ttf'
+      - 'UhBeeeunD/UhBee eunD.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeeunD
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 은경
+    files:
+      - 'UhBeeEUNKYUNG/UhBee EUN KYUNG Bold.ttf'
+      - 'UhBeeEUNKYUNG/UhBee EUN KYUNG.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeEUNKYUNG
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 괴짜 연구원 미나니
+    files:
+      - 'UhBeefreakresearcherminani/UhBee freak researcher minani.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeefreakresearcherminani
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 뒤죽박죽
+    files:
+      - 'UhBeeGENWOO/UhBee GEN WOO Bold.ttf'
+      - 'UhBeeGENWOO/UhBee GEN WOO.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeGENWOO
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 꿍디
+    files:
+      - 'UhBeeGGoongD/UhBee GGoongD.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeGGoongD
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 지민2
+    files:
+      - 'UhBeeGmin2/UhBee Gmin2 Bold.ttf'
+      - 'UhBeeGmin2/UhBee Gmin2.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeGmin2
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 햄
+    files:
+      - 'UhBeeHam/UhBee Ham Bold.ttf'
+      - 'UhBeeHam/UhBee Ham.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeHam
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 한비
+    files:
+      - 'UhBeeHanbee/UhBee Hanbee Bold.ttf'
+      - 'UhBeeHanbee/UhBee Hanbee.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeHanbee
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 디그다별
+    files:
+      - 'UhBeeHanByeol/UhBee HanByeol BOLD.ttf'
+      - 'UhBeeHanByeol/UhBee HanByeol.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeHanByeol
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 하뉴이
+    files:
+      - 'UhBeeHanHUEY/UhBee Han HUEY Bold.ttf'
+      - 'UhBeeHanHUEY/UhBee Han HUEY.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeHanHUEY
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 히욤
+    files:
+      - 'UhBeeHeeyom/UhBee Heeyom.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeHeeyom
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 하울
+    files:
+      - 'UhBeeHowl/UhBee Howl.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeHowl
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 혜키
+    files:
+      - 'UhBeeHyeki/UhBee Hyeki Bold.ttf'
+      - 'UhBeeHyeki/UhBee Hyeki.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeHyeki
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 혜몽
+    files:
+      - 'UhBeehyemong/UhBee hye mong Bold.ttf'
+      - 'UhBeehyemong/UhBee hye mong.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeehyemong
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 현듀
+    files:
+      - 'UhBeeHyundyu/UhBee Hyundyu Bold.ttf'
+      - 'UhBeeHyundyu/UhBee Hyundyu.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeHyundyu
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 현정
+    files:
+      - 'UhBeeHYUNJUNG/UhBee HYUNJUNG Bold.ttf'
+      - 'UhBeeHYUNJUNG/UhBee HYUNJUNG.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeHYUNJUNG
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 이부손
+    files:
+      - 'UhBeeibuson/UhBee ibuson.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeibuson
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 재윤
+    files:
+      - 'UhBeejaeyoun/UhBee+Jaeyoun+Bold.ttf'
+      - 'UhBeejaeyoun/UhBee+Jaeyoun.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeejaeyoun
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 진건
+    files:
+      - 'UhBeeJin-gun/UhBee Jin-gun Bold.ttf'
+      - 'UhBeeJin-gun/UhBee Jin-gun.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeJin-gun
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 지슉지슉
+    files:
+      - 'UhBeeJisyukjisyuk/UhBee Jisyuk jisyuk BOLD.ttf'
+      - 'UhBeeJisyukjisyuk/UhBee Jisyuk jisyuk.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeJisyukjisyuk
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 지영
+    files:
+      - 'UhBeeJiyoung/UhBee Jiyoung.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeJiyoung
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 찌빠빠
+    files:
+      - 'UhBeeJJIBBABBA/UhBee JJIBBABBA Bold.ttf'
+      - 'UhBeeJJIBBABBA/UhBee JJIBBABBA.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeJJIBBABBA
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 찌풍딩
+    files:
+      - 'UhBeeJjipungding/UhBee Jjipungding Bold.ttf'
+      - 'UhBeeJjipungding/UhBee Jjipungding.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeJjipungding
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 조커
+    files:
+      - 'UhBeeJoker/UhBee Joker Bold.ttf'
+      - 'UhBeeJoker/UhBee Joker.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeJoker
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 쩡
+    files:
+      - 'UhBeejung/UhBee jung BOLD.ttf'
+      - 'UhBeejung/UhBee jung.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeejung
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 카이루
+    files:
+      - 'UhBeeKairu/UhBee Kairu BOLD.ttf'
+      - 'UhBeeKairu/UhBee Kairu.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeKairu
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 카이루 장난
+    files:
+      - 'UhBeekairu mischief/UhBee kairu mischief Bold.ttf'
+      - 'UhBeekairu mischief/UhBee kairu mischief.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeekairu mischief
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 깡자
+    files:
+      - 'UhBeeKang-Ja/UhBee Kang-Ja Bold.ttf'
+      - 'UhBeeKang-Ja/UhBee Kang-Ja.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeKang-Ja
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 컹컹
+    files:
+      - 'UhBeeKeongKeong/UhBee KeongKeong Bold.ttf'
+      - 'UhBeeKeongKeong/UhBee KeongKeong.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeKeongKeong
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 코르
+    files:
+      - 'UhBeeKOR/UhBee KOR.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeKOR
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 양나
+    files:
+      - 'UhBeeLovelyAN/UhBee LovelyAN Bold.ttf'
+      - 'UhBeeLovelyAN/UhBee LovelyAN.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeLovelyAN
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 말듀
+    files:
+      - 'UhBeeMardyu/UhBee Mardyu Bold.ttf'
+      - 'UhBeeMardyu/UhBee Mardyu.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeMardyu
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 마츠코
+    files:
+      - 'UhBeematsuko/UhBee matsuko Bold.ttf'
+      - 'UhBeematsuko/UhBee matsuko.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeematsuko
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 미미
+    files:
+      - 'UhBeeMiMi/UhBee MiMi Bold.ttf'
+      - 'UhBeeMiMi/UhBee MiMi.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeMiMi
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 민아방
+    files:
+      - 'UhBeeminahbang/UhBee MinAhBang Bold.ttf'
+      - 'UhBeeminahbang/UhBee MinAhBang.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeminahbang
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 밍기캘리
+    files:
+      - 'UhBeemingicalli/UhBee mingi calli Bold.ttf'
+      - 'UhBeemingicalli/UhBee mingi calli.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeemingicalli
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 미니도리
+    files:
+      - 'UhBeeMinidori/UhBee Minidori.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeMinidori
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 미완
+    files:
+      - 'UhBeeMiwan/UhBee Miwan Bold.ttf'
+      - 'UhBeeMiwan/UhBee Miwan.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeMiwan
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 모토미
+    files:
+      - 'UhBeeMotomi/UhBee Motomi.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeMotomi
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 문재
+    files:
+      - 'UhBeeMunjae/UhBee Munjae.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeMunjae
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 문슬예
+    files:
+      - 'UhBeemunseulye/UhBee mun seul ye Bold.ttf'
+      - 'UhBeemunseulye/UhBee mun seul ye.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeemunseulye
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 유진남푠
+    files:
+      - 'UhBeeMyHusband/UhBee My Husband Bold.ttf'
+      - 'UhBeeMyHusband/UhBee My Husband.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeMyHusband
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 나현
+    files:
+      - 'UhbeeNaHyun/Uhbee NaHyun Bold.ttf'
+      - 'UhbeeNaHyun/Uhbee NaHyun.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhbeeNaHyun
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 남지은
+    files:
+      - 'UhBeeNamjieun/UhBee Namjieun Bold.ttf'
+      - 'UhBeeNamjieun/UhBee Namjieun.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeNamjieun
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 남소영
+    files:
+      - 'UhBeenamsoyoung/UhBee namsoyoung Bold.ttf'
+      - 'UhBeenamsoyoung/UhBee namsoyoung.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeenamsoyoung
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 푸딩
+    files:
+      - 'UhBeepuding/UhBee puding Bold.ttf'
+      - 'UhBeepuding/UhBee puding.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeepuding
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 퀸제이
+    files:
+      - 'UhBeeQUEENJ/UhBee QUEEN J Bold.ttf'
+      - 'UhBeeQUEENJ/UhBee QUEEN J.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeQUEENJ
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 라미
+    files:
+      - 'UhBeeRami/UhBee Rami BOLD.ttf'
+      - 'UhBeeRami/UhBee Rami.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeRami
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 다빈
+    files:
+      - 'UhBeeRice/UhBee Rice.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeRice
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 링링
+    files:
+      - 'UhBeeRingRing/UhBee RingRing Bold.ttf'
+      - 'UhBeeRingRing/UhBee RingRing.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeRingRing
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 류가
+    files:
+      - 'UhBeeRyuga/UhBee Ryuga Bold.ttf'
+      - 'UhBeeRyuga/UhBee Ryuga.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeRyuga
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 슬기로운 생활
+    files:
+      - 'UhBeeSeulvely/UhBee Seulvely.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeSeulvely
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 세현
+    files:
+      - 'UhBeeSe_hyun/UhBee Se_hyun Bold.ttf'
+      - 'UhBeeSe_hyun/UhBee Se_hyun.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeSe_hyun
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 단순그녀
+    files:
+      - 'UhBeeSimplegirl/UhBee Simple girl BOLD.ttf'
+      - 'UhBeeSimplegirl/UhBee Simple girl.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeSimplegirl
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 하늘비
+    files:
+      - 'UhBeeSkyrain/UhBee Skyrain BOLD.ttf'
+      - 'UhBeeSkyrain/UhBee Skyrain.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeSkyrain
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 송송
+    files:
+      - 'UhBeesong/UhBee song Bold.ttf'
+      - 'UhBeesong/UhBee song.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeesong
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 소윤
+    files:
+      - 'UhBeeSoyun/UhBee Soyun.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeSoyun
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 스트로베리
+    files:
+      - 'UhBeeStrawberry/UhBee Strawberry BOLD.ttf'
+      - 'UhBeeStrawberry/UhBee Strawberry.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeStrawberry
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 선홍
+    files:
+      - 'UhBeeSunhong/UhBee Sunhong BOLD.ttf'
+      - 'UhBeeSunhong/UhBee Sunhong.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeSunhong
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 스윗
+    files:
+      - 'UhBeeswit/UhBee swit.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeswit
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 톡기
+    files:
+      - 'UhBeeTokki/UhBee Tokki Bold.ttf'
+      - 'UhBeeTokki/UhBee Tokki.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeTokki
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 토모
+    files:
+      - 'UhBeeTOMO/UhBee TOMO.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeTOMO
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 순수결정
+    files:
+      - 'UhBeeUJEONG/UhBee U JEONG Bold.ttf'
+      - 'UhBeeUJEONG/UhBee U JEONG.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeUJEONG
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 유종
+    files:
+      - 'UhBeeUJong/UhBee UJong Bold.ttf'
+      - 'UhBeeUJong/UhBee UJong.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeUJong
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 유진
+    files:
+      - 'UhBeeUZ/UhBee UZ Bold.ttf'
+      - 'UhBeeUZ/UhBee UZ.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeUZ
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 못된여자
+    files:
+      - 'UhBeewockedwoman/UhBee wocked woman Bold.ttf'
+      - 'UhBeewockedwoman/UhBee wocked woman.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeewockedwoman
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 우야깨붕
+    files:
+      - 'UhBeeWooyakeboong/UhBee Wooyakeboong.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeWooyakeboong
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 위윰
+    files:
+      - 'UhBeeWyum/UhBee W yum Bold.ttf'
+      - 'UhBeeWyum/UhBee W yum.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeWyum
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 얀느
+    files:
+      - 'UhBeeYanNeu/UhBee YanNeu Bold.ttf'
+      - 'UhBeeYanNeu/UhBee YanNeu.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeYanNeu
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 예희
+    files:
+      - 'UhBeeyehee/UhBee yehee Bold.ttf'
+      - 'UhBeeyehee/UhBee yehee.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeyehee
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 여니
+    files:
+      - 'UhBeeYeonie/UhBee Yeonie.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeYeonie
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 이슬
+    files:
+      - 'UhBeeYiseul/UhBee Yiseul Bold.ttf'
+      - 'UhBeeYiseul/UhBee Yiseul.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeYiseul
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 융디
+    files:
+      - 'UhBeeyoongdi/UhBee yoongdi Bold.ttf'
+      - 'UhBeeyoongdi/UhBee yoongdi.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeyoongdi
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 윤쟈
+    files:
+      - 'UhBeeyoonjaa/UhBee yoonjaa Bold.ttf'
+      - 'UhBeeyoonjaa/UhBee yoonjaa.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeyoonjaa
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 율
+    files:
+      - 'UhBeeyul/UhBee yul Bold.ttf'
+      - 'UhBeeyul/UhBee yul.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeyul
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 지글
+    files:
+      - 'UhBeeZIGLE/UhBee ZIGLE Bold.ttf'
+      - 'UhBeeZIGLE/UhBee ZIGLE.ttf'
+    fontWeights:
+      - 700
+      - 400
+    fontFamily: UhBeeZIGLE
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
+
+  - author: 어비
+    name: 어비 찌바
+    files:
+      - 'UhBeeZZIBA/UhBeeZZIBA-Regular.ttf'
+    fontWeights:
+      - 400
+    fontFamily: UhBeeZZIBA
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: false
+    license: |
+      방송, 서적, 이모티콘 제작 등 상업적 사용에도 무료입니다. 단, 어비폰트 자체를 사고 파는 행위자체는 불법입니다.
+      상업적 사용된 곳은 font@uhbee.net 메일로 결과물이 어디에 쓰여졌는지만 알려주세요. 출처 안쓰셔도 되며, 허락 안받으셔도 됩니다.
+
+      주의점: 어비폰트는 무료로 제공되는 폰트입니다.
+
+      어비폰트를 가공하여 apk, WebFont 등의 모든 변환 결과물들은 무료로 제공되어야만 합니다.
+      유료판매나 조건부 교환은 법적책임을 물게 됩니다.
+
+      어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
+      문의 사항 font@uhbee.net
