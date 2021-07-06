@@ -3,8 +3,4 @@ node_modules
 dist
 dist-ssr
 *.local
-public/css
-public/faces
-public/fonts.json
-public/subset-css
 coverage
