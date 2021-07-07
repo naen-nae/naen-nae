@@ -50,49 +50,9 @@
 
 누구나 낸내에 폰트를 제안할 수 있습니다.
 
-[구글 폼](https://forms.gle/cmbzX8JmazrkDUex7) 또는 GitHub Issues를 이용해 새로운 폰트를 제안해주세요!
+[구글 폼](https://forms.gle/cmbzX8JmazrkDUex7)을 이용해 새로운 폰트를 제안해주세요!
 
-(특별한 사유가 있지 않는 이상 모든 폰트는 추가됩니다.)
-
-### 1. GitHub issue 생성하기
-
-<p align="center">
-  <img width="480" src="https://i.imgur.com/HCtI3Af.png">
-</p>
-
-먼저 [Issues 페이지](https://github.com/naen-nae/naen-nae/issues)에 접속한 뒤, `New issue` 버튼을 눌러 이슈를 생성해주세요.
-
-### 2. New Font 템플릿 사용하기
-
-<p align="center">
-  <img src="https://i.imgur.com/F3Wjo6i.png">
-</p>
-
-`New Font` 템플릿을 이용해 이슈를 작성해주세요.
-
-### 3. Issue 내용 작성하기
-
-<p align="center">
-  <img width="480" src="https://i.imgur.com/fzcKAcZ.png">
-</p>
-
-템플릿 내용을 기반으로 제안하려는 폰트에 대한 정보를 입력해주세요. ([작성 예시](https://github.com/naen-nae/naen-nae/issues/6))
-
-'허용하는 라이선스 요약'에 대한 내용은 다음과 같습니다.
-
-- 인쇄: 브로슈어, 포스터, 책, 잡지 및 출판용 인쇄물 등
-- 웹사이트: 웹페이지, 광고 배너, 메일, E-브로슈어 등
-- 영상: 영상물 자막, 영화 오프닝/엔딩 크레딧, UCC 등
-- 포장지: 판매용 상품의 패키지
-- 임베딩: 웹사이트 및 프로그램 서버 내 폰트 탑재, E-book 제작
-- BI/CI: 회사명, 브랜드명, 상품명, 로고, 마크, 슬로건, 캐치프레이즈
-- OFL: 폰트 파일의 수정/ 복제/ 배포 가능. 단, 폰트 파일의 유료 판매는 금지
-
-### 4. 제안 완료!
-
-`Submit new issue` 버튼을 눌러 제안을 완료해주세요.
-
-가능한 빠른 시일 내 확인 후 추가하도록 하겠습니다.
+한글 지원 여부, 재배포 가능 여부, 기타 라이선스 체크 후 가능한 빠른 시일 내 추가하도록 하겠습니다.
 
 감사합니다. 😊
 
@@ -109,9 +69,13 @@ git clone https://github.com/<GitHub User name>/naen-nae
 cd naen-nae
 
 yarn # 디펜던시 설치
-yarn font-gen # 앱 구동에 있어 필요한 파일들 생성 (Pre-gen)
+yarn pre-gen # 앱 구동에 있어 필요한 파일들 생성
 yarn dev # 앱 구동 (http://localhost:3000/)
 ```
+
+### `yarn pre-gen`
+
+`yarn pre-gen` 명령으로 `font-gen` 및 `subset-font-gen` 스크립트가 실행됩니다. 각 스크립트에 대한 자세한 설명은 바로 아래에서 이어집니다.
 
 ### `yarn font-gen`
 
@@ -162,8 +126,8 @@ fonts:
       - <폰트 굵기 1> # 100~900 중에서 설정합니다.
       - <폰트 굵기 2> # 각 파일에 대한 굵기를 명시합니다.
     fontFamily: <Font Family 이름>
-    licenseSummary: # 라이선스 요약은 위 '폰트 제안하기 - 3. Issue 내용 작성하기'를 참고해주세요.
-      print: true
+    licenseSummary: # 라이선스 요약
+      print: true # true: 허용, false: 비허용
       website: true
       video: true
       paper: true
@@ -175,6 +139,16 @@ fonts:
 
   - author: # ...
 ```
+
+'라이선스 요약'에 대한 내용은 다음과 같습니다.
+
+- 인쇄: 브로슈어, 포스터, 책, 잡지 및 출판용 인쇄물 등
+- 웹사이트: 웹페이지, 광고 배너, 메일, E-브로슈어 등
+- 영상: 영상물 자막, 영화 오프닝/엔딩 크레딧, UCC 등
+- 포장지: 판매용 상품의 패키지
+- 임베딩: 웹사이트 및 프로그램 서버 내 폰트 탑재, E-book 제작
+- BI/CI: 회사명, 브랜드명, 상품명, 로고, 마크, 슬로건, 캐치프레이즈
+- OFL: 폰트 파일의 수정/ 복제/ 배포 가능. 단, 폰트 파일의 유료 판매는 금지
 
 ## 📜 라이선스
 
