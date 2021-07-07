@@ -109,9 +109,13 @@ git clone https://github.com/<GitHub User name>/naen-nae
 cd naen-nae
 
 yarn # 디펜던시 설치
-yarn font-gen # 앱 구동에 있어 필요한 파일들 생성 (Pre-gen)
+yarn pre-gen # 앱 구동에 있어 필요한 파일들 생성
 yarn dev # 앱 구동 (http://localhost:3000/)
 ```
+
+### `yarn pre-gen`
+
+`yarn pre-gen` 명령으로 `font-gen` 및 `subset-font-gen` 스크립트가 실행됩니다. 각 스크립트에 대한 자세한 설명은 바로 아래에서 이어집니다.
 
 ### `yarn font-gen`
 
