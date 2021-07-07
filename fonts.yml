@@ -7178,3 +7178,66 @@ fonts:
 
       어비폰트는 상업적 용도에도 무료입니다. (인쇄, 방송, 인터넷 등 모든 사용가능)
       문의 사항 font@uhbee.net
+
+  - author: 길형진
+    name: Pretendard
+    files:
+      - 'Pretendard-1.0/Pretendard-Thin.woff2'
+      - 'Pretendard-1.0/Pretendard-ExtraLight.woff2'
+      - 'Pretendard-1.0/Pretendard-Light.woff2'
+      - 'Pretendard-1.0/Pretendard-Regular.woff2'
+      - 'Pretendard-1.0/Pretendard-Medium.woff2'
+      - 'Pretendard-1.0/Pretendard-SemiBold.woff2'
+      - 'Pretendard-1.0/Pretendard-Bold.woff2'
+      - 'Pretendard-1.0/Pretendard-ExtraBold.woff2'
+      - 'Pretendard-1.0/Pretendard-Black.woff2'
+    fontWeights:
+      - 100
+      - 200
+      - 300
+      - 400
+      - 500
+      - 600
+      - 700
+      - 800
+      - 900
+    fontFamily: Pretendard
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      글꼴 단독 판매를 제외한 모든 상업적 행위 및 수정, 재배포가 가능합니다.
+      SIL OFL: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+      크레딧
+      - 바탕: Inter / Rasmus Andersson ( https://rsms.me/inter/ )
+      - 한글 바탕: Noto Sans CJK KR—본고딕 / 산돌커뮤니케이션; 장수영, 강주연 ( https://github.com/adobe-fonts/source-han-sans )
+      - 리디자인 및 제작: 길형진 ( https://github.com/orioncactus/pretendard )
+
+  - author: 길형진
+    name: 둥근모꼴 + Fixedsys
+    files:
+      - 'DungGeunMo/DungGeunMo.woff2'
+    fontWeights:
+      - 400
+    fontFamily: DungGeunMo
+    licenseSummary:
+      print: true
+      website: true
+      video: true
+      paper: true
+      embeding: true
+      bici: true
+      ofl: true
+    license: |
+      원본과 동일한 퍼블릭 도메인으로 재배포, 수정, 영리 목적 사용 등 걱정 없이 자유롭게 쓰면 됩니다.
+      ( https://ko.wikipedia.org/wiki/퍼블릭_도메인 )
+
+      원작자
+      - 김종태 IT문화원 원장 ( http://ith.kr/ )
+      - Fixedsys Excelsior: Darien Gavin Valentine
