@@ -73,7 +73,10 @@ export default createStore({
       fonts
         .filter(font => font.enable === undefined || font.enable === false)
         .forEach(async ({ fontFamily, name }) => {
-          await addStylesheet(fontFamily, `/css/${fontFamily}.css`);
+          await addStylesheet(
+            fontFamily,
+            `${constants.FONT_FILE_BASE}/css/${fontFamily}.css`,
+          );
           ctx.commit('enableFont', { name });
         });
     },
@@ -84,7 +87,10 @@ export default createStore({
             font.subsetEnable === undefined || font.subsetEnable === false,
         )
         .forEach(async ({ fontFamily, name }) => {
-          await addStylesheet(fontFamily, `/subset-css/${fontFamily}.css`);
+          await addStylesheet(
+            fontFamily,
+            `${constants.FONT_FILE_BASE}/subset-css/${fontFamily}.css`,
+          );
           ctx.commit('enableSubsetFont', { name });
         });
     },

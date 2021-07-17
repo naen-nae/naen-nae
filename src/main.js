@@ -4,6 +4,7 @@ import './styles/index.scss';
 import store from './store';
 import router from './router';
 import req from './share/req';
+import constants from './constants';
 import './share/registerSw';
 
 (async () => {
@@ -13,7 +14,7 @@ import './share/registerSw';
     .classList.add(store.state.isLight ? 'theme-light' : 'theme-dark');
 
   // set fonts
-  store.commit('addFonts', await (await req('/fonts.json')).json());
+  store.commit('addFonts', await (await req(constants.FONTS_JSON_URL)).json());
 
   createApp(App).use(store).use(router).mount('#app');
 })();
