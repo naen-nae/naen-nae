@@ -8,11 +8,7 @@
     "storybook": "start-storybook -p 6006 --ci",
     "build-storybook": "build-storybook",
     "test": "jest",
-    "coverage": "jest --coverage",
-    "pre-gen": "yarn font-gen & yarn subset-font-gen",
-    "font-gen": "node ./scripts/fontGen/index.js",
-    "subset-font-gen": "node ./scripts/fontGen/genSubsetFonts.js",
-    "ttf2woff2": "node ./scripts/ttf2Woff2.js"
+    "coverage": "jest --coverage"
   },
   "dependencies": {
     "file-saver": "1.3.2",
