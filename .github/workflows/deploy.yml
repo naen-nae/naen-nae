@@ -5,16 +5,47 @@ on:
     branches:
       - main
 
+env:
+  CACHED_DEPS_PATH: ${{ github.workspace }}/node_modules
+
 jobs:
+  install_deps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+
+      - name: Compute deps cache key
+        id: compute_lockfile_hash
+        run: echo "::set-output name=hash::${{ hashFiles('yarn.lock') }}"
+
+      - name: Check deps cache
+        uses: actions/cache@v2
+        id: cache_deps
+        with:
+          path: ${{ env.CACHED_DEPS_PATH }}
+          key: ${{ steps.compute_lockfile_hash.outputs.hash }}
+
+      - name: Install deps
+        uses: Borales/actions-yarn@v2.3.0
+        if: steps.cache_deps.outputs.cache-hit == ''
+        with:
+          cmd: install
+
+    outputs:
+      deps_cache_key: ${{ steps.compute_lockfile_hash.outputs.hash }}
+
   build:
+    needs: install_deps
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install dependencies
-        uses: Borales/actions-yarn@v2.3.0
+      - name: Check deps cache
+        uses: actions/cache@v2
         with:
-          cmd: install
+          path: ${{ env.CACHED_DEPS_PATH }}
+          key: ${{ needs.install_deps.outputs.deps_cache_key }}
 
       - name: Build application
         uses: Borales/actions-yarn@v2.3.0
