@@ -19,4 +19,8 @@ export default {
    * fonts.json file path
    * */
   FONTS_JSON_URL: 'https://cdn.jsdelivr.net/gh/naen-nae/fonts/build/fonts.json',
+  /**
+   * font files base url
+   */
+  FONT_FILE_BASE: 'https://cdn.jsdelivr.net/gh/naen-nae/fonts/build/',
 };
