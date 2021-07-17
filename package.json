@@ -7,7 +7,6 @@
     "serve": "yarn build & vite preview",
     "storybook": "start-storybook -p 6006 --ci",
     "build-storybook": "build-storybook",
-    "test": "jest",
     "coverage": "jest --coverage"
   },
   "dependencies": {
