@@ -15,4 +15,8 @@ export default {
    * mobile screen break point width
    */
   MOBILE_WDTIH_BRACK_POINT: 960,
+  /**
+   * fonts.json file path
+   * */
+  FONTS_JSON_URL: 'https://cdn.jsdelivr.net/gh/naen-nae/fonts/build/fonts.json',
 };
