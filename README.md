@@ -10,7 +10,7 @@
 
 - [낸내 바로가기](https://naen-nae.shj.rip/)
 - [폰트 제안하기 (구글 폼)](https://forms.gle/cmbzX8JmazrkDUex7)
-- [폰트 제안하기 (깃헙 이슈)](https://github.com/naen-nae/naen-nae/issues)
+- [폰트 리포지터리](https://github.com/naen-nae/fonts)
 
 ## 🖐 낸내
 
@@ -73,82 +73,9 @@ yarn pre-gen # 앱 구동에 있어 필요한 파일들 생성
 yarn dev # 앱 구동 (http://localhost:3000/)
 ```
 
-### `yarn pre-gen`
+### 폰트 파일
 
-`yarn pre-gen` 명령으로 `font-gen` 및 `subset-font-gen` 스크립트가 실행됩니다. 각 스크립트에 대한 자세한 설명은 바로 아래에서 이어집니다.
-
-### `yarn font-gen`
-
-`yarn font-gen` 명령으로 [폰트 관련 파일 생성 스크립트](./scripts/fontGen/index.js)가 실행되며, 다음의 파일이 생성됩니다.
-
-- `/public/fonts.json`: 폰트와 관련된 정보가 담긴 JSON 파일
-- `/public/css/<Font name>.css`: 폰트별로 분리된 CSS 파일 (`font-face`)
-- `/public/subset-css/<Font name>.css`: 폰트(Subset)별로 분리된 CSS 파일
-
-앱 내에서는 `fonts.json` 파일이 사용됩니다.
-
-`<font name>.css` 파일은 아래와 같이 실제로 폰트를 사용하기 위해 생성되는 파일이에요.
-
-```html
-<link href="https://cdn.jsdelivr.net/gh/naen-nae/naen-nae@gh-pages/css/Nanum Gothic.css" rel="stylesheet">
-```
-
-이 파일들은 `fonts.yml`에 명시된 내용을 바탕으로 생성됩니다.
-
-### `yarn subset-font-gen`
-
-빠른 웹 페이지 로드를 위해, 초기 화면(Home)은 아래의 팬그램 글자만을 보여주도록 하고 있으며,
-
-```
-다람쥐 헌 쳇바퀴에 타고파
-```
-
-`다람쥐 헌 쳇바퀴에 타고파`라는 글자만을 폰트 파일로 생성하여 Home 페이지에서 사용하도록 하고 있습니다.
-
-이를 서브셋(Subset)이라 하며, 기존보다 수십 배 이상 빠른 초기 화면 로드를 가능하게 합니다.
-
-서브셋 폰트 파일은 `yarn subset-font-gen` 명령으로 생성이 가능하며, GitHub Actions 이슈로 인해 현재는 직접 생성 후 Push하도록 하고 있습니다.
-
-명령의 결과로 `/public/subset-fonts/` 디렉터리 아래에 서브셋 폰트 파일과 관련된 디렉터리 및 서브셋 폰트 파일이 생성됩니다.
-
-### [`fonts.yml`](./fonts.yml)
-
-'낸내'는 `fonts.yml` 파일을 기반으로 폰트를 생성 및 관리합니다.
-
-```yml
-fonts:
-  - author: <폰트 제작자/제작사>
-    name: <폰트 이름>
-    files:
-      - <폰트 파일 경로 1> # '/fonts' 디렉터리를 베이스로 합니다.
-      - <폰트 파일 경로 2> # 같은 Font Family인 경우, 여러 폰트를 등록할 수 있습니다.
-    fontWeights:
-      - <폰트 굵기 1> # 100~900 중에서 설정합니다.
-      - <폰트 굵기 2> # 각 파일에 대한 굵기를 명시합니다.
-    fontFamily: <Font Family 이름>
-    licenseSummary: # 라이선스 요약
-      print: true # true: 허용, false: 비허용
-      website: true
-      video: true
-      paper: true
-      embeding: true
-      bici: true
-      ofl: true
-    license: |
-      <라이선스 전문>
-
-  - author: # ...
-```
-
-'라이선스 요약'에 대한 내용은 다음과 같습니다.
-
-- 인쇄: 브로슈어, 포스터, 책, 잡지 및 출판용 인쇄물 등
-- 웹사이트: 웹페이지, 광고 배너, 메일, E-브로슈어 등
-- 영상: 영상물 자막, 영화 오프닝/엔딩 크레딧, UCC 등
-- 포장지: 판매용 상품의 패키지
-- 임베딩: 웹사이트 및 프로그램 서버 내 폰트 탑재, E-book 제작
-- BI/CI: 회사명, 브랜드명, 상품명, 로고, 마크, 슬로건, 캐치프레이즈
-- OFL: 폰트 파일의 수정/ 복제/ 배포 가능. 단, 폰트 파일의 유료 판매는 금지
+폰트 파일은 [fonts 리포지터리](https://github.com/naen-nae/fonts)로 분리해 관리하고 있습니다.
 
 ## 📜 라이선스
 
