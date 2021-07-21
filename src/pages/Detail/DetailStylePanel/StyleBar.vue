@@ -1,10 +1,6 @@
 <template>
   <div class="style-bar">
-    <input-field
-      class="style-bar__input"
-      v-model:value="inputTextContent"
-      :value="inputTextContent"
-    />
+    <input-field class="style-bar__input" v-model="inputTextContent" />
     <font-size-modifier class="style-bar__font-size" />
     <reset-button class="style-bar__reset" />
   </div>
