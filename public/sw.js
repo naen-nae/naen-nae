@@ -5,7 +5,16 @@ self.addEventListener('fetch', evt =>
     (async () => {
       const cachedResp = await caches.match(evt.request);
 
-      const { usage, quota } = await navigator.storage.estimate();
+      let { usage, quota } = {
+        usage: 0,
+        quota: 0,
+      };
+
+      if (navigator.storage) {
+        const storage = await navigator.storage.estimate();
+        usage = storage.usage;
+        quota = storage.quota;
+      }
 
       if (cachedResp !== undefined) {
         return cachedResp;

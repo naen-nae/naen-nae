@@ -3,8 +3,7 @@
     <span class="search-box__icon icon material-icons-outlined">search</span>
     <input-field
       placeholder="이름으로 폰트 검색하기"
-      v-model:value="inputSearchContent"
-      :value="inputSearchContent"
+      v-model="inputSearchContent"
     />
   </div>
 </template>

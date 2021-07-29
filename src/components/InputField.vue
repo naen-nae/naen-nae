@@ -3,14 +3,14 @@
     <input
       class="input-field__input typo-text"
       :placeholder="placeholder"
-      @input="$emit('update:value', $event.target.value)"
+      @input="handleInput"
       @keypress="keyFilter"
       :maxlength="maxLength"
-      :value="value"
+      :value="modelValue"
     />
     <span
       class="input-field__icon icon material-icons-outlined"
-      :class="{ hide: value === '' }"
+      :class="{ hide: modelValue === '' }"
       @click="clearInput"
       v-if="clear"
     >
@@ -20,11 +20,13 @@
 </template>
 
 <script setup>
-import { defineProps, toRefs, useContext } from 'vue';
-
-const ctx = useContext();
+import { defineProps } from 'vue';
 
 const props = defineProps({
+  modelValue: {
+    type: String,
+    required: true,
+  },
   placeholder: {
     type: String,
     default: '무엇이든 입력해보세요',
@@ -37,10 +39,6 @@ const props = defineProps({
     type: String,
     default: '',
   },
-  value: {
-    type: String,
-    default: '',
-  },
   clear: {
     type: Boolean,
     default: true,
@@ -48,7 +46,6 @@ const props = defineProps({
 });
 
 const { mask } = props;
-const { value } = toRefs(props);
 
 const keyFilter = evt => {
   const { key: value } = evt;
@@ -58,8 +55,18 @@ const keyFilter = evt => {
   }
 };
 
-const clearInput = ({ target }) =>
-  ctx.emit('update:value', (target.value = ''));
+const emits = defineEmits(['update', 'update:modelValue']);
+
+const clearInput = ({ target }) => {
+  target.value = '';
+  emits('update', '');
+  emits('update:modelValue', '');
+};
+
+const handleInput = ({ target: { value } }) => {
+  emits('update', value);
+  emits('update:modelValue', value);
+};
 </script>
 
 <style lang="scss" scoped>
