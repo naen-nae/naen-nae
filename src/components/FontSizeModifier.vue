@@ -4,8 +4,7 @@
       <input-field
         class="typo-text"
         max-length="2"
-        v-model:value="inputValue"
-        :value="inputValue"
+        v-model="inputValue"
         :clear="false"
       />
       <span class="typo-text">px</span>
@@ -14,8 +13,7 @@
       class="font-size-modifier__slide-bar"
       :min="constants.MIN_FONT_SIZE"
       :max="constants.MAX_FONT_SIZE"
-      :value="slideValue"
-      v-model:value="slideValue"
+      v-model="slideValue"
     />
   </div>
 </template>

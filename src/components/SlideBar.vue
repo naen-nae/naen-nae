@@ -4,15 +4,15 @@
     type="range"
     :min="min"
     :max="max"
-    :value="value"
-    :style="setBackground"
+    :value="modelValue"
+    :style="getBackgroundStyle(modelValue)"
     @input="updateBackground"
-    @change="$emit('update:value', $event.target.value)"
+    @change="handleChange"
   />
 </template>
 
 <script setup>
-import { computed, defineProps, toRefs } from 'vue';
+import { computed, defineProps } from 'vue';
 
 const props = defineProps({
   min: {
@@ -23,29 +23,34 @@ const props = defineProps({
     type: Number,
     default: 100,
   },
-  value: {
+  modelValue: {
     type: String,
     required: true,
   },
 });
 
 const { min, max } = props;
-const { value } = toRefs(props);
 
-const getBackgroundStyle = value => {
+const getBackgroundStyleProp = value => {
   const mid = ((value - min) / (max - min)) * 100;
   return `linear-gradient(to right, var(--slider-color) 0%, var(--slider-color) ${mid}%, var(--slider-background-color) ${mid}%, var(--slider-background-color) 100%)`;
 };
 
-const setBackground = computed(() => ({
-  background: getBackgroundStyle(parseInt(value.value)),
-}));
+const getBackgroundStyle = value => ({
+  background: getBackgroundStyleProp(parseInt(value)),
+});
 
 const updateBackground = ({ target }) =>
   target.style.setProperty(
     'background',
-    getBackgroundStyle(parseInt(target.value)),
+    getBackgroundStyleProp(parseInt(target.value)),
   );
+
+const emits = defineEmits(['change', 'update:modelValue']);
+const handleChange = ({ target: { value } }) => {
+  emits('change', value);
+  emits('update:modelValue', value);
+};
 </script>
 
 <style lang="scss" scoped>
