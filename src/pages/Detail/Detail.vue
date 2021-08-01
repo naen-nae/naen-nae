@@ -19,7 +19,7 @@ import DetailStylePanel from './DetailStylePanel/DetailStylePanel.vue';
 import DetailCodePanel from './DetailCodePanel/DetailCodePanel.vue';
 import DetailLicensePanel from './DetailLicensePanel/DetailLicensePanel.vue';
 
-import { defineProps, toRefs } from 'vue';
+import { toRefs } from 'vue';
 import { useStore } from 'vuex';
 
 const { fontName } = defineProps({

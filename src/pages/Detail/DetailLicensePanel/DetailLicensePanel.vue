@@ -23,7 +23,6 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
 import SummaryTable from './SummaryTable.vue';
 
 const { license, licenseSummary } = defineProps({
