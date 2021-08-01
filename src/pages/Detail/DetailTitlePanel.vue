@@ -33,7 +33,7 @@
 </template>
 
 <script setup>
-import { defineProps, reactive, toRefs } from 'vue';
+import { reactive, toRefs } from 'vue';
 import { useRouter } from 'vue-router';
 import ButtonBox from '../../components/ButtonBox.vue';
 import zip from '../../share/zip';

@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { defineProps } from '@vue/runtime-core';
-
 defineProps({
   icon: {
     type: String,

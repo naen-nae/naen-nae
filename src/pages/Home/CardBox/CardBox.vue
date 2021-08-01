@@ -26,7 +26,7 @@
 
 <script setup>
 import CardBoxHeader from './CardBoxHeader.vue';
-import { computed, defineProps, toRefs } from 'vue';
+import { computed, toRefs } from 'vue';
 import { useStore } from 'vuex';
 
 const store = useStore();

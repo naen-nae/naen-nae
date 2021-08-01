@@ -14,7 +14,6 @@
 <script setup>
 import StyleBar from './StyleBar.vue';
 import FontBox from './FontBox.vue';
-import { defineProps } from 'vue';
 
 const {
   font: { fontFamily, fontWeights },
