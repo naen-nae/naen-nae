@@ -11,7 +11,6 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
 import CodeBox from './CodeBox.vue';
 
 const { fontFamily } = defineProps({

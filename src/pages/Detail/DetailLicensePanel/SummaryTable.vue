@@ -24,7 +24,6 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
 import zip from 'lodash/zip';
 
 const { summary } = defineProps({

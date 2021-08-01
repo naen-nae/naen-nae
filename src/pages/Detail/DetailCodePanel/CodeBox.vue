@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import { defineProps, ref } from 'vue';
+import { ref } from 'vue';
 import clipboard from '../../../share/clipboard';
 
 const { content } = defineProps({
