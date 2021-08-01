@@ -12,8 +12,6 @@
 </template>
 
 <script setup>
-import { computed, defineProps } from 'vue';
-
 const props = defineProps({
   min: {
     type: Number,

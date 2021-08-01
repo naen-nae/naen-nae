@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import { defineProps, toRefs } from 'vue';
+import { toRefs } from 'vue';
 import { useStore } from 'vuex';
 
 const store = useStore();
