@@ -24,7 +24,7 @@ self.addEventListener('fetch', evt =>
 
       if (
         evt.request.destination !== 'font' || // validation req type
-        !/@gh-pages\/subset-fonts/.test(evt.request.url) || // caching only subset fonts
+        !/build\/subset-fonts/.test(evt.request.url) || // caching only subset fonts
         usage + Number(resp.headers.get('Content-Length')) > quota * 0.9 // quota guard
       ) {
         return resp;
