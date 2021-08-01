@@ -12,6 +12,8 @@
 </template>
 
 <script setup>
+import { defineEmits } from 'vue';
+
 const props = defineProps({
   min: {
     type: Number,
