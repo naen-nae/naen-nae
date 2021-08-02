@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { defineEmits } from 'vue';
+import { getCurrentInstance } from 'vue';
 
 const props = defineProps({
   min: {
@@ -46,10 +46,11 @@ const updateBackground = ({ target }) =>
     getBackgroundStyleProp(parseInt(target.value)),
   );
 
-const emits = defineEmits(['change', 'update:modelValue']);
+const { emit } = getCurrentInstance();
+
 const handleChange = ({ target: { value } }) => {
-  emits('change', value);
-  emits('update:modelValue', value);
+  emit('change', value);
+  emit('update:modelValue', value);
 };
 </script>
 

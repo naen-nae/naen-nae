@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-import { defineEmits } from 'vue';
+import { getCurrentInstance } from 'vue';
 
 const props = defineProps({
   modelValue: {
@@ -55,17 +55,17 @@ const keyFilter = evt => {
   }
 };
 
-const emits = defineEmits(['update', 'update:modelValue']);
+const { emit } = getCurrentInstance();
 
 const clearInput = ({ target }) => {
   target.value = '';
-  emits('update', '');
-  emits('update:modelValue', '');
+  emit('update', '');
+  emit('update:modelValue', '');
 };
 
 const handleInput = ({ target: { value } }) => {
-  emits('update', value);
-  emits('update:modelValue', value);
+  emit('update', value);
+  emit('update:modelValue', value);
 };
 </script>
 
