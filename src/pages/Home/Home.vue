@@ -12,6 +12,7 @@
 </template>
 
 <script setup>
+import * as Hangul from 'hangul-chosung-search-js';
 import ModifierBar from './ModifierBar.vue';
 import CardsPanel from './CardsPanel.vue';
 import { useStore } from 'vuex';
@@ -23,10 +24,9 @@ const { fonts, searchContent } = toRefs(store.state);
 const filteredFonts = computed(() =>
   fonts.value.filter(({ fontFamily, author, name }) => {
     const re = RegExp(searchContent.value.toLowerCase());
-    return (
-      re.test(fontFamily.toLowerCase()) ||
-      re.test(author.toLowerCase()) ||
-      re.test(name.toLowerCase())
+    return [fontFamily, author, name].some(str =>
+      re.test(str.toLowerCase()) ||
+      Hangul.isSearch(searchContent.value, str.replaceAll(/\s/g, ''))
     );
   }),
 );
