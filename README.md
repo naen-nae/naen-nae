@@ -71,7 +71,6 @@ git clone https://github.com/<GitHub User name>/naen-nae
 cd naen-nae
 
 yarn # 디펜던시 설치
-yarn pre-gen # 앱 구동에 있어 필요한 파일들 생성
 yarn dev # 앱 구동 (http://localhost:3000/)
 ```
 
