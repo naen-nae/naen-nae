@@ -2,6 +2,8 @@
 
 [![Deploy](https://github.com/naen-nae/naen-nae/actions/workflows/deploy.yml/badge.svg)](https://github.com/naen-nae/naen-nae/actions/workflows/deploy.yml)
 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae?ref=badge_shield)
+
 [![GitHub Stars](https://img.shields.io/github/stars/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/network/members)
 
 <p align="center">
@@ -85,3 +87,5 @@ yarn dev # 앱 구동 (http://localhost:3000/)
 낸내를 구성하는 모든 코드는 MIT 라이선스를 따르고 있습니다.
 
 [낸내 라이선스 전문](./LICENSE)
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae?ref=badge_large)
