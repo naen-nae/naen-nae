@@ -2,7 +2,7 @@
 
 [![Deploy](https://github.com/naen-nae/naen-nae/actions/workflows/deploy.yml/badge.svg)](https://github.com/naen-nae/naen-nae/actions/workflows/deploy.yml)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae?ref=badge_shield) [![Known Vulnerabilities](https://snyk.io/test/github/naen-nae/naen-nae/badge.svg)](https://snyk.io/test/github/naen-nae/naen-nae)
 
 [![GitHub Stars](https://img.shields.io/github/stars/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/network/members)
 
