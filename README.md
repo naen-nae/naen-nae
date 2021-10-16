@@ -62,7 +62,7 @@
 
 ## 📑 컨트리뷰트 가이드라인
 
-[CONTRIBUTION](./CONTRIBUTION.md)을 참고해주세요.
+이 프로젝트에 기여하고자 하신다면, [CONTRIBUTION](./CONTRIBUTION.md) 문서를 참고해주세요.
 
 ## 👀 낸내는 어떻게 구성되어 있나요?
 
