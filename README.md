@@ -2,7 +2,7 @@
 
 [![Deploy](https://github.com/naen-nae/naen-nae/actions/workflows/deploy.yml/badge.svg)](https://github.com/naen-nae/naen-nae/actions/workflows/deploy.yml)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae?ref=badge_shield) [![Known Vulnerabilities](https://snyk.io/test/github/naen-nae/naen-nae/badge.svg)](https://snyk.io/test/github/naen-nae/naen-nae)
 
 [![GitHub Stars](https://img.shields.io/github/stars/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/naen-nae/naen-nae)](https://github.com/naen-nae/naen-nae/network/members)
 
@@ -62,29 +62,17 @@
 
 ## 📑 컨트리뷰트 가이드라인
 
-'낸내' 프로젝트에 기여해주셔서 감사합니다!
+이 프로젝트에 기여하고자 하신다면, [CONTRIBUTION](./CONTRIBUTION.md) 문서를 참고해주세요.
 
-### 설치하기
+## 👀 낸내는 어떻게 구성되어 있나요?
 
-```sh
-# 시작하기 전, 먼저 프로젝트를 자신의 리포지토리에 포크해주세요.
-
-git clone https://github.com/<GitHub User name>/naen-nae
-cd naen-nae
-
-yarn # 디펜던시 설치
-yarn dev # 앱 구동 (http://localhost:3000/)
-```
-
-### 폰트 파일
-
-폰트 파일은 [fonts 리포지터리](https://github.com/naen-nae/fonts)로 분리해 관리하고 있습니다.
+어떻게 광고가 없는 서비스를 만들 수 있게 되었을까요? 이는 [FEATURES](./FEATURES.md) 문서를 참고해주세요.
 
 ## 📜 라이선스
 
 낸내에서 소개되는 모든 폰트의 지적재산권을 포함한 모든 권리는 각 폰트 제작자/제작사에 있으며, 낸내는 오로지 한글 폰트를 소개하고 이를 웹에서 바로 사용할 수 있도록 제공하고 있습니다.
 
-낸내를 구성하는 모든 코드는 MIT 라이선스를 따르고 있습니다.
+낸내를 구성하는 모든 코드는 GPL v3.0 라이선스를 따르고 있습니다.
 
 [낸내 라이선스 전문](./LICENSE)
 
