@@ -64,21 +64,9 @@
 
 [CONTRIBUTION](./CONTRIBUTION.md)을 참고해주세요.
 
-### 설치하기
+## 👀 낸내는 어떻게 구성되어 있나요?
 
-```sh
-# 시작하기 전, 먼저 프로젝트를 자신의 리포지토리에 포크해주세요.
-
-git clone https://github.com/<GitHub User name>/naen-nae
-cd naen-nae
-
-yarn # 디펜던시 설치
-yarn dev # 앱 구동 (http://localhost:3000/)
-```
-
-### 폰트 파일
-
-폰트 파일은 [fonts 리포지터리](https://github.com/naen-nae/fonts)로 분리해 관리하고 있습니다.
+어떻게 광고가 없는 서비스를 만들 수 있게 되었을까요? 이는 [FEATURES](./FEATURES.md) 문서를 참고해주세요.
 
 ## 📜 라이선스
 
