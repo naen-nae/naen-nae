@@ -1,4 +1,5 @@
 import HeaderPanel from 'components/nav/HeaderPanel.vue';
+import vueRouter from 'storybook-vue3-router';
 
 export default {
   title: 'components/nav/HeaderPanel',
@@ -12,3 +13,5 @@ const Template = args => ({
 });
 
 export const Default = Template.bind({});
+
+Default.decorators = [vueRouter()];
