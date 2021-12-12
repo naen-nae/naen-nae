@@ -1,7 +1,7 @@
 <template>
-  <p><HelloWorld msg="init" /></p>
+  <HeaderPanel />
 </template>
 
 <script setup lang="ts">
-import HelloWorld from 'src/components/HelloWorld.vue';
+import HeaderPanel from 'components/header/HeaderPanel.vue';
 </script>
