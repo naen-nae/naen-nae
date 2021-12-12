@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite-ssg build",
-    "lint": "eslint --ext .ts ./src/**.ts"
+    "lint": "eslint --ext .ts ./src/**.ts",
+    "storybook": "export NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006 --ci ",
+    "build:storybook": "build-storybook"
   },
   "dependencies": {
     "vue": "^3.2.23"
@@ -19,12 +21,18 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/vue3": "^6.4.9",
     "@types/node": "^16.11.12",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
     "@vitejs/plugin-vue": "^1.10.2",
     "@vueuse/core": "^7.3.0",
     "@vueuse/head": "^0.7.4",
+    "css-loader": "5.2.6",
     "eslint": "^8.4.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
@@ -33,6 +41,9 @@
     "material-colors": "^1.2.6",
     "prettier": "^2.5.1",
     "sass": "^1.45.0",
+    "sass-loader": "10.1.1",
+    "storybook-builder-vite": "^0.1.11",
+    "style-loader": "2.0.0",
     "typescript": "^4.4.4",
     "vite": "^2.7.0",
     "vite-plugin-pages": "^0.19.0",
