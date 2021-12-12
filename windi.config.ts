@@ -1,5 +1,6 @@
 import { defineConfig } from '@windicss/plugin-utils';
 import defaultTheme from 'windicss/defaultTheme';
+import plugin from 'windicss/plugin';
 
 export default defineConfig({
   theme: {
@@ -9,6 +10,15 @@ export default defineConfig({
       },
     },
   },
+  plugins: [
+    plugin(({ addUtilities }) =>
+      addUtilities({
+        '.break-keep': {
+          'word-break': 'keep-all',
+        },
+      }),
+    ),
+  ],
   shortcuts: {
     'typo-headline': 'dark:text-gray-50 text-3xl tracking-wider',
     'typo-title': 'dark:text-gray-50 text-2xl tracking-wider',
