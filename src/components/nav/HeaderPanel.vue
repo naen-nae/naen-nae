@@ -7,5 +7,5 @@
 
 <script lang="ts" setup>
 import ThemeButton from './ThemeButton.vue';
-import AppTitle from '../AppTitle.vue';
+import AppTitle from './AppTitle.vue';
 </script>

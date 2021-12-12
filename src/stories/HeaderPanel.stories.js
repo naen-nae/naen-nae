@@ -1,7 +1,7 @@
-import HeaderPanel from 'components/header/HeaderPanel.vue';
+import HeaderPanel from 'components/nav/HeaderPanel.vue';
 
 export default {
-  title: 'components/header/HeaderPanel',
+  title: 'components/nav/HeaderPanel',
   component: HeaderPanel,
 };
 

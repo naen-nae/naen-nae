@@ -1,7 +1,7 @@
-import ThemeButton from 'components/header/ThemeButton.vue';
+import ThemeButton from 'components/nav/ThemeButton.vue';
 
 export default {
-  title: 'components/header/ThemeButton',
+  title: 'components/nav/ThemeButton',
   component: ThemeButton,
 };
 
