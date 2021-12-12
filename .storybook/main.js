@@ -1,4 +1,5 @@
 const pagesPlugin = require('vite-plugin-pages');
+const windiCSSPlugin = require('vite-plugin-windicss');
 
 module.exports = {
   stories: ['../src/**/*.stories.js'],
@@ -28,6 +29,7 @@ module.exports = {
       },
     ];
 
+    config.plugins.push(windiCSSPlugin.default());
     config.plugins.push(pagesPlugin.default({ extensions: ['vue'] }));
     return config;
   },

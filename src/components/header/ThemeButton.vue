@@ -9,7 +9,6 @@ import { useDark, useToggle } from '@vueuse/core';
 import IconButton from 'components/IconButton.vue';
 
 const isDark = useDark({
-  attribute: 'color-scheme',
   valueDark: 'dark',
 });
 const toggleDark = useToggle(isDark);
