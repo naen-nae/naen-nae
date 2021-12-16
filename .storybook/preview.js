@@ -1,4 +1,5 @@
 import '../src/styles/index.scss';
+import Container from './Container.vue';
 import 'windi.css';
 
 export const parameters = {
@@ -10,3 +11,14 @@ export const parameters = {
     },
   },
 };
+
+export const decorators = [
+  story => ({
+    components: { story, Container },
+    template: `
+      <Container>
+        <story />
+      </Container>
+    `,
+  }),
+];
