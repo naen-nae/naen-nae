@@ -26,6 +26,7 @@ export default defineConfig({
     'typo-text': 'dark:text-gray-50 text-sm tracking-wide',
     'typo-link':
       'text-blue-600 dark:text-blue-300 text-sm tracking-wide font-bold cursor-pointer hover:underline',
+    'flex-center': 'flex justify-center items-center',
   },
   attributify: true,
 });
