@@ -1,5 +1,7 @@
 <template>
-  <IconButton :disabled="disabled" @click="resetSize">replay</IconButton>
+  <div class="flex items-center">
+    <IconButton :disabled="disabled" @click="resetSize">replay</IconButton>
+  </div>
 </template>
 
 <script lang="ts" setup>
