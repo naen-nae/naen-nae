@@ -6,7 +6,6 @@ import App from './App.vue';
 import './styles/index.scss';
 import 'virtual:windi.css';
 import routes from 'virtual:generated-pages';
-import { createPinia } from 'pinia';
 
 export const createApp = ViteSSG(
   App,

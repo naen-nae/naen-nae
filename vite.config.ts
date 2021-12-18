@@ -8,7 +8,7 @@ export default {
   plugins: [
     vue(),
     AutoImport({
-      imports: ['vue', 'vue-router', '@vueuse/head', '@vueuse/core'],
+      imports: ['vue', 'vue-router', '@vueuse/head', '@vueuse/core', 'pinia'],
       dts: 'src/auto-imports.d.ts',
     }),
     WindiCSS(),

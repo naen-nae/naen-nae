@@ -32,7 +32,7 @@ module.exports = {
 
     config.plugins.push(
       AutoImport({
-        imports: ['vue', 'vue-router', '@vueuse/head', '@vueuse/core'],
+        imports: ['vue', 'vue-router', '@vueuse/head', '@vueuse/core', 'pinia'],
         dts: 'src/auto-imports.d.ts',
       }),
     );
