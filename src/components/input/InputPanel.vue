@@ -1,7 +1,7 @@
 <template>
-  <div class="flex items-center w-full">
+  <div class="flex items-center">
     <input
-      class="typo-text flex-1 border-none outline-none bg-transparent"
+      class="typo-text flex-1 border-none outline-none bg-transparent w-full"
       :placeholder="placeholder"
       :maxlength="maxLength"
       :value="modelValue"
