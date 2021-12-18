@@ -9,8 +9,7 @@
       </p>
     </section>
     <section
-      class="justify-start items-start md:items-end children:mb-[6px] <md:mt-[12px]"
-      flex="~ [4] col"
+      class="justify-start flex flex-[4] flex-col items-start md:items-end children:mb-[6px] <md:mt-[12px]"
     >
       <router-link class="typo-link" to="/">모든 폰트</router-link>
       <router-link class="typo-link" to="/about">소개</router-link>
