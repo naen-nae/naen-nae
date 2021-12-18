@@ -6,7 +6,7 @@
       @update:modelValue="updateSize"
       :clearable="false"
       :maxLength="2"
-      :mask="'[0-9]+'"
+      :mask="'[0-9]'"
       :placeholder="size"
     >
       <template #postfix>px</template>
