@@ -24,7 +24,7 @@ const emit = defineEmits<{
 }>();
 
 const emitClick = (evt: MouseEvent) => {
-  evt.stopPropagation();
+  evt.preventDefault();
 
   if (disabled.value) {
     return;
