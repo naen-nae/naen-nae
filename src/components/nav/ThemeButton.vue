@@ -6,11 +6,7 @@
 
 <script lang="ts" setup>
 import IconButton from 'components/IconButton.vue';
-
-const isDark = useDark({
-  valueDark: 'dark',
-});
-const toggleDark = useToggle(isDark);
+import { isDark, toggleDark } from 'src/composables/theme';
 </script>
 
 <style lang="scss" scoped>
