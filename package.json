@@ -9,6 +9,7 @@
     "build:storybook": "build-storybook"
   },
   "dependencies": {
+    "pinia": "^2.0.6",
     "vue": "^3.2.23"
   },
   "gitHooks": {
@@ -21,6 +22,7 @@
     ]
   },
   "devDependencies": {
+    "@nuxt/devalue": "^2.0.0",
     "@storybook/addon-actions": "^6.4.9",
     "@storybook/addon-essentials": "^6.4.9",
     "@storybook/addon-links": "^6.4.9",
