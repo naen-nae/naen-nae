@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import IconButton from 'components/IconButton.vue';
+import IconButton from 'components/buttons/IconButton.vue';
 import { isDark, toggleDark } from 'src/composables/theme';
 </script>
 

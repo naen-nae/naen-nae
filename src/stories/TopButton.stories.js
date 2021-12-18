@@ -1,7 +1,7 @@
-import TopButton from 'components/TopButton.vue';
+import TopButton from 'components/buttons/TopButton.vue';
 
 export default {
-  title: 'components/TopButton',
+  title: 'components/buttons/TopButton',
   component: TopButton,
 };
 

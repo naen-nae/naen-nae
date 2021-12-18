@@ -19,7 +19,7 @@
 
 <script lang="ts" setup>
 import { getModelValueUpdator } from 'src/composables/modelValue';
-import IconButton from '../IconButton.vue';
+import IconButton from 'components/buttons/IconButton.vue';
 
 const props = withDefaults(
   defineProps<{

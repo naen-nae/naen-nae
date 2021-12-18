@@ -11,7 +11,7 @@
 <script lang="ts" setup>
 import { useFontStore } from 'src/store/font';
 import { storeToRefs } from 'pinia';
-import IconButton from 'components/IconButton.vue';
+import IconButton from 'components/buttons/IconButton.vue';
 import InputPanel from 'components/input/InputPanel.vue';
 
 const store = useFontStore();
