@@ -18,6 +18,7 @@
 </template>
 
 <script lang="ts" setup>
+import { getModelValueUpdator } from 'src/composables/modelValue';
 import IconButton from '../IconButton.vue';
 
 const props = withDefaults(
@@ -45,19 +46,10 @@ const keyFilter = (evt: KeyboardEvent) => {
   }
 };
 
-const emit = defineEmits<{
-  (evt: 'update', value: string): void;
-  (evt: 'update:modelValue', value: string): void;
-}>();
+const { handleInput, emit } = getModelValueUpdator(getCurrentInstance())!;
 
 const clearInput = () => {
   emit('update', '');
   emit('update:modelValue', '');
-};
-
-const handleInput = ({ target }: Event) => {
-  const { value } = target! as HTMLInputElement;
-  emit('update', value);
-  emit('update:modelValue', value);
 };
 </script>
