@@ -1,6 +1,6 @@
 # 낸내
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/acd556e3-91f4-477c-9ff5-0b9ab384290d/deploy-status)](https://app.netlify.com/sites/naen-nae/deploys) [![storybook](https://img.shields.io/badge/STORYBOOK-ff4785)](https://storybook.naen-nae.shj.rip)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/acd556e3-91f4-477c-9ff5-0b9ab384290d/deploy-status)](https://app.netlify.com/sites/naen-nae/deploys) [![storybook](https://img.shields.io/badge/STORYBOOK-ff4785)](http://storybook.naen-nae.shj.rip/)
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae?ref=badge_shield) [![Known Vulnerabilities](https://snyk.io/test/github/naen-nae/naen-nae/badge.svg)](https://snyk.io/test/github/naen-nae/naen-nae)
 
@@ -21,7 +21,7 @@
 **낸내** 는 상업적으로 이용할 수 있는 무료 한글 폰트를 모아 많은 사람들에게, 그리고 광고 없이 소개하기 위해 시작했습니다.
 
 <p align="center">
-  <img src="./docs/logo-256x256_white.png">
+  <img src="https://i.imgur.com/f6Nol1Q.png">
 </p>
 
 오픈 소스로 관리되며, 웹에서 자유롭게 사용할 수 있도록 재배포가 가능한 폰트만을 소개하고 있습니다.
