@@ -7,5 +7,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-unresolved': 'off',
     'no-unused-vars': 'off',
+    'no-undef': 'off',
   },
 };
