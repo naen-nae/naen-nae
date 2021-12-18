@@ -14,7 +14,6 @@
 <script lang="ts" setup>
 import IconButton from './IconButton.vue';
 import { useWindowScroll } from '@vueuse/core';
-import { computed } from 'vue';
 
 const { y } = useWindowScroll();
 const hide = computed(() => y.value < 1);

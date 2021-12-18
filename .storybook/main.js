@@ -1,5 +1,6 @@
 const pagesPlugin = require('vite-plugin-pages');
 const windiCSSPlugin = require('vite-plugin-windicss');
+const AutoImport = require('unplugin-auto-import').default.vite;
 
 module.exports = {
   stories: ['../src/**/*.stories.js'],
@@ -29,8 +30,15 @@ module.exports = {
       },
     ];
 
+    config.plugins.push(
+      AutoImport({
+        imports: ['vue', 'vue-router', '@vueuse/head', '@vueuse/core'],
+        dts: 'src/auto-imports.d.ts',
+      }),
+    );
     config.plugins.push(windiCSSPlugin.default());
     config.plugins.push(pagesPlugin.default({ extensions: ['vue'] }));
+
     return config;
   },
 };

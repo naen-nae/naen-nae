@@ -5,7 +5,6 @@
 </template>
 
 <script lang="ts" setup>
-import { useDark, useToggle } from '@vueuse/core';
 import IconButton from 'components/IconButton.vue';
 
 const isDark = useDark({
