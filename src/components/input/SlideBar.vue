@@ -27,7 +27,7 @@ const props = withDefaults(
 );
 
 const { min, max } = props;
-const { modelValue } = toRefs(reactive(props));
+const { modelValue } = toRefs(props);
 
 const backgroundStyle = computed(() => {
   const value = parseInt(modelValue.value);
