@@ -5,10 +5,7 @@ export default {
   component: ThemeButton,
 };
 
-const Template = args => ({
+export const Default = () => ({
   components: { ThemeButton },
-  setup: () => ({ args }),
-  template: `<ThemeButton v-bind="args" />`,
+  template: `<ThemeButton />`,
 });
-
-export const Default = Template.bind({});

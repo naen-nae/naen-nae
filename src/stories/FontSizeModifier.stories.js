@@ -7,14 +7,12 @@ export default {
   component: FontSizeModifier,
 };
 
-const Template = args => ({
+export const Default = () => ({
   components: { FontSizeModifier },
   setup: () => {
     const fontStore = useFontStore();
     const { size } = storeToRefs(fontStore);
-    return { args, size };
+    return { size };
   },
-  template: `<FontSizeModifier v-bind="args" /><p>font size : {{ size }} (min size = 8px, max size = 80px)</p>`,
+  template: `<FontSizeModifier /><p>font size : {{ size }} (min size = 8px, max size = 80px)</p>`,
 });
-
-export const Default = Template.bind({});

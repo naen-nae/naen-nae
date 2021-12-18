@@ -5,13 +5,10 @@ export default {
   component: TopButton,
 };
 
-const Template = args => ({
+export const Default = () => ({
   components: { TopButton },
-  setup: () => ({ args }),
-  template: `<TopButton v-bind="args" />`,
+  template: `<TopButton />`,
 });
-
-export const Default = Template.bind({});
 
 Default.decorators = [
   () => ({

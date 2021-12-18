@@ -5,10 +5,7 @@ export default {
   component: SearchPanel,
 };
 
-const Template = args => ({
+export const Default = () => ({
   components: { SearchPanel },
-  setup: () => ({ args }),
-  template: `<SearchPanel v-bind="args" />`,
+  template: `<SearchPanel />`,
 });
-
-export const Default = Template.bind({});

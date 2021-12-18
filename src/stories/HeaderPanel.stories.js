@@ -6,12 +6,9 @@ export default {
   component: HeaderPanel,
 };
 
-const Template = args => ({
+export const Default = () => ({
   components: { HeaderPanel },
-  setup: () => ({ args }),
-  template: `<HeaderPanel v-bind="args" />`,
+  template: `<HeaderPanel />`,
 });
-
-export const Default = Template.bind({});
 
 Default.decorators = [vueRouter()];

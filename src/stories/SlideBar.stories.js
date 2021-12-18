@@ -19,14 +19,13 @@ export default {
   },
 };
 
-const Template = args => ({
+export const Default = args => ({
   components: { SlideBar },
   setup: () => ({ args }),
   data: () => ({ value: '50' }),
   template: `<SlideBar v-model="value" v-bind="args" /><p>{{ value }}</p>`,
 });
 
-export const Default = Template.bind({});
 Default.args = {
   min: 1,
   max: 100,

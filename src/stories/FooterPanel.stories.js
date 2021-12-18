@@ -6,12 +6,9 @@ export default {
   component: FooterPanel,
 };
 
-const Template = args => ({
+export const Default = () => ({
   components: { FooterPanel },
-  setup: () => ({ args }),
-  template: `<FooterPanel v-bind="args" />`,
+  template: `<FooterPanel />`,
 });
-
-export const Default = Template.bind({});
 
 Default.decorators = [vueRouter()];

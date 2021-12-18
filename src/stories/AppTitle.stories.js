@@ -6,12 +6,9 @@ export default {
   component: AppTitle,
 };
 
-const Template = args => ({
+export const Default = () => ({
   components: { AppTitle },
-  setup: () => ({ args }),
-  template: `<AppTitle v-bind="args" />`,
+  template: `<AppTitle />`,
 });
-
-export const Default = Template.bind({});
 
 Default.decorators = [vueRouter()];
