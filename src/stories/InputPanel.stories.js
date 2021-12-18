@@ -30,3 +30,9 @@ export const ClearButton = Template.bind({});
 ClearButton.args = {
   clearable: false,
 };
+
+export const WithPostfix = () => ({
+  components: { InputPanel },
+  data: () => ({ value: '' }),
+  template: `<InputPanel v-model="value"><template #postfix>END</template></InputPanel>`,
+});

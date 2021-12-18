@@ -14,6 +14,7 @@
       @click="clearInput"
       >close</IconButton
     >
+    <span class="typo-text"><slot name="postfix"></slot></span>
   </div>
 </template>
 
