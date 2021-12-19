@@ -2,6 +2,7 @@ import { ComponentInternalInstance } from 'vue-demi';
 
 export const getModelValueUpdator = (ctx: ComponentInternalInstance | null) => {
   if (!ctx) {
+    // eslint-disable-next-line no-console
     console.warn('ComponentInternalInstance is null');
     return;
   }
