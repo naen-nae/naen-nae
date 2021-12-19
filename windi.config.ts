@@ -30,5 +30,4 @@ export default defineConfig({
     'bg-gray-color': 'bg-true-gray-200 dark:bg-true-gray-500',
     'border-gray-color': 'border-true-gray-200 dark:border-true-gray-500',
   },
-  attributify: true,
 });

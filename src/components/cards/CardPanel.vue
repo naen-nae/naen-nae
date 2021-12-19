@@ -1,10 +1,5 @@
 <template>
-  <div
-    class="rounded-md cursor-pointer shadow-transparent min-h-[141px] p-[12px] transform-gpu translate-y-0 overflow-hidden"
-    border="~ gray-color"
-    transition="~ duration-300"
-    hover="shadow-lg -translate-y-0.5"
-  >
+  <div class="border-gray-color card-panel"
     <div class="flex flex-col">
       <p class="typo-title" v-text="font.name" />
       <div class="flex mt-[8px] justify-between typo-subtitle">
@@ -17,8 +12,7 @@
     </div>
     <hr />
     <div
-      class="break-all overflow-y-hidden overflow-x-scroll"
-      dark="text-gray-50"
+      class="break-all overflow-y-hidden overflow-x-scroll dark:text-gray-50"
     >
       <transition name="fade-up">
         <p
@@ -50,6 +44,12 @@ const { size } = storeToRefs(store);
 </script>
 
 <style lang="scss" scoped>
+.card-panel {
+  @apply border rounded-md cursor-pointer shadow-transparent min-h-[141px] p-[12px] overflow-hidden;
+  @apply transform-gpu transition translate-y-0 duration-300;
+  @apply hover:shadow-lg hover:-translate-y-0.5;
+}
+
 .fade-up {
   &-enter-active,
   &-leave-active {

@@ -1,7 +1,6 @@
 <template>
   <div
-    class="border rounded-full flex border-true-gray-200 h-[48px] px-[12px] update-font-panel justify-between"
-    dark="border-true-gray-500"
+    class="border rounded-full flex border-true-gray-200 h-[48px] px-[12px] update-font-panel justify-between dark:border-true-gray-500"
   >
     <SearchPanel class="w-full" />
     <UpdateFontSizePanel class="w-full <md:hidden" />
