@@ -1,5 +1,5 @@
 <template>
-  <div class="border-gray-color card-panel"
+  <div class="border-gray-color card-panel" :style="{ height: `${height}px` }">
     <div class="flex flex-col">
       <p class="typo-title" v-text="font.name" />
       <div class="flex mt-[8px] justify-between typo-subtitle">
@@ -32,6 +32,7 @@
 </template>
 
 <script lang="ts" setup>
+import { useCardHeight } from 'src/composables/card';
 import { useFontStore } from 'src/store/font';
 import { Font } from 'src/types/Font';
 
@@ -41,6 +42,7 @@ defineProps<{
 
 const store = useFontStore();
 const { size } = storeToRefs(store);
+const height = useCardHeight();
 </script>
 
 <style lang="scss" scoped>
