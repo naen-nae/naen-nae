@@ -28,6 +28,7 @@ export default defineConfig({
       'text-blue-600 dark:text-blue-300 text-[12px] tracking-wide font-bold cursor-pointer hover:underline',
     'flex-center': 'flex justify-center items-center',
     'bg-gray-color': 'bg-true-gray-200 dark:bg-true-gray-500',
+    'border-gray-color': 'border-true-gray-200 dark:border-true-gray-500',
   },
   attributify: true,
 });
