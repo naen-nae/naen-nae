@@ -18,7 +18,7 @@ import ResetButton from '../buttons/ResetButton.vue';
 <style lang="scss" scoped>
 .update-font-panel {
   & > *::before {
-    @apply border-color h-[48px] mx-[12px] w-[1px];
+    @apply bg-gray-color h-[48px] mx-[12px] w-[1px];
     content: ' ';
   }
 
