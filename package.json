@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "pinia": "^2.0.6",
-    "vue": "^3.2.23"
+    "vue": "^3.2.23",
+    "webfontloader": "^1.6.28"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -29,6 +30,7 @@
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/vue3": "^6.4.9",
     "@types/node": "^16.11.12",
+    "@types/webfontloader": "^1.6.33",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
     "@vitejs/plugin-vue": "^1.10.2",
