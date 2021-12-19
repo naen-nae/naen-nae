@@ -16,6 +16,9 @@ export default defineConfig({
         '.break-keep': {
           'word-break': 'keep-all',
         },
+        '.will-change-transform': {
+          willChange: 'transform',
+        },
       }),
     ),
   ],
