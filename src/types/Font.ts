@@ -2,8 +2,8 @@ export interface Font {
   name: string;
   author: string;
   files: string[];
-  weights: number[];
-  family: string;
+  fontWeights: number[];
+  fontFamily: string;
   licenseSummary: {
     print: boolean;
     website: boolean;
