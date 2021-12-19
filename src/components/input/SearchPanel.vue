@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center">
-    <IconButton class="mr-[12px] cursor-default">search</IconButton>
+    <IconButton class="cursor-default mr-[12px]">search</IconButton>
     <InputPanel
       class="w-full"
       placeholder="이름 또는 초성으로 폰트 검색하기"

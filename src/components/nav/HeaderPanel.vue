@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center p-2">
+  <header class="flex p-2 justify-between items-center">
     <AppTitle />
     <ThemeButton />
   </header>

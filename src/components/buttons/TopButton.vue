@@ -1,6 +1,6 @@
 <template>
   <div
-    class="top-button fixed right-4 bottom-4 flex-center shadow p-[12px] rounded-full bg-white cursor-pointer transition-shadow transition-opacity opacity-70"
+    class="bg-white rounded-full cursor-pointer flex-center top-button shadow opacity-70 p-[12px] transition-shadow transition-opacity right-4 bottom-4 fixed"
     dark="bg-true-gray-700 shadow-warm-gray-700"
     hover="shadow-md opacity-100"
     md="right-[40px] bottom-[40px]"

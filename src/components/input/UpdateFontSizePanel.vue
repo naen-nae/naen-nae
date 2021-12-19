@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center">
     <InputPanel
-      class="w-[42px] mr-[18px]"
+      class="mr-[18px] w-[42px]"
       :modelValue="size"
       @update:modelValue="updateSize"
       :clearable="false"

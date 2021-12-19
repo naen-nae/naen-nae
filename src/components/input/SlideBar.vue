@@ -1,7 +1,7 @@
 <template>
   <input
     type="range"
-    class="slide-bar appearance-none bg-transparent cursor-pointer h-[2px] outline-transparent"
+    class="bg-transparent cursor-pointer outline-transparent h-[2px] slide-bar appearance-none"
     :min="min"
     :max="max"
     :value="modelValue"
@@ -60,7 +60,7 @@ const { handleInput } = getModelValueUpdator(getCurrentInstance())!;
 
 <style lang="scss" scoped>
 .slide-bar::-webkit-slider-thumb {
-  @apply appearance-none bg-blue-600 cursor-pointer h-[14px] w-[14px] rounded-1;
+  @apply cursor-pointer bg-blue-600 rounded-1 h-[14px] w-[14px] appearance-none;
   @apply dark:bg-blue-300;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="update-font-panel border border-true-gray-200 flex h-[48px] justify-between rounded-full px-[12px]"
+    class="border rounded-full flex border-true-gray-200 h-[48px] px-[12px] update-font-panel justify-between"
     dark="border-true-gray-500"
   >
     <SearchPanel class="w-full" />
@@ -23,7 +23,7 @@ import ResetButton from '../buttons/ResetButton.vue';
   }
 
   & > *:first-child::before {
-    @apply h-0 w-0 mx-0;
+    @apply h-0 mx-0 w-0;
     content: '';
   }
 }

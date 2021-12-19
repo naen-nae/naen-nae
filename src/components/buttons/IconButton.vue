@@ -1,6 +1,6 @@
 <template>
   <span
-    class="icon select-none cursor-pointer dark:text-gray-50 material-icons-outlined"
+    class="cursor-pointer icon select-none material-icons-outlined dark:text-gray-50"
     :class="{ disabled }"
     @click="emitClick"
     ><slot></slot
@@ -40,7 +40,7 @@ const emitClick = (evt: MouseEvent) => {
   transition: transform 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 
   &.disabled {
-    @apply opacity-40 cursor-not-allowed;
+    @apply cursor-not-allowed opacity-40;
   }
 }
 </style>
