@@ -9,6 +9,7 @@
     "build:storybook": "build-storybook"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "pinia": "^2.0.6",
     "vue": "^3.2.23",
     "webfontloader": "^1.6.28"
