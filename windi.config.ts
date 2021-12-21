@@ -8,6 +8,10 @@ export default defineConfig({
       fontFamily: {
         sans: ['"Nanum Gothic"', ...defaultTheme.fontFamily.sans].join(','),
       },
+      textShadow: {
+        darkXl:
+          '1px 1px 3px rgb(255 255 255 / 29%), 2px 4px 7px rgb(182 191 130 / 35%)',
+      },
     },
   },
   plugins: [
