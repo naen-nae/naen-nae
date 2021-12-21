@@ -20,6 +20,8 @@
         <CardSkeleton v-for="ind of SKELETON_NUM" :key="ind" />
       </template>
     </div>
+
+    <CardEmptyPanel v-if="isInitialized && !fonts.length" />
   </div>
 </template>
 
@@ -30,6 +32,7 @@ import { useFontStore } from 'src/store/font';
 import { Font } from 'src/types/Font';
 import CardPanel from './CardPanel.vue';
 import CardSkeleton from './CardSkeleton.vue';
+import CardEmptyPanel from './CardEmptyPanel.vue';
 
 const SKELETON_NUM = 24;
 
