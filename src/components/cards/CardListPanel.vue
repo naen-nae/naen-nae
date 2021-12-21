@@ -16,7 +16,7 @@
         :data-font-family="font.fontFamily"
       />
 
-      <template v-if="!fonts.length">
+      <template v-if="!isInitialized">
         <CardSkeleton v-for="ind of SKELETON_NUM" :key="ind" />
       </template>
     </div>
@@ -26,11 +26,15 @@
 <script lang="ts" setup>
 import { useCardHeight } from 'src/composables/card';
 import { reqFontFace } from 'src/composables/font';
+import { useFontStore } from 'src/store/font';
 import { Font } from 'src/types/Font';
 import CardPanel from './CardPanel.vue';
 import CardSkeleton from './CardSkeleton.vue';
 
 const SKELETON_NUM = 24;
+
+const store = useFontStore();
+const { isInitialized } = storeToRefs(store);
 
 /* virtual scroll */
 
