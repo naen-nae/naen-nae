@@ -1,6 +1,6 @@
 <template>
   <div
-    class="overflow-hidden will-change-transform"
+    class="will-change-transform"
     :style="{ height: `${containerHeight}px` }"
   >
     <div
