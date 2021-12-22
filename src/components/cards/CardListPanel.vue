@@ -21,7 +21,7 @@
       </template>
     </div>
 
-    <CardEmptyPanel v-if="isInitialized && !fonts.length" />
+    <CardEmpty v-if="isInitialized && !fonts.length" />
   </div>
 </template>
 
@@ -32,7 +32,7 @@ import { useFontStore } from 'src/store/font';
 import { Font } from 'src/types/Font';
 import CardPanel from './CardPanel.vue';
 import CardSkeleton from './CardSkeleton.vue';
-import CardEmptyPanel from './CardEmptyPanel.vue';
+import CardEmpty from './CardEmpty.vue';
 
 const SKELETON_NUM = 24;
 
