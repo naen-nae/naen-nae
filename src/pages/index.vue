@@ -18,14 +18,14 @@
       >
     </p>
 
-    <CardListPanel :fonts="filteredFonts" />
+    <CardList :fonts="filteredFonts" />
   </div>
 </template>
 
 <script lang="ts" setup>
 import UpdateFontPanel from 'src/components/input/UpdateFontPanel.vue';
 import { useFontStore } from 'src/store/font';
-import CardListPanel from 'src/components/cards/CardListPanel.vue';
+import CardList from 'src/components/cards/CardList.vue';
 import { isSearch } from 'hangul-chosung-search-js';
 
 const store = useFontStore();

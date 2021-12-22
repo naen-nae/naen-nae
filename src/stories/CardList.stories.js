@@ -1,11 +1,11 @@
-import CardListPanel from 'components/cards/CardListPanel.vue';
+import CardList from 'components/cards/CardList.vue';
 import vueRouter from 'storybook-vue3-router';
 import { reactive } from 'vue';
 import fontsData from './__mock__/fonts.json';
 
 export default {
-  title: 'components/cards/CardListPanel',
-  component: CardListPanel,
+  title: 'components/cards/CardList',
+  component: CardList,
 };
 
 export const Default = args => ({
@@ -13,8 +13,8 @@ export const Default = args => ({
     const fonts = reactive(args.fonts);
     return { fonts };
   },
-  components: { CardListPanel },
-  template: `<CardListPanel :fonts="fonts" />`,
+  components: { CardList },
+  template: `<CardList :fonts="fonts" />`,
 });
 
 Default.args = {
