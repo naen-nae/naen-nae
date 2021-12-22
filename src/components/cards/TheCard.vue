@@ -47,10 +47,7 @@ const height = useCardHeight();
 
 <style lang="scss" scoped>
 .card-panel {
-  @apply border rounded-md cursor-pointer shadow-transparent min-h-[141px] p-[12px] overflow-hidden;
-  @apply transform-gpu transition translate-y-0 duration-300;
-  @apply hover:shadow-lg hover:-translate-y-0.5;
-
+  @apply border rounded-md cursor-pointer cursor-floated shadow-transparent min-h-[141px] p-[12px] overflow-hidden;
   transition-property: transform, box-shadow;
 }
 
