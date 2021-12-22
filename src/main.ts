@@ -6,11 +6,12 @@ import App from './App.vue';
 import './styles/index.scss';
 import 'virtual:windi.css';
 import routes from 'virtual:generated-pages';
+import { useFontStore } from './store/font';
 
 export const createApp = ViteSSG(
   App,
   { routes },
-  ({ app, initialState }) => {
+  ({ app, router, initialState }) => {
     const pinia = createPinia();
     app.use(pinia);
 
@@ -19,6 +20,12 @@ export const createApp = ViteSSG(
     } else {
       pinia.state.value = initialState?.pinia ?? {};
     }
+
+    router.beforeEach((to, from, next) => {
+      const store = useFontStore();
+      store.initialize();
+      next();
+    });
   },
   {
     transformState: state => (import.meta.env.SSR ? devalue(state) : state),
