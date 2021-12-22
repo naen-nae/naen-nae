@@ -9,5 +9,6 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-undef': 'off',
     'consistent-return': 'off',
+    'import/extensions': 'off',
   },
 };
