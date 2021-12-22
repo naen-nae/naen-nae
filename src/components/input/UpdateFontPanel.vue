@@ -2,14 +2,14 @@
   <div
     class="border rounded-full flex border-true-gray-200 h-[48px] px-[12px] update-font-panel justify-between dark:border-true-gray-500"
   >
-    <SearchPanel class="w-full" />
+    <SearchField class="w-full" />
     <UpdateFontSizePanel class="w-full <md:hidden" />
     <ResetButton class="<md:hidden" />
   </div>
 </template>
 
 <script lang="ts" setup>
-import SearchPanel from './SearchPanel.vue';
+import SearchField from './SearchField.vue';
 import UpdateFontSizePanel from './UpdateFontSizePanel.vue';
 import ResetButton from '../buttons/ResetButton.vue';
 </script>
