@@ -12,8 +12,6 @@ interface FontState {
   fonts: Font[];
 }
 
-const snackbarStore = useSnackbarStore();
-
 export const useFontStore = defineStore({
   id: 'font',
   state: (): FontState => ({
@@ -29,6 +27,8 @@ export const useFontStore = defineStore({
       if (this.isInitialized) {
         return;
       }
+
+      const snackbarStore = useSnackbarStore();
 
       try {
         const { data } = await axios.get<Font[]>(FONTS_URL);
