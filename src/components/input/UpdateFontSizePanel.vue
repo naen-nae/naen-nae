@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center">
-    <InputPanel
+    <InputField
       class="mr-[18px] w-[42px]"
       :modelValue="size"
       @update:modelValue="updateSize"
@@ -10,7 +10,7 @@
       :placeholder="size"
     >
       <template #postfix>px</template>
-    </InputPanel>
+    </InputField>
     <SlideBar
       class="flex-1"
       v-model="size"
@@ -23,7 +23,7 @@
 <script lang="ts" setup>
 import { MAX_FONT_SIZE, MIN_FONT_SIZE } from 'src/constants';
 import { useFontStore } from 'src/store/font';
-import InputPanel from './InputPanel.vue';
+import InputField from './InputField.vue';
 import SlideBar from './SlideBar.vue';
 
 const store = useFontStore();

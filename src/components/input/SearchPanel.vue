@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center">
     <IconButton class="cursor-default mr-[12px]">search</IconButton>
-    <InputPanel
+    <InputField
       class="w-full"
       placeholder="이름 또는 초성으로 폰트 검색하기"
       v-model="search"
@@ -12,7 +12,7 @@
 <script lang="ts" setup>
 import { useFontStore } from 'src/store/font';
 import IconButton from 'components/buttons/IconButton.vue';
-import InputPanel from 'components/input/InputPanel.vue';
+import InputField from 'components/input/InputField.vue';
 
 const store = useFontStore();
 const { search } = storeToRefs(store);
