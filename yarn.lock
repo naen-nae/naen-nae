@@ -6346,6 +6346,18 @@ handlebars@^4.7.7:
   optionalDependencies:
     uglify-js "^3.1.4"
 
+hangul-chosung-search-js@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/hangul-chosung-search-js/-/hangul-chosung-search-js-1.1.3.tgz#e27e3f2390b5c5cf66cd106e75a83196daa345df"
+  integrity sha512-BrP3Y0qq/V6fPmyz66mebjeBA2lDFUN7P2OC2uFV/qDrAb83u8rwL1+z0wFAzHV2+nYpHvCmpfVVQA6XkGU36g==
+  dependencies:
+    hangul-js "^0.2.5"
+
+hangul-js@^0.2.5:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/hangul-js/-/hangul-js-0.2.6.tgz#3e552e3a68c76498cf2c7993ca354af7bad4730d"
+  integrity sha512-48axU8LgjCD30FEs66Xc04/8knxMwCMQw0f67l67rlttW7VXT3qRJgQeHmhiuGwWXGvSbk6YM0fhQlcjE1JFQA==
+
 has-bigints@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/has-bigints/-/has-bigints-1.0.1.tgz#64fe6acb020673e3b78db035a5af69aa9d07b113"

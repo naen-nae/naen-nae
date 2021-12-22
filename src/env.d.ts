@@ -6,3 +6,7 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>;
   export default component;
 }
+
+declare module 'hangul-chosung-search-js' {
+  export function isSearch(searchStr: string, targetStr: string): boolean;
+}

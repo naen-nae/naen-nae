@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "hangul-chosung-search-js": "^1.1.3",
     "pinia": "^2.0.6",
     "vue": "^3.2.23",
     "webfontloader": "^1.6.28"
