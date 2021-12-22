@@ -27,14 +27,19 @@ export default defineConfig({
     ),
   ],
   shortcuts: {
-    'typo-headline': 'dark:text-gray-50 text-[32px] tracking-wider',
-    'typo-title': 'dark:text-gray-50 text-[24px] tracking-wider',
-    'typo-subtitle': 'dark:text-gray-50 text-[14px] tracking-wide',
-    'typo-text': 'dark:text-gray-50 text-[12px] tracking-wide',
+    'typo-link-color': 'text-blue-600 dark:text-blue-300',
+    'typo-color': 'dark:text-gray-50',
+    'typo-headline': 'typo-color text-[32px] tracking-wider',
+    'typo-title': 'typo-color text-[24px] tracking-wider',
+    'typo-subtitle': 'typo-color text-[14px] tracking-wide',
+    'typo-text': 'typo-color text-[12px] tracking-wide',
     'typo-link':
-      'text-blue-600 dark:text-blue-300 text-[12px] tracking-wide font-bold cursor-pointer hover:underline',
+      'typo-link-color text-[12px] tracking-wide font-bold cursor-pointer hover:underline',
     'flex-center': 'flex justify-center items-center',
     'bg-gray-color': 'bg-true-gray-200 dark:bg-true-gray-500',
     'border-gray-color': 'border-true-gray-200 dark:border-true-gray-500',
+    'border-link-color': 'border-blue-600 dark:border-blue-300',
+    'cursor-floated':
+      'transform-gpu transition translate-y-0 duration-300 hover:shadow-lg hover:-translate-y-0.5',
   },
 });
