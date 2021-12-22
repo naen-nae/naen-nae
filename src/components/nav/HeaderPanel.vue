@@ -6,6 +6,6 @@
 </template>
 
 <script lang="ts" setup>
-import ThemeButton from './ThemeButton.vue';
+import ThemeButton from '../buttons/ThemeButton.vue';
 import AppTitle from './AppTitle.vue';
 </script>

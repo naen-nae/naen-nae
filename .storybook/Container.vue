@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts" setup>
-import ThemeButton from 'components/nav/ThemeButton.vue';
+import ThemeButton from 'components/buttons/ThemeButton.vue';
 </script>
 
 <style lang="scss" scoped>
