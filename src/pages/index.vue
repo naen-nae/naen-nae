@@ -6,7 +6,7 @@
         'border-b bg-white dark:bg-true-gray-800 sticky': stickyUpdateFontPanel,
       }"
     >
-      <UpdateFontPanel :class="{ 'border-0': stickyUpdateFontPanel }" />
+      <UpdateFontField :class="{ 'border-0': stickyUpdateFontPanel }" />
     </div>
 
     <p class="mb-3 typo-text">
@@ -23,7 +23,7 @@
 </template>
 
 <script lang="ts" setup>
-import UpdateFontPanel from 'src/components/input/UpdateFontPanel.vue';
+import UpdateFontField from 'components/input/UpdateFontField.vue';
 import { useFontStore } from 'src/store/font';
 import CardList from 'src/components/cards/CardList.vue';
 import { isSearch } from 'hangul-chosung-search-js';
