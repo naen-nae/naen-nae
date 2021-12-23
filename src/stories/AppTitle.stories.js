@@ -1,8 +1,8 @@
-import AppTitle from 'components/nav/AppTitle.vue';
+import AppTitle from 'components/section/AppTitle.vue';
 import vueRouter from 'storybook-vue3-router';
 
 export default {
-  title: 'components/nav/AppTitle',
+  title: 'components/section/AppTitle',
   component: AppTitle,
 };
 

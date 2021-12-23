@@ -1,8 +1,8 @@
-import TheFooter from 'components/nav/TheFooter.vue';
+import TheFooter from 'components/section/TheFooter.vue';
 import vueRouter from 'storybook-vue3-router';
 
 export default {
-  title: 'components/nav/TheFooter',
+  title: 'components/section/TheFooter',
   component: TheFooter,
 };
 

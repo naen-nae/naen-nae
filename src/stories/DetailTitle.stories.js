@@ -1,10 +1,10 @@
-import DetailTitle from 'components/nav/DetailTitle.vue';
+import DetailTitle from 'components/section/DetailTitle.vue';
 import SnackbarList from 'components/snackbar/SnackbarList.vue';
 import vueRouter from 'storybook-vue3-router';
 import fontsData from './__mock__/fonts.json';
 
 export default {
-  title: 'components/nav/DetailTitle',
+  title: 'components/section/DetailTitle',
   component: DetailTitle,
 };
 

@@ -1,8 +1,8 @@
-import TheHeader from 'components/nav/TheHeader.vue';
+import TheHeader from 'components/section/TheHeader.vue';
 import vueRouter from 'storybook-vue3-router';
 
 export default {
-  title: 'components/nav/TheHeader',
+  title: 'components/section/TheHeader',
   component: TheHeader,
 };
 
