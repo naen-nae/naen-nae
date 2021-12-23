@@ -18,7 +18,7 @@ defineProps<{
 <style lang="scss" scoped>
 .the-button {
   @apply duration-100;
-  transition-property: shadow, opacity;
+  transition-property: box-shadow, opacity;
 
   .text,
   .icon {
