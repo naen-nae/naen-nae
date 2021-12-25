@@ -1,11 +1,11 @@
-import CardList from 'components/cards/CardList.vue';
+import FontCardList from 'components/cards/FontCardList.vue';
 import vueRouter from 'storybook-vue3-router';
 import { reactive } from 'vue';
 import fontsData from './__mock__/fonts.json';
 
 export default {
-  title: 'components/cards/CardList',
-  component: CardList,
+  title: 'components/cards/FontCardList',
+  component: FontCardList,
 };
 
 export const Default = args => ({
@@ -13,8 +13,8 @@ export const Default = args => ({
     const fonts = reactive(args.fonts);
     return { fonts };
   },
-  components: { CardList },
-  template: `<CardList :fonts="fonts" />`,
+  components: { FontCardList },
+  template: `<FontCardList :fonts="fonts" />`,
 });
 
 Default.args = {
