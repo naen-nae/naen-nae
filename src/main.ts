@@ -7,6 +7,7 @@ import './styles/index.scss';
 import 'virtual:windi.css';
 import routes from 'virtual:generated-pages';
 import { useFontStore } from './store/font';
+import { createHead } from '@vueuse/head';
 
 export const createApp = ViteSSG(
   App,
@@ -14,6 +15,9 @@ export const createApp = ViteSSG(
   ({ app, router, initialState }) => {
     const pinia = createPinia();
     app.use(pinia);
+
+    const head = createHead();
+    app.use(head);
 
     if (import.meta.env.SSR) {
       initialState.pinia = pinia.state.value;
