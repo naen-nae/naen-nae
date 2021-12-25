@@ -8,6 +8,7 @@ const FONTS_URL =
 
 interface FontState {
   search: string;
+  inputText: string;
   size: string;
   fonts: Font[];
 }
@@ -16,6 +17,7 @@ export const useFontStore = defineStore({
   id: 'font',
   state: (): FontState => ({
     search: '',
+    inputText: '',
     size: DEFAULT_FONT_SIZE,
     fonts: [],
   }),
