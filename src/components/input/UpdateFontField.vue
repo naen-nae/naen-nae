@@ -1,29 +1,14 @@
 <template>
-  <div
-    class="border rounded-full flex border-true-gray-200 h-[48px] px-[12px] update-font-panel justify-between dark:border-true-gray-500"
-  >
-    <SearchField class="w-full" />
-    <UpdateFontSizeField class="w-full <md:hidden" />
+  <InputListPanel>
+    <SearchField class="flex-[2]" />
+    <UpdateFontSizeField class="flex-[2] <md:hidden" />
     <ResetButton class="<md:hidden" />
-  </div>
+  </InputListPanel>
 </template>
 
 <script lang="ts" setup>
 import SearchField from './SearchField.vue';
 import UpdateFontSizeField from './UpdateFontSizeField.vue';
 import ResetButton from '../buttons/ResetButton.vue';
+import InputListPanel from '../section/InputListPanel.vue';
 </script>
-
-<style lang="scss" scoped>
-.update-font-panel {
-  & > *::before {
-    @apply bg-gray-color h-[48px] mx-[12px] w-[1px];
-    content: ' ';
-  }
-
-  & > *:first-child::before {
-    @apply h-0 mx-0 w-0;
-    content: '';
-  }
-}
-</style>
