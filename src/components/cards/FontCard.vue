@@ -1,5 +1,5 @@
 <template>
-  <div class="border-gray-color card-panel" :style="{ height: `${height}px` }">
+  <div class="border-gray-color font-card" :style="{ height: `${height}px` }">
     <div class="flex flex-col">
       <p class="typo-title" v-text="font.name" />
       <div class="flex mt-[8px] justify-between typo-subtitle">
@@ -46,7 +46,7 @@ const height = useCardHeight();
 </script>
 
 <style lang="scss" scoped>
-.card-panel {
+.font-card {
   @apply border rounded-md cursor-pointer cursor-floated shadow-transparent min-h-[141px] p-[12px] overflow-hidden;
   transition-property: transform, box-shadow;
 }

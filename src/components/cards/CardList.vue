@@ -9,7 +9,7 @@
       ref="vScrollContainer"
       @click="handleRoute"
     >
-      <TheCard
+      <FontCard
         v-for="(font, ind) in displayFonts"
         :key="`${font.fontFamily}-${ind}`"
         :font="font"
@@ -30,7 +30,7 @@ import { useCardHeight } from 'src/composables/card';
 import { reqFontFace } from 'src/composables/font';
 import { useFontStore } from 'src/store/font';
 import { Font } from 'src/types/Font';
-import TheCard from './TheCard.vue';
+import FontCard from './FontCard.vue';
 import CardSkeleton from './CardSkeleton.vue';
 import CardEmpty from './CardEmpty.vue';
 

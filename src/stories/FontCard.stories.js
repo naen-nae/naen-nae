@@ -1,13 +1,13 @@
-import TheCard from 'components/cards/TheCard.vue';
+import FontCard from 'components/cards/FontCard.vue';
 import { useFontStore } from 'src/store/font';
 
 export default {
-  title: 'components/cards/TheCard',
-  component: TheCard,
+  title: 'components/cards/FontCard',
+  component: FontCard,
 };
 
 export const Default = args => ({
-  components: { TheCard },
+  components: { FontCard },
   setup: () => {
     const font = reactive(args.font);
     setTimeout(() => {
@@ -23,7 +23,7 @@ export const Default = args => ({
     return { font, size, setRandomSize };
   },
   template: `
-    <TheCard :font="font" />
+    <FontCard :font="font" />
     <hr />
     <p>font size: {{ size }}</p>
     <button style="background-color: white; border: 2px solid; padding: 0.3em;" @click="setRandomSize">set random font size</button>
