@@ -3,10 +3,7 @@
     <div class="flex flex-col">
       <p class="typo-title" v-text="font.name" />
       <div class="flex mt-[8px] justify-between typo-subtitle">
-        <p
-          class="text-true-gray-400 dark:text-true-gray-400"
-          v-text="font.author"
-        />
+        <p class="text-true-gray-400" v-text="font.author" />
         <p>{{ font.files.length }} 스타일</p>
       </div>
     </div>
