@@ -32,7 +32,7 @@ import { useFontStore } from 'src/store/font';
 import { Font } from 'src/types/Font';
 import FontCard from './FontCard.vue';
 import SkeletonCard from './SkeletonCard.vue';
-import PageNotFound from './PageNotFound.vue';
+import PageNotFound from 'components/section/PageNotFound.vue';
 
 const SKELETON_NUM = 24;
 

@@ -1,7 +1,7 @@
-import PageNotFound from 'components/cards/PageNotFound.vue';
+import PageNotFound from 'components/section/PageNotFound.vue';
 
 export default {
-  title: 'components/cards/PageNotFound',
+  title: 'components/section/PageNotFound',
   component: PageNotFound,
 };
 
