@@ -21,7 +21,7 @@
       </template>
     </div>
 
-    <CardEmpty v-if="isInitialized && !fonts.length" />
+    <PageNotFound v-if="isInitialized && !fonts.length" />
   </div>
 </template>
 
@@ -32,7 +32,7 @@ import { useFontStore } from 'src/store/font';
 import { Font } from 'src/types/Font';
 import FontCard from './FontCard.vue';
 import SkeletonCard from './SkeletonCard.vue';
-import CardEmpty from './CardEmpty.vue';
+import PageNotFound from './PageNotFound.vue';
 
 const SKELETON_NUM = 24;
 
