@@ -17,7 +17,7 @@
       />
 
       <template v-if="!isInitialized">
-        <CardSkeleton v-for="ind of SKELETON_NUM" :key="ind" />
+        <SkeletonCard v-for="ind of SKELETON_NUM" :key="ind" />
       </template>
     </div>
 
@@ -31,7 +31,7 @@ import { reqFontFace } from 'src/composables/font';
 import { useFontStore } from 'src/store/font';
 import { Font } from 'src/types/Font';
 import FontCard from './FontCard.vue';
-import CardSkeleton from './CardSkeleton.vue';
+import SkeletonCard from './SkeletonCard.vue';
 import CardEmpty from './CardEmpty.vue';
 
 const SKELETON_NUM = 24;
