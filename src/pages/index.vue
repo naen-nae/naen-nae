@@ -27,6 +27,8 @@ import SearchPanel from 'components/input/SearchPanel.vue';
 import { useFontStore } from 'src/store/font';
 import FontCardList from 'components/cards/FontCardList.vue';
 import { isSearch } from 'hangul-chosung-search-js';
+import { META_DESCRIPTION, META_TITLE } from 'src/constants';
+import { useTitleMeta } from 'src/composables/head';
 
 const store = useFontStore();
 const { search, fonts } = storeToRefs(store);
@@ -50,4 +52,9 @@ const filteredFonts = computed(() =>
 
 const { y } = useWindowScroll();
 const stickyUpdateFontPanel = computed(() => y.value > 0);
+
+useTitleMeta({
+  title: META_TITLE,
+  description: META_DESCRIPTION,
+});
 </script>
