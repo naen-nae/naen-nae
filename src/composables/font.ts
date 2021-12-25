@@ -2,8 +2,7 @@ import JSZip from 'jszip';
 import { saveAs } from 'file-saver';
 import axios from 'axios';
 import { useSnackbarStore } from 'src/store/snackbar';
-
-const FONT_FILE_BASE = 'https://cdn.jsdelivr.net/gh/naen-nae/fonts/build/';
+import { FONT_DATA_BASE_URL } from 'src/constants';
 
 export const reqFontFace = (family: string) =>
   // eslint-disable-next-line no-async-promise-executor
@@ -13,7 +12,7 @@ export const reqFontFace = (family: string) =>
       return;
     }
 
-    const src = `${FONT_FILE_BASE}/subset-css/${family}.css`;
+    const src = `${FONT_DATA_BASE_URL}/subset-css/${family}.css`;
     (await import('webfontloader')).load({
       fontactive: resolve,
       fontinactive: resolve,
