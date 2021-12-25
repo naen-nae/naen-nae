@@ -59,4 +59,8 @@ const height = useCardHeight();
     @apply opacity-0 translate-y-[10px];
   }
 }
+
+hr {
+  @apply my-3;
+}
 </style>
