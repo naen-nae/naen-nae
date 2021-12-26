@@ -33,7 +33,7 @@
     <div>
       <p class="font-bold mb-4 typo-subtitle">라이선스 전문</p>
       <pre
-        class="leading-normal whitespace-pre-wrap typo-text"
+        class="leading-normal whitespace-pre-wrap typo-text break-all"
         v-html="parsedLicense"
       />
     </div>

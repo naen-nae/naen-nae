@@ -1,12 +1,9 @@
 <template>
   <div class="flex flex-col">
-    <div
-      class="border-gray-color mb-4 top-0 z-10"
-      :class="{
-        'border-b bg-white dark:bg-true-gray-800 sticky': stickyUpdateFontPanel,
-      }"
-    >
-      <SearchPanel :class="{ 'border-0': stickyUpdateFontPanel }" />
+    <div class="border-gray-color border-b mb-8 top-0 z-10 sticky">
+      <SearchPanel
+        class="bg-white border-none rounded-none dark:bg-true-gray-800"
+      />
     </div>
 
     <p class="mb-3 typo-text">
@@ -49,9 +46,6 @@ const filteredFonts = computed(() =>
     return false;
   }),
 );
-
-const { y } = useWindowScroll();
-const stickyUpdateFontPanel = computed(() => y.value > 0);
 
 useTitleMeta({
   title: META_TITLE,

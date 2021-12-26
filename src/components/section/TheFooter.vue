@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-2 block md:flex">
+  <footer class="border-t border-gray-color p-2 py-4 block md:flex">
     <section class="flex-[8]">
       <AppTitle />
       <p class="mt-12px leading-normal typo-text break-keep">

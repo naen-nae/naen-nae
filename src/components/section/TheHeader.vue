@@ -1,5 +1,7 @@
 <template>
-  <header class="flex p-2 justify-between items-center">
+  <header
+    class="border-b border-gray-color flex p-2 py-4 justify-between items-center"
+  >
     <AppTitle />
     <ThemeButton />
   </header>
