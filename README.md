@@ -1,6 +1,6 @@
 # 낸내
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/acd556e3-91f4-477c-9ff5-0b9ab384290d/deploy-status)](https://app.netlify.com/sites/naen-nae/deploys) [![storybook](https://img.shields.io/badge/STORYBOOK-ff4785)](https://naen-nae-storybook.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/acd556e3-91f4-477c-9ff5-0b9ab384290d/deploy-status)](https://app.netlify.com/sites/naen-nae/deploys) [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://naen-nae-storybook.netlify.app)
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnaen-nae%2Fnaen-nae?ref=badge_shield) [![Known Vulnerabilities](https://snyk.io/test/github/naen-nae/naen-nae/badge.svg)](https://snyk.io/test/github/naen-nae/naen-nae)
 
