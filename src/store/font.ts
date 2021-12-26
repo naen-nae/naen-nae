@@ -47,7 +47,9 @@ export const useFontStore = defineStore({
         );
       }
 
-      navigator.serviceWorker.register('/sw.js');
+      if (typeof window !== 'undefined') {
+        navigator.serviceWorker.register('/sw.js');
+      }
     },
   },
 });
