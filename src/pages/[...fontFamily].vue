@@ -16,7 +16,7 @@
     </div>
   </template>
 
-  <div v-else class="flex flex-col animate-pulse gap-y-4">
+  <div v-else class="flex flex-col py-8 animate-pulse gap-y-4">
     <div class="h-8 w-1/4 skeleton-span" />
     <div class="h-8 w-1/2 skeleton-span" />
     <hr />

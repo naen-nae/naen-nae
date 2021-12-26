@@ -5,7 +5,7 @@
     class="flex flex-col min-h-[100vh] px-6 transition main justify-between dark:bg-true-gray-800"
   >
     <TheHeader />
-    <div class="py-4 px-6 <md:p-3">
+    <div class="flex-1 py-4 px-6 <md:p-3">
       <router-view />
     </div>
 
