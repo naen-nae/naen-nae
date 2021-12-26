@@ -44,6 +44,8 @@ export const useFontStore = defineStore({
           '폰트 데이터를 불러오지 못했습니다. 인터넷 연결을 확인해주세요.',
         );
       }
+
+      navigator.serviceWorker.register('/sw.js');
     },
   },
 });
