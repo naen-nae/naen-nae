@@ -18,7 +18,6 @@
           :style="{ fontSize: `${size}px`, fontFamily: font.fontFamily }"
         >
           다람쥐 헌 쳇바퀴에 타고파 abcdefghijklmnopqrstuvwxyz 0123456789
-          !@#$%^&*()_+=-
         </p>
       </transition>
       <p v-if="!font.availableSubset" class="typo-subtitle">
