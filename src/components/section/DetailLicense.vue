@@ -30,9 +30,12 @@
       </p>
     </div>
 
-    <div class="whitespace-pre-wrap">
+    <div>
       <p class="font-bold mb-4 typo-subtitle">라이선스 전문</p>
-      <pre class="leading-normal typo-text" v-html="parsedLicense" />
+      <pre
+        class="leading-normal whitespace-pre-wrap typo-text"
+        v-html="parsedLicense"
+      />
     </div>
   </div>
 </template>
