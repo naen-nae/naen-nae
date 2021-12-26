@@ -30,6 +30,11 @@ export const createApp = ViteSSG(
       store.initialize();
       next();
     });
+
+    router.afterEach(() => {
+      const store = useFontStore();
+      store.updateParams();
+    });
   },
   {
     transformState: state => (import.meta.env.SSR ? devalue(state) : state),

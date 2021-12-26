@@ -30,7 +30,6 @@ export const useFontStore = defineStore({
       const params = useUrlSearchParams('history');
 
       if (this.isInitialized) {
-        params.search = this.search;
         return;
       }
 
@@ -50,6 +49,10 @@ export const useFontStore = defineStore({
       if (typeof window !== 'undefined') {
         navigator.serviceWorker.register('/sw.js');
       }
+    },
+    updateParams() {
+      const params = useUrlSearchParams('history');
+      params.search = this.search;
     },
   },
 });
