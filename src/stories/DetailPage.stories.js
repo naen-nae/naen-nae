@@ -1,53 +1,45 @@
-import DetailPage from 'src/pages/[...fontFamily].vue';
+import DetailPage from 'src/pages/detail.vue';
 import { useFontStore } from 'src/store/font';
+import { useUrlSearchParams } from '@vueuse/core';
 
 export default {
   title: 'pages/DetailPage',
   component: DetailPage,
 };
 
-export const Default = ({ fontFamily }) => ({
+export const Default = () => ({
   components: { DetailPage },
   setup: () => {
     const fontStore = useFontStore();
     fontStore.initialize();
 
-    return { fontFamily };
+    const params = useUrlSearchParams();
+    params.fontFamily = 'esamanru';
   },
-  template: '<DetailPage :fontFamily="fontFamily" />',
+  template: '<DetailPage />',
 });
 
-Default.args = {
-  fontFamily: ['esamanru'],
-};
-
-export const NotFound = ({ fontFamily }) => ({
+export const NotFound = () => ({
   components: { DetailPage },
   setup: () => {
     const fontStore = useFontStore();
     fontStore.initialize();
 
-    return { fontFamily };
+    const params = useUrlSearchParams();
+    params.fontFamily = 'no-exists-font-name';
   },
-  template: '<DetailPage :fontFamily="fontFamily" />',
+  template: '<DetailPage />',
 });
 
-NotFound.args = {
-  fontFamily: ['no-exists-font-name'],
-};
-
-export const Loading = ({ fontFamily }) => ({
+export const Loading = () => ({
   components: { DetailPage },
   setup: () => {
     const fontStore = useFontStore();
     const { fonts } = storeToRefs(fontStore);
     fonts.value = [];
 
-    return { fontFamily };
+    const params = useUrlSearchParams();
+    params.fontFamily = 'not-important-font-name';
   },
-  template: '<DetailPage :fontFamily="fontFamily" />',
+  template: '<DetailPage />',
 });
-
-Loading.args = {
-  fontFamily: ['not-important-font-name'],
-};

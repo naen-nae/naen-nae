@@ -47,11 +47,8 @@ import { reqFontFace } from 'src/composables/font';
 const store = useFontStore();
 const { fonts, isInitialized } = storeToRefs(store);
 
-const {
-  fontFamily: [fontFamily],
-} = defineProps<{
-  fontFamily: string[];
-}>();
+const params = useUrlSearchParams();
+const fontFamily = params.fontFamily?.toString();
 
 const font = computed(() =>
   fonts.value.find(
@@ -59,15 +56,14 @@ const font = computed(() =>
   ),
 );
 
-const reqFont = async () => {
+watch(font, async () => {
   if (!font.value || font.value?.availableFont) {
     return;
   }
 
   await reqFontFace(font.value.fontFamily);
   font.value.availableFont = true;
-};
-reqFont();
+});
 
 const fontName = computed(() => font.value?.name ?? '폰트를 찾을 수 없어요');
 const metaTitle = computed(() => `${fontName.value} :: ${META_TITLE}`);

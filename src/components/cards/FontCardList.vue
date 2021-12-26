@@ -138,9 +138,9 @@ const handleRoute = ({ target }: MouseEvent) => {
   }
 
   router.push({
-    path: `/${fontFamily}`,
+    name: 'detail',
     query: {
-      search: search.value,
+      fontFamily,
     },
   });
 };
