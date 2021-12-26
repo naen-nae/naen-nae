@@ -19,8 +19,11 @@ import InputField from 'components/input/InputField.vue';
 const store = useFontStore();
 const { search } = storeToRefs(store);
 
+const params = useUrlSearchParams('history');
+
 const updateSearch = (newSearch: string) => {
   search.value = newSearch;
+  params.search = newSearch;
   window.scrollTo(0, 0);
 };
 

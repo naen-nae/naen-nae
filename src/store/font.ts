@@ -30,6 +30,9 @@ export const useFontStore = defineStore({
         return;
       }
 
+      const params = useUrlSearchParams('history');
+      this.search = params.search.toString();
+
       const snackbarStore = useSnackbarStore();
 
       try {
