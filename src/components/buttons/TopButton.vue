@@ -16,7 +16,7 @@ const scrollToTop = () => window.scrollTo(0, 0);
 <style lang="scss" scoped>
 .top-button {
   @apply bg-white rounded-full cursor-opacity cursor-pointer flex-center p-[12px] right-4 bottom-4 fixed;
-  @apply md:right-[40px] md:bottom-[40px] dark:bg-true-gray-700;
+  @apply md:right-10 md:bottom-32 dark:bg-true-gray-700;
 
   transition-property: box-shadow, opacity;
 
