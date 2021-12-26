@@ -56,7 +56,7 @@ const font = computed(() =>
   ),
 );
 
-watch(font, async () => {
+watchEffect(async () => {
   if (!font.value || font.value?.availableFont) {
     return;
   }
