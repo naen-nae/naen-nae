@@ -3,6 +3,7 @@ import { Font } from 'src/types/Font';
 import axios from 'axios';
 import { useSnackbarStore } from './snackbar';
 
+// do not use jsdelivr as it is cached
 const FONTS_URL =
   'https://raw.githack.com/naen-nae/fonts/main/build/fonts.json';
 
