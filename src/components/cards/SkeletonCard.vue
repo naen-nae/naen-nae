@@ -12,10 +12,6 @@
 </template>
 
 <style lang="scss" scoped>
-.skeleton-span {
-  @apply rounded-full bg-true-gray-200 inline-block;
-}
-
 hr {
   @apply my-3;
 }

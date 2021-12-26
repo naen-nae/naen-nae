@@ -43,5 +43,6 @@ export default defineConfig({
       'transform-gpu transition translate-y-0 duration-300 hover:shadow-lg hover:-translate-y-0.5',
     'cursor-opacity':
       'transition opacity-70 shadow dark:shadow-warm-gray-700 hover:shadow-md hover:opacity-100',
+    'skeleton-span': 'rounded-full bg-true-gray-200 inline-block',
   },
 });
