@@ -11,7 +11,14 @@ import { createHead } from '@vueuse/head';
 
 export const createApp = ViteSSG(
   App,
-  { routes },
+  {
+    routes,
+    scrollBehavior() {
+      return {
+        top: 0,
+      };
+    },
+  },
   ({ app, router, initialState }) => {
     const pinia = createPinia();
     app.use(pinia);
