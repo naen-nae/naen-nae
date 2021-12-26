@@ -37,7 +37,7 @@ import PageNotFound from 'components/section/PageNotFound.vue';
 const SKELETON_NUM = 24;
 
 const store = useFontStore();
-const { isInitialized } = storeToRefs(store);
+const { isInitialized, search } = storeToRefs(store);
 
 /* virtual scroll */
 
@@ -137,6 +137,11 @@ const handleRoute = ({ target }: MouseEvent) => {
     return;
   }
 
-  router.push(`/${fontFamily}`);
+  router.push({
+    path: `/${fontFamily}`,
+    query: {
+      search: search.value,
+    },
+  });
 };
 </script>

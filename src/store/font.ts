@@ -27,12 +27,14 @@ export const useFontStore = defineStore({
   },
   actions: {
     async initialize() {
+      const params = useUrlSearchParams('history');
+
       if (this.isInitialized) {
+        params.search = this.search;
         return;
       }
 
-      const params = useUrlSearchParams('history');
-      this.search = params.search.toString();
+      this.search = params.search?.toString() ?? '';
 
       const snackbarStore = useSnackbarStore();
 
