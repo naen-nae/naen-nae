@@ -137,9 +137,6 @@ const handleRoute = ({ target }: MouseEvent) => {
     return;
   }
 
-  router.push({
-    path: 'detail',
-    params: { fontName: fontFamily },
-  });
+  router.push(`/${fontFamily}`);
 };
 </script>
