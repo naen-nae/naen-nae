@@ -15,4 +15,5 @@ export interface Font {
   };
   license: string;
   availableSubset: boolean;
+  availableFont: boolean;
 }

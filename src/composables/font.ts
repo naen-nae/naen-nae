@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useSnackbarStore } from 'src/store/snackbar';
 import { FONT_DATA_BASE_URL } from 'src/constants';
 
-export const reqFontFace = (family: string) =>
+export const reqFontFace = (family: string, subset?: boolean) =>
   // eslint-disable-next-line no-async-promise-executor
   new Promise(async resolve => {
     if (!window) {
@@ -12,7 +12,10 @@ export const reqFontFace = (family: string) =>
       return;
     }
 
-    const src = `${FONT_DATA_BASE_URL}/subset-css/${family}.css`;
+    const src = `${FONT_DATA_BASE_URL}/${
+      subset ? 'subset-css' : 'css'
+    }/${family}.css`;
+
     (await import('webfontloader')).load({
       fontactive: resolve,
       fontinactive: resolve,

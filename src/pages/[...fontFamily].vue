@@ -42,6 +42,7 @@ import DetailCode from 'src/components/section/DetailCode.vue';
 import DetailLicense from 'src/components/section/DetailLicense.vue';
 import { useTitleMeta } from 'src/composables/head';
 import { META_DESCRIPTION, META_TITLE } from 'src/constants';
+import { reqFontFace } from 'src/composables/font';
 
 const store = useFontStore();
 const { fonts, isInitialized } = storeToRefs(store);
@@ -57,6 +58,16 @@ const font = computed(() =>
     ({ fontFamily: targetFontFamily }) => targetFontFamily === fontFamily,
   ),
 );
+
+const reqFont = async () => {
+  if (!font.value || font.value?.availableFont) {
+    return;
+  }
+
+  await reqFontFace(font.value.fontFamily);
+  font.value.availableFont = true;
+};
+reqFont();
 
 const fontName = computed(() => font.value?.name ?? '폰트를 찾을 수 없어요');
 const metaTitle = computed(() => `${fontName.value} :: ${META_TITLE}`);

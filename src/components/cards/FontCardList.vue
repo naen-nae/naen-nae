@@ -99,7 +99,7 @@ const reqDisplayedFontFace = () =>
   displayFonts.value
     .filter(font => !font.availableSubset)
     .forEach(async font => {
-      await reqFontFace(font.fontFamily);
+      await reqFontFace(font.fontFamily, true);
       font.availableSubset = true;
     });
 
