@@ -14,7 +14,7 @@
     "hangul-chosung-search-js": "^1.1.3",
     "jszip": "^3.7.1",
     "pinia": "^2.0.6",
-    "vue": "^3.2.23",
+    "vue": "^3.2.25",
     "webfontloader": "^1.6.28"
   },
   "gitHooks": {
