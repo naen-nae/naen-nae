@@ -11,7 +11,7 @@ self.addEventListener('fetch', evt =>
         quota: 0,
       };
 
-      if (navigator.storage) {
+      if (navigator.storage && navigator.storage.estimate) {
         const storage = await navigator.storage.estimate();
         usage = storage.usage;
         quota = storage.quota;
